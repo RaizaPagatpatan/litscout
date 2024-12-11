@@ -2,3 +2,7 @@ openai
 streamlit
 python-docx 
 python-dotenv
+langchain
+chromadb
+tiktoken
+sentence-transformers

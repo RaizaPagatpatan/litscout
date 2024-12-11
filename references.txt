@@ -1,0 +1,8 @@
+Timestamps:
+Format: "%Y%m%d_%H%M%S"
+%Y: Year (e.g., 2024)
+%m: Month (e.g., 10)
+%d: Day (e.g., 22)
+%H: Hour (24-hour format, e.g., 14 for 2 PM)
+%M: Minute (e.g., 30)
+%S: Second (e.g., 59)
