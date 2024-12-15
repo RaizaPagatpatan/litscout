@@ -22,12 +22,13 @@ col1, col2 = st.columns(2)
 with col1:
     field_of_study = st.selectbox(
         "Field of Study:", 
-        ["-- Select --", "Physics", "Mathematics", "Biology", "Computer Science", "Chemistry", "Other"],
+        ["-- Not Specified --", "Physics", "Mathematics", "Biology", "Computer Science", "Chemistry", "Other"],
         help="Choose the primary field of your research"
+        
     )
     type_of_publication = st.selectbox(
         "Type of Publication:", 
-        ["-- Select --", "Journal Article", "Conference Paper", "Preprint", "Other"],
+        ["-- Not Specified --", "Journal Article", "Conference Paper", "Preprint", "Other"],
         help="Select the type of publication you're interested in"
     )
 
