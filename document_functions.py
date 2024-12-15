@@ -15,7 +15,7 @@ def create_word_doc_from_json(data, filename='output.docx'):
     doc = Document()
     doc.add_heading('Generated Research Report', 0)
 
-    # Research topic and details
+    # Research details
     doc.add_paragraph(f"Research Topic: {data['research_topic']}")
     doc.add_paragraph(f"Field of Study: {data.get('field_of_study', 'Not Specified')}")
     doc.add_paragraph(f"Publication Type: {data.get('type_of_publication', 'Not Specified')}")
