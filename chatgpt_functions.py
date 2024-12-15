@@ -4,6 +4,12 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import chromadb
+
+#langchain imports
+from langchain.docstore.document import Document
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Chroma
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from search_function import search_arxiv_articles
 
 # Load environment variables
@@ -12,12 +18,87 @@ load_dotenv()
 # Initialize ChromaDB client
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 
-# Initialize OpenAI client
+# Initialize OpenAI clients
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+embeddings = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
+
+def prepare_documents_for_embedding(articles):
+    """
+    Prepare articles for embedding by splitting long texts
+    """
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=500,
+        chunk_overlap=100,
+        length_function=len
+    )
+    
+    docs = []
+    for article in articles:
+
+        # Title and summary
+        full_text = f"Title: {article['title']} Summary: {article['summary']}"
+        splits = text_splitter.split_text(full_text)
+        
+        for split in splits:
+            docs.append(Document(
+                page_content=split,
+                metadata={
+                    'title': article['title'],
+                    'url': article['url'],
+                    'authors': ', '.join(article['authors']),
+                    'published': article['published']
+                }
+            ))
+    
+    return docs
+
+def create_vector_store(articles):
+    """
+    Create a vector store from articles using ChromaDB and OpenAI embeddings
+    """
+    try:
+        # Pre-process documents for embedding
+        docs = prepare_documents_for_embedding(articles)
+        
+        # Create Chroma vector store
+        vector_store = Chroma.from_documents(
+            documents=docs,
+            embedding=embeddings,
+            persist_directory="./chroma_db",
+            collection_metadata={"hnsw:space": "cosine"}
+        )
+        
+        return vector_store
+    except Exception as e:
+        print(f"Error creating vector store: {e}")
+        return None
+
+def retrieve_relevant_context(vector_store, query, top_k=3):
+    """
+    Retrieve most relevant context from vector store
+    """
+    if vector_store is None:
+        return ""
+    
+    try:
+        # Retrieve top k most similar document chunks (data with relative topics or context.. etc)
+        relevant_docs = vector_store.similarity_search(query, k=top_k)
+        
+        # Format retrieved context
+        context = "\n\n".join([
+            f"Relevant Document {i+1}:\n{doc.page_content}\n(From: {doc.metadata['title']})" 
+            for i, doc in enumerate(relevant_docs)
+        ])
+        
+        return context
+    except Exception as e:
+        print(f"Error retrieving context: {e}")
+        return ""
 
 def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_publication, date_range, keywords, citation_format):
-    """Generates a response by retrieving and processing articles."""
-   
+    """
+    Enhanced response generation with RAG
+    """
     # Construct query
     query = research_topic
     if related_topic:
@@ -29,35 +110,34 @@ def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_
     if keywords:
         query += f" keywords: {keywords}"
 
-    # Search for articles
+    # Search for articles via 1 openSourceDB for articles for the mean time. Add more when data source input field is specified in app.py
     search_results = search_arxiv_articles(query, date_range)
 
-    # Use OpenAI to generate response
+    # word -> vec (Create vector store)
+    vector_store = create_vector_store(search_results)
+
+    # Retrieve relevant context
+    context = retrieve_relevant_context(vector_store, query)
+
+    # Use OpenAI to generate response with retrieved context (Semantic decomposition by providing the AI assistant about the intent of the qquery)
     try:
         chat_response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
-                {"role": "system", "content": "You are a research assistant that provides comprehensive and academic summaries."},
-                {"role": "user", "content": f"Provide a comprehensive research summary on: {query}. Use these articles for context: {', '.join([article['title'] for article in search_results])}"}
+                {
+                    "role": "system", 
+                    "content": "You are a research assistant that provides comprehensive and academic summaries. Use the provided context retrieved from the embeddings to enhance your response."
+                },
+                {
+                    "role": "user", 
+                    "content": f"Provide a comprehensive research summary on: {query}. "
+                               f"Use these contextually relevant document excerpts: {context}"
+                }
             ]
         )
         final_response = chat_response.choices[0].message.content
     except Exception as e:
         final_response = f"Error generating response: {str(e)}"
-
-    # Create/ retrieve collections
-    try:
-        collection = chroma_client.get_or_create_collection(name="arxiv_embeddings")
-        
-        # Store article summaries in ChromaDB
-        for idx, article in enumerate(search_results):
-            collection.add(
-                documents=[article['summary']],
-                metadatas=[{"title": article['title'], "url": article['url']}],
-                ids=[f"article_{idx}"]
-            )
-    except Exception as e:
-        print(f"ChromaDB storage error: {e}")
 
     return {
         'research_topic': research_topic,
