@@ -48,6 +48,29 @@ with col2:
 
 keywords = st.text_area("Keywords (up to 20, comma-separated):", help="Enter relevant keywords to refine your search")
 
+# additional_search = st.text("Advanced settings >>")
+with st.expander("Advanced Search Options"):
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        open_access_site = st.selectbox(
+            "Open Access Publication Site:",
+            ["ArXiv", "Semantic Scholar", "PubMed", "OpenAIRE"],
+            help="Select the citation style for references"
+        )
+        placeholder = st.text("Meopew")
+
+    with col2:
+        placeholder = st.text("Meopew")
+        placeholder = st.text("Meopew")
+
+    with col3:
+        placeholder = st.text("Meopew")
+        placeholder = st.text("Meopew")
+
+
+# test selection display
+# st.write(f"Selected Open Access Pub. Site: {open_access_site}")
+
 # Generate button
 if st.button("Generate Research Report"):
     if research_topic:
