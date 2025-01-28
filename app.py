@@ -46,7 +46,14 @@ with col2:
         help="Select the citation style for references"
     )
 
-keywords = st.text_area("Keywords (up to 20, comma-separated):", help="Enter relevant keywords to refine your search")
+keywords = st.text_area(
+    "Keywords (up to 20, comma-separated):", 
+    help="Enter relevant keywords to refine your search")
+if keywords:
+    keyword_input_list = [item.strip() for item in keywords.split(",") if item.strip()]
+    st.write("Items entered:", keyword_input_list)
+else:
+    st.write("Enter Items!")
 
 # additional_search = st.text("Advanced settings >>")
 with st.expander("Advanced Search Options"):
@@ -57,7 +64,22 @@ with st.expander("Advanced Search Options"):
             ["ArXiv", "Semantic Scholar", "PubMed", "OpenAIRE"],
             help="Select the citation style for references"
         )
-        placeholder = st.text("Meopew")
+        authors = st.text_area(
+            "Author(s)",
+            help="Input name of preferred author"
+            )
+        # multiple input list
+        if authors:
+            author_input_list = [item.strip() for item in authors.split(",") if item.strip()]
+            st.write("Items entered:", author_input_list)
+        else:
+            st.write("Enter items!")
+
+        # test
+        if st.button("Show Count"):
+            st.write(f"Number of items entered: {len(author_input_list)}")
+        else:
+            st.write("no input")
 
     with col2:
         placeholder = st.text("Meopew")
@@ -69,7 +91,7 @@ with st.expander("Advanced Search Options"):
 
 
 # test selection display
-# st.write(f"Selected Open Access Pub. Site: {open_access_site}")
+st.write(f"Selected Open Access Pub. Site: {open_access_site}")
 
 # Generate button
 if st.button("Generate Research Report"):
@@ -83,7 +105,8 @@ if st.button("Generate Research Report"):
                     type_of_publication, 
                     date_range, 
                     keywords, 
-                    citation_format
+                    citation_format,
+                    open_access_site
                 )
                 
                 # Display response
