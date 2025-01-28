@@ -4,13 +4,25 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import chromadb
-
+import logging
 #langchain imports
 from langchain.docstore.document import Document
 from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from search_function import search_arxiv_articles
+from search_function import search_arxiv_articles, search_articles
+
+# from search_function import search_arxiv_articles
+
+# Set up logging configuration
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+
+# Create logger for this module
+logger = logging.getLogger(__name__)
+
 
 # Load environment variables
 load_dotenv()
@@ -57,6 +69,16 @@ def create_vector_store(articles):
     Create a vector store from articles using ChromaDB and OpenAI embeddings
     """
     try:
+        if not articles:
+            logger.warning("No articles provided for vector store creation")
+            return None
+            
+        # Pre-process documents for embedding
+        docs = prepare_documents_for_embedding(articles)
+        
+        if not docs:
+            logger.warning("No documents created after preprocessing")
+            return None
         # Pre-process documents for embedding
         docs = prepare_documents_for_embedding(articles)
         
@@ -70,6 +92,7 @@ def create_vector_store(articles):
         
         return vector_store
     except Exception as e:
+        logger.error(f"Error creating vector store: {e}")
         print(f"Error creating vector store: {e}")
         return None
 
@@ -95,7 +118,7 @@ def retrieve_relevant_context(vector_store, query, top_k=3):
         print(f"Error retrieving context: {e}")
         return ""
 
-def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_publication, date_range, keywords, citation_format):
+def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_publication, date_range, keywords, citation_format, open_access_site):
     """
     Enhanced response generation with RAG
     """
@@ -111,7 +134,8 @@ def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_
         query += f" keywords: {keywords}"
 
     # Search for articles via 1 openSourceDB for articles for the mean time. Add more when data source input field is specified in app.py
-    search_results = search_arxiv_articles(query, date_range)
+    # search_results = search_arxiv_articles(query, date_range)
+    search_results = search_articles(query, date_range, open_access_site)
 
     # word -> vec (Create vector store)
     vector_store = create_vector_store(search_results)
@@ -146,4 +170,5 @@ def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_
         'citation_format': citation_format,
         'field_of_study': field_of_study,
         'type_of_publication': type_of_publication
+        
     }
