@@ -3,6 +3,7 @@ streamlit
 python-docx 
 python-dotenv
 langchain
-chromadb
+pinecone-client
+langchain-pinecone
 tiktoken
 sentence-transformers
