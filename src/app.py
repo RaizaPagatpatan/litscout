@@ -4,6 +4,9 @@ import streamlit as st
 from datetime import datetime
 from chatgpt_functions import get_chatgpt_response
 from document_functions import create_word_doc_from_json
+import json
+
+json_path = "assets\languages.json"
 
 st.set_page_config(page_title="LitSCOUT", page_icon="📚")
 st.title("LitSCOUT")
@@ -55,6 +58,16 @@ if keywords:
 else:
     st.write("Enter Items!")
 
+
+# Load language options from JSON file
+try:
+    with open(json_path, "r", encoding="utf-8") as file:
+        language_data = json.load(file)
+        language_options = language_data.get("languages", ["-- Not Specified --"])
+except Exception as e:
+    st.error(f"Error loading languages: {e}")
+    language_options = ["-- Not Specified --"]
+
 # additional_search = st.text("Advanced settings >>")
 with st.expander("Advanced Search Options"):
     col1, col2, col3 = st.columns(3)
@@ -69,6 +82,7 @@ with st.expander("Advanced Search Options"):
             help="Input name of preferred author"
             )
         # multiple input list
+        author_input_list = []
         if authors:
             author_input_list = [item.strip() for item in authors.split(",") if item.strip()]
             st.write("Items entered:", author_input_list)
@@ -84,6 +98,9 @@ with st.expander("Advanced Search Options"):
     with col2:
         citation_count = st.number_input(
             "Citation Count",
+            min_value = 0,
+            step = 1,
+            format="%d",
             help="Enter the minimum number of citations you want the papers to have")
         institution = st.text_input(
             "Institution",
@@ -93,8 +110,9 @@ with st.expander("Advanced Search Options"):
     with col3:
         language_filter = st.selectbox(
             "Language Filter",                     
-            ["-- Not Specified --", "English", "Filipino", "French", "Korean"],
-            # insert json later
+            # ["-- Not Specified --", "English", "Filipino", "French", "Korean"],
+            # insert json later,
+            language_options,
             help="Select your preferred language")
 
 
@@ -106,6 +124,7 @@ if st.button("Generate Research Report"):
     if research_topic:
         with st.spinner('Generating research report...'):
             try:
+                print("Open Access Site:", open_access_site)
                 response = get_chatgpt_response(
                     research_topic, 
                     related_topic, 

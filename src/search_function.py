@@ -22,12 +22,17 @@ def search_articles(query, date_range, open_access_site):
         print("Searching Arxiv...")
         return search_arxiv_articles(query, date_range)
     elif open_access_site.lower() == "pubmed":
+        print("Searching PubMed...")
         return search_pubmed_articles(query, date_range)
+    elif open_access_site.lower() == "openaire":
+        print("Searching OpenAIRE...")
+        return search_openaire_articles(query, date_range)
     else:
         logger.error(f"Unsupported database: {open_access_site}")
         return []
 
-def search_arxiv_articles(query, date_range):
+def search_arxiv_articles(
+    query, date_range):
     """Searches for articles on ArXiv based on the query and date range."""
     
     start_year, end_year = date_range
@@ -221,6 +226,195 @@ def search_pubmed_articles(query, date_range):
     except Exception as e:
         logger.error(f"Unexpected error in PubMed search: {e}")
         return []
+
+def search_openaire_articles(query, date_range):
+    """
+    Searches for articles on OpenAIRE based on the query and date range.
+    Returns formatted articles suitable for vector store creation.
+    """
+    try:
+        logger.info(f"Searching OpenAIRE for: {query}")
+        base_url = "https://api.openaire.eu/search/publications"
+        
+        # Format date range for OpenAIRE API
+        start_year, end_year = date_range
+        from_date = f"{start_year}-01-01"
+        to_date = f"{end_year}-12-31"
+        
+        # Clean up query
+        keywords = query.replace('Journal Article', '').strip()
+        
+        # Start with minimal parameters
+        params = {
+            'keywords': keywords,
+            'format': 'json',
+            'size': 10
+        }
+        
+        # Only add date parameters if they're within a reasonable range
+        if int(start_year) >= 1900:
+            params['fromDateAccepted'] = from_date
+        if int(end_year) <= 2025:
+            params['toDateAccepted'] = to_date
+        
+        logger.info(f"Making request to OpenAIRE with URL: {base_url}")
+        logger.info(f"Request parameters: {params}")
+        
+        response = requests.get(base_url, params=params)
+        
+        # Log the actual URL being called for debugging
+        logger.info(f"Full URL being called: {response.url}")
+        
+        response.raise_for_status()
+        
+        data = response.json()
+        logger.info(f"Response status code: {response.status_code}")
+        logger.info(f"Response data type: {type(data)}")
+        logger.info(f"Response data keys: {data.keys() if isinstance(data, dict) else 'Not a dictionary'}")
+        
+        articles = []
+        
+        # Check if we have a valid response structure
+        if isinstance(data, dict) and 'response' in data:
+            response_data = data['response']
+            if 'results' in response_data:
+                results = response_data['results']
+                if isinstance(results, dict) and 'result' in results:
+                    results_list = results['result']
+                    if not isinstance(results_list, list):
+                        results_list = [results_list]
+                    
+                    logger.info(f"Number of results found: {len(results_list)}")
+                    
+                    for result in results_list:
+                        try:
+                            if not isinstance(result, dict):
+                                continue
+                            
+                            metadata = result.get('metadata', {})
+                            if not metadata:
+                                continue
+                                
+                            oaf_entity = metadata.get('oaf:entity', {})
+                            if not oaf_entity:
+                                continue
+                                
+                            oaf_result = oaf_entity.get('oaf:result', {})
+                            if not oaf_result:
+                                continue
+                            
+                            # Extract title
+                            title = ''
+                            title_data = oaf_result.get('title', [])
+                            if title_data and isinstance(title_data, list):
+                                title = title_data[0].get('$', '') if isinstance(title_data[0], dict) else str(title_data[0])
+                            
+                            # Extract abstract
+                            abstract = ''
+                            description_data = oaf_result.get('description', [])
+                            if description_data and isinstance(description_data, list):
+                                abstract = description_data[0].get('$', '') if isinstance(description_data[0], dict) else str(description_data[0])
+                            
+                            # Extract authors
+                            authors = []
+                            creator_data = oaf_result.get('creator', [])
+                            if creator_data and isinstance(creator_data, list):
+                                for creator in creator_data:
+                                    if isinstance(creator, dict):
+                                        author_name = creator.get('$', '')
+                                        if author_name:
+                                            authors.append(author_name)
+                            
+                            # Extract DOI
+                            doi = ''
+                            pid_data = oaf_result.get('pid', [])
+                            if pid_data and isinstance(pid_data, list):
+                                for pid in pid_data:
+                                    if isinstance(pid, dict) and pid.get('@classid') == 'doi':
+                                        doi = pid.get('$', '')
+                                        break
+                            
+                            # Extract publication date (try multiple fields)
+                            pub_date = ''
+                            for date_field in ['dateofacceptance', 'publicationdate', 'year']:
+                                date_data = oaf_result.get(date_field, [])
+                                if date_data:
+                                    if isinstance(date_data, list):
+                                        date_value = date_data[0].get('$', '') if isinstance(date_data[0], dict) else str(date_data[0])
+                                    else:
+                                        date_value = str(date_data)
+                                    
+                                    # If date is a string representation of a dict, try to parse it
+                                    if isinstance(date_value, str) and date_value.startswith('{'):
+                                        try:
+                                            import ast
+                                            date_dict = ast.literal_eval(date_value)
+                                            date_value = date_dict.get('$', '')
+                                        except:
+                                            pass
+                                    
+                                    if date_value:
+                                        pub_date = date_value
+                                        break
+                            
+                            # Extract journal information
+                            journal = ''
+                            journal_data = oaf_result.get('journal', [])
+                            if journal_data and isinstance(journal_data, list):
+                                journal = journal_data[0].get('$', '') if isinstance(journal_data[0], dict) else str(journal_data[0])
+                            
+                            # Extract volume and issue
+                            volume = ''
+                            volume_data = oaf_result.get('volume', [])
+                            if volume_data and isinstance(volume_data, list):
+                                volume = volume_data[0].get('$', '') if isinstance(volume_data[0], dict) else str(volume_data[0])
+                            
+                            issue = ''
+                            issue_data = oaf_result.get('issue', [])
+                            if issue_data and isinstance(issue_data, list):
+                                issue = issue_data[0].get('$', '') if isinstance(issue_data[0], dict) else str(issue_data[0])
+                            
+                            # Extract pages
+                            pages = ''
+                            pages_data = oaf_result.get('pages', [])
+                            if pages_data and isinstance(pages_data, list):
+                                pages = pages_data[0].get('$', '') if isinstance(pages_data[0], dict) else str(pages_data[0])
+                            
+                            article = {
+                                'title': title.strip(),
+                                'authors': [author.strip() for author in authors if author.strip()],
+                                'abstract': abstract.strip(),
+                                'doi': doi.strip(),
+                                'publication_date': str(pub_date).strip(),
+                                'journal': journal.strip(),
+                                'volume': volume.strip(),
+                                'issue': issue.strip(),
+                                'pages': pages.strip(),
+                                'source': 'OpenAIRE'
+                            }
+                            
+                            # Only add articles that have at least a title or abstract
+                            if article['title'] or article['abstract']:
+                                articles.append(article)
+                        
+                        except Exception as e:
+                            logger.warning(f"Error processing individual result: {str(e)}")
+                            continue
+        
+        logger.info(f"Successfully processed {len(articles)} articles from OpenAIRE")
+        return articles
+        
+    except requests.RequestException as e:
+        logger.error(f"Error retrieving data from OpenAIRE: {str(e)}")
+        return []
+    except Exception as e:
+        logger.error(f"Unexpected error in OpenAIRE search: {str(e)}")
+        logger.error(f"Error details: {str(e)}")
+        import traceback
+        logger.error(f"Traceback: {traceback.format_exc()}")
+        return []
+
+#would you be able to add a search function on openaire OPENAIRE_API_KEY is the env variable
 
 #old code without pubmed, PLEASE DON'T DELETE BELOW!
 # just in case maguba yawaaaa, ang pubmed feature kay DI JUD MU RETRIEVE , Arxiv ra ang oks AHHAHAHHAHHAHHA

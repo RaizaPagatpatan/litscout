@@ -136,7 +136,15 @@ def retrieve_relevant_context(vector_store, query, top_k=3):
         print(f"Error retrieving context: {e}")
         return ""
 
-def get_chatgpt_response(research_topic, related_topic, field_of_study, type_of_publication, date_range, keywords, citation_format, open_access_site):
+def get_chatgpt_response(
+    research_topic, 
+    related_topic, 
+    field_of_study, 
+    type_of_publication, 
+    date_range, 
+    keywords, 
+    citation_format, 
+    open_access_site):
     """
     Enhanced response generation with RAG
     """
