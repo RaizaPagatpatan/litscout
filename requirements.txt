@@ -3,6 +3,7 @@ streamlit
 python-docx 
 python-dotenv
 langchain
+langchain-community
 pinecone-client
 langchain-pinecone
 tiktoken
