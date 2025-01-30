@@ -24,16 +24,32 @@ logger = logging.getLogger(__name__)
 # Load environment variables
 load_dotenv()
 
-# Initialize Pinecone
+# Check for required environment variables
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+if not pinecone_api_key:
+    raise ValueError(
+        "PINECONE_API_KEY environment variable is not set. "
+        "Please set it in your Streamlit deployment settings."
+    )
+
+if not openai_api_key:
+    raise ValueError(
+        "OPENAI_API_KEY environment variable is not set. "
+        "Please set it in your Streamlit deployment settings."
+    )
+
+# Initialize Pinecone with explicit API key
 pc = Pinecone(
-    api_key=os.getenv("PINECONE_API_KEY")
+    api_key=pinecone_api_key  # Use the explicitly loaded API key
 )
 
-# Initialize OpenAI clients
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Initialize OpenAI clients with explicit API keys
+client = OpenAI(api_key=openai_api_key)
 embeddings = OpenAIEmbeddings(
-    api_key=os.getenv("OPENAI_API_KEY"),
-    model="text-embedding-3-small"  # Explicitly set the model
+    api_key=openai_api_key,
+    model="text-embedding-3-small"
 )
 
 def prepare_documents_for_embedding(articles):
