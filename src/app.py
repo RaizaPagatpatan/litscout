@@ -5,8 +5,29 @@ from datetime import datetime
 from chatgpt_functions import get_chatgpt_response
 from document_functions import create_word_doc_from_json
 import json
+import os
 
-json_path = "assets\languages.json"
+# Get the absolute path to the assets directory
+current_dir = os.path.dirname(os.path.abspath(__file__))
+assets_dir = os.path.join(os.path.dirname(current_dir), 'assets')
+json_path = os.path.join(assets_dir, 'languages.json')
+
+try:
+    with open(json_path, 'r') as f:
+        languages_data = json.load(f)
+except FileNotFoundError:
+    st.error(f"Could not find languages file at {json_path}. Using default languages.")
+    languages_data = {
+        "languages": [
+            "English",
+            "Spanish",
+            "French",
+            "German",
+            "Chinese",
+            "Japanese",
+            "Korean"
+        ]
+    }
 
 st.set_page_config(page_title="LitSCOUT", page_icon="📚")
 st.title("LitSCOUT")
@@ -60,15 +81,8 @@ else:
 
 
 # Load language options from JSON file
-try:
-    with open(json_path, "r", encoding="utf-8") as file:
-        language_data = json.load(file)
-        language_options = language_data.get("languages", ["-- Not Specified --"])
-except Exception as e:
-    st.error(f"Error loading languages: {e}")
-    language_options = ["-- Not Specified --"]
+language_options = languages_data.get("languages", ["-- Not Specified --"])
 
-# additional_search = st.text("Advanced settings >>")
 with st.expander("Advanced Search Options"):
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -110,8 +124,6 @@ with st.expander("Advanced Search Options"):
     with col3:
         language_filter = st.selectbox(
             "Language Filter",                     
-            # ["-- Not Specified --", "English", "Filipino", "French", "Korean"],
-            # insert json later,
             language_options,
             help="Select your preferred language")
 
