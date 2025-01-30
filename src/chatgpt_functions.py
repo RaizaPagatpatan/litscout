@@ -3,16 +3,14 @@
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-import chromadb
+from pinecone import Pinecone, ServerlessSpec
 import logging
 #langchain imports
 from langchain.docstore.document import Document
 from langchain_community.embeddings import OpenAIEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_pinecone import Pinecone as LangchainPinecone
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from search_function import search_arxiv_articles, search_articles
-
-# from search_function import search_arxiv_articles
 
 # Set up logging configuration
 logging.basicConfig(
@@ -23,16 +21,20 @@ logging.basicConfig(
 # Create logger for this module
 logger = logging.getLogger(__name__)
 
-
 # Load environment variables
 load_dotenv()
 
-# Initialize ChromaDB client
-chroma_client = chromadb.PersistentClient(path="./chroma_db")
+# Initialize Pinecone
+pc = Pinecone(
+    api_key=os.getenv("PINECONE_API_KEY")
+)
 
 # Initialize OpenAI clients
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-embeddings = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
+embeddings = OpenAIEmbeddings(
+    api_key=os.getenv("OPENAI_API_KEY"),
+    model="text-embedding-3-small"  # Explicitly set the model
+)
 
 def prepare_documents_for_embedding(articles):
     """
@@ -84,57 +86,79 @@ def prepare_documents_for_embedding(articles):
 
 def create_vector_store(articles):
     """
-    Create a vector store from articles using ChromaDB and OpenAI embeddings
+    Create a vector store from articles using Pinecone and OpenAI embeddings
     """
     try:
-        if not articles:
-            logger.warning("No articles provided for vector store creation")
-            return None
-            
-        # Pre-process documents for embedding
+        # Prepare documents
         docs = prepare_documents_for_embedding(articles)
-        
         if not docs:
-            logger.warning("No documents created after preprocessing")
+            logger.warning("No documents to embed")
             return None
-        # Pre-process documents for embedding
-        docs = prepare_documents_for_embedding(articles)
+
+        # Create or get existing index
+        index_name = "litscout-articles"
         
-        # Create Chroma vector store
-        vector_store = Chroma.from_documents(
-            documents=docs,
-            embedding=embeddings,
-            persist_directory="./chroma_db",
-            collection_metadata={"hnsw:space": "cosine"}
-        )
-        
-        return vector_store
+        try:
+            # Check if index exists
+            existing_indexes = pc.list_indexes().names()
+            
+            # Create index if it doesn't exist
+            if index_name not in existing_indexes:
+                logger.info(f"Creating new index: {index_name}")
+                pc.create_index(
+                    name=index_name,
+                    dimension=1536,  # OpenAI embeddings dimension
+                    metric='cosine',
+                    spec=ServerlessSpec(
+                        cloud='aws',
+                        region='us-east-1'  # Updated to match your environment
+                    )
+                )
+                # Wait for index to be ready
+                import time
+                time.sleep(10)  # Give some time for index to initialize
+            
+            logger.info(f"Using existing index: {index_name}")
+            
+            # Initialize Pinecone vector store with LangChain
+            vector_store = LangchainPinecone.from_documents(
+                docs,
+                embeddings,
+                index_name=index_name
+            )
+            
+            logger.info(f"Successfully created vector store with {len(docs)} documents")
+            return vector_store
+            
+        except Exception as e:
+            logger.error(f"Error with Pinecone index operations: {str(e)}")
+            raise
+    
     except Exception as e:
-        logger.error(f"Error creating vector store: {e}")
-        print(f"Error creating vector store: {e}")
+        logger.error(f"Error creating vector store: {str(e)}")
         return None
 
 def retrieve_relevant_context(vector_store, query, top_k=3):
     """
     Retrieve most relevant context from vector store
     """
-    if vector_store is None:
-        return ""
-    
     try:
-        # Retrieve top k most similar document chunks (data with relative topics or context.. etc)
-        relevant_docs = vector_store.similarity_search(query, k=top_k)
+        if not vector_store:
+            logger.warning("No vector store available")
+            return []
+
+        # Search for similar documents
+        results = vector_store.similarity_search(
+            query,
+            k=top_k
+        )
         
-        # Format retrieved context
-        context = "\n\n".join([
-            f"Relevant Document {i+1}:\n{doc.page_content}\n(From: {doc.metadata['title']})" 
-            for i, doc in enumerate(relevant_docs)
-        ])
-        
-        return context
+        logger.info(f"Retrieved {len(results)} relevant documents")
+        return results
+    
     except Exception as e:
-        print(f"Error retrieving context: {e}")
-        return ""
+        logger.error(f"Error retrieving context: {str(e)}")
+        return []
 
 def get_chatgpt_response(
     research_topic, 
