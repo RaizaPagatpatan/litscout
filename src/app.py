@@ -177,4 +177,4 @@ if st.button("Generate Research Report"):
 # Research parameters sidebar
 st.sidebar.markdown("---")
 st.sidebar.info("LitSCOUT helps researchers discover and summarize relevant academic literature.")
-st.sidebar.info("Contributors:\n" "\nRAIZA J. PAGATPATAN BS Computer Science, Cebu Institute of Technology- University, raizapagatpatan.ed@gmail.com\n" "\nJETHRO L. CENAS BS Computer Science, Cebu Institute of Technology- University, jethrocenas@gmail.com" "\nJUN ALBERT PARDILLO BSCS Adviser, Cebu Institute of Technology- University, pardillo.junalbert@gmail.com")
+st.sidebar.info("Contributors:\n" "\nRAIZA J. PAGATPATAN BS Computer Science, Cebu Institute of Technology- University, raizapagatpatan.ed@gmail.com\n" "\nJETHRO L. CENAS BS Computer Science, Cebu Institute of Technology- University, jethrocenas@gmail.com\n" "\nJUN ALBERT PARDILLO BSCS Adviser, Cebu Institute of Technology- University, pardillo.junalbert@gmail.com")
