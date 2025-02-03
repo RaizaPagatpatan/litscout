@@ -62,12 +62,27 @@ def create_word_doc_from_json(data, filename='output.docx'):
                 except:
                     pub_year = 'N/A'
                 
-                # Format DOI as URL
+                # Format DOI as URL or use alternative URL
                 doi = article.get('doi', '')
+                url = ''
                 if doi:
-                    doi_url = f"https://doi.org/{doi}"
+                    url = f"https://doi.org/{doi}"
+                    source_text = f"DOI: {url}"
                 else:
-                    doi_url = 'N/A'
+                    # Check for alternative URLs
+                    if article.get('url'):
+                        url = article['url']
+                        # Determine source based on URL
+                        if 'arxiv.org' in url.lower():
+                            source_text = f"Retrieved from arXiv: {url}"
+                        elif 'semanticscholar.org' in url.lower():
+                            source_text = f"Retrieved from Semantic Scholar: {url}"
+                        elif 'core.ac.uk' in url.lower():
+                            source_text = f"Retrieved from CORE: {url}"
+                        else:
+                            source_text = f"Retrieved from: {url}"
+                    else:
+                        source_text = 'No URL available'
                 
                 # Format journal information
                 journal_info = []
@@ -84,14 +99,14 @@ def create_word_doc_from_json(data, filename='output.docx'):
                 # Create citation based on format
                 if data['citation_format'] == 'APA':
                     if journal_text:
-                        citation = f"{author_text} ({pub_year}). {article['title']}. {journal_text}. {doi_url}"
+                        citation = f"{author_text} ({pub_year}). {article['title']}. {journal_text}. {source_text}"
                     else:
-                        citation = f"{author_text} ({pub_year}). {article['title']}. {doi_url}"
+                        citation = f"{author_text} ({pub_year}). {article['title']}. {source_text}"
                 elif data['citation_format'] == 'MLA':
                     if journal_text:
-                        citation = f"{author_text}. \"{article['title']}\". {journal_text}, {pub_year}. {doi_url}"
+                        citation = f"{author_text}. \"{article['title']}\". {journal_text}, {pub_year}. {source_text}"
                     else:
-                        citation = f"{author_text}. \"{article['title']}\". {doi_url}, {pub_year}."
+                        citation = f"{author_text}. \"{article['title']}\". {source_text}, {pub_year}."
                 
                 doc.add_paragraph(citation)
         
