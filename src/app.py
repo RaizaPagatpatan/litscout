@@ -12,22 +12,22 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 assets_dir = os.path.join(os.path.dirname(current_dir), 'assets')
 json_path = os.path.join(assets_dir, 'languages.json')
 
-try:
-    with open(json_path, 'r') as f:
-        languages_data = json.load(f)
-except FileNotFoundError:
-    st.error(f"Could not find languages file at {json_path}. Using default languages.")
-    languages_data = {
-        "languages": [
-            "English",
-            "Spanish",
-            "French",
-            "German",
-            "Chinese",
-            "Japanese",
-            "Korean"
-        ]
-    }
+# try:
+#     with open(json_path, 'r') as f:
+#         languages_data = json.load(f)
+# except FileNotFoundError:
+#     st.error(f"Could not find languages file at {json_path}. Using default languages.")
+#     languages_data = {
+#         "languages": [
+#             "English",
+#             "Spanish",
+#             "French",
+#             "German",
+#             "Chinese",
+#             "Japanese",
+#             "Korean"
+#         ]
+#     }
 
 st.set_page_config(page_title="LitSCOUT", page_icon="📚")
 st.title("LitSCOUT")
@@ -75,57 +75,57 @@ keywords = st.text_area(
     help="Enter relevant keywords to refine your search")
 if keywords:
     keyword_input_list = [item.strip() for item in keywords.split(",") if item.strip()]
-    st.write("Items entered:", keyword_input_list)
+    # st.write("Items entered:", keyword_input_list)
 else:
     st.write("Enter Items!")
 
 
 # Load language options from JSON file
-language_options = languages_data.get("languages", ["-- Not Specified --"])
+# language_options = languages_data.get("languages", ["-- Not Specified --"])
 
 with st.expander("Advanced Search Options"):
     col1, col2, col3 = st.columns(3)
     with col1:
         open_access_site = st.selectbox(
             "Open Access Publication Site:",
-            ["ArXiv", "Semantic Scholar", "PubMed", "OpenAIRE"],
+            ["ArXiv", "PubMed", "OpenAIRE"],
             help="Select the citation style for references"
         )
-        authors = st.text_area(
-            "Author(s)",
-            help="Input name of preferred author"
-            )
-        # multiple input list
-        author_input_list = []
-        if authors:
-            author_input_list = [item.strip() for item in authors.split(",") if item.strip()]
-            st.write("Items entered:", author_input_list)
-        else:
-            st.write("Enter items!")
+        # authors = st.text_area(
+        #     "Author(s)",
+        #     help="Input name of preferred author"
+        #     )
+        # # multiple input list
+        # author_input_list = []
+        # if authors:
+        #     author_input_list = [item.strip() for item in authors.split(",") if item.strip()]
+        #     # st.write("Items entered:", author_input_list)
+        # else:
+        #     st.write("Enter items!")
 
-        # test
-        if st.button("Show Count"):
-            st.write(f"Number of items entered: {len(author_input_list)}")
-        else:
-            st.write("no input")
+        # # test
+        # if st.button("Show Count"):
+        #     st.write(f"Number of items entered: {len(author_input_list)}")
+        # else:
+        #     st.write("no input")
 
-    with col2:
-        citation_count = st.number_input(
-            "Citation Count",
-            min_value = 0,
-            step = 1,
-            format="%d",
-            help="Enter the minimum number of citations you want the papers to have")
-        institution = st.text_input(
-            "Institution",
-            help="Enter the name of the academic or research institution you want to search for")
+    # with col2:
+    #     citation_count = st.number_input(
+    #         "Citation Count",
+    #         min_value = 0,
+    #         step = 1,
+    #         format="%d",
+    #         help="Enter the minimum number of citations you want the papers to have")
+        # institution = st.text_input(
+        #     "Institution",
+        #     help="Enter the name of the academic or research institution you want to search for")
         
 
-    with col3:
-        language_filter = st.selectbox(
-            "Language Filter",                     
-            language_options,
-            help="Select your preferred language")
+    # with col3:
+    #     language_filter = st.selectbox(
+    #         "Language Filter",                     
+    #         language_options,
+    #         help="Select your preferred language")
 
 
 # test selection display
