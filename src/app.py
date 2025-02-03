@@ -4,8 +4,13 @@ import streamlit as st
 from datetime import datetime
 from chatgpt_functions import get_chatgpt_response
 from document_functions import create_word_doc_from_json
+from search_function import search_articles
 import json
 import os
+import logging
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 # Get the absolute path to the assets directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -134,9 +139,14 @@ st.write(f"Selected Open Access Pub. Site: {open_access_site}")
 # Generate button
 if st.button("Generate Research Report"):
     if research_topic:
-        with st.spinner('Generating research report...'):
-            try:
-                print("Open Access Site:", open_access_site)
+        try:
+            with st.spinner('Generating research report...'):
+                # Search for articles
+                search_results = search_articles(research_topic, date_range, open_access_site)
+                logger.info(f"Search results count: {len(search_results)}")
+                logger.info(f"First few search results: {search_results[:2] if search_results else 'No results'}")
+                
+                # Generate response
                 response = get_chatgpt_response(
                     research_topic, 
                     related_topic, 
@@ -146,10 +156,32 @@ if st.button("Generate Research Report"):
                     keywords, 
                     citation_format,
                     open_access_site,
-                    # citation_count,
-                    # institution,
-                    # language_filter
                 )
+                
+                # Check if response is empty or invalid
+                if not response or not response.get('response'):
+                    st.warning("Unable to generate research report. Please try again.")
+                    
+                    # Provide helpful suggestions
+                    suggestions_col1, suggestions_col2 = st.columns(2)
+                    
+                    with suggestions_col1:
+                        st.markdown("#### Modify Search")
+                        st.write("- Broaden your keywords")
+                        st.write("- Extend the date range")
+                        st.write("- Remove specific filters")
+                    
+                    with suggestions_col2:
+                        st.markdown("#### Alternative Actions")
+                        st.write("- Try a different database")
+                        st.write("- Rephrase your research topic")
+                        st.write("- Check spelling")
+                    
+                    # Option to modify search parameters
+                    if st.button("Modify Search Parameters"):
+                        st.experimental_rerun()
+                    
+                    st.stop()
                 
                 # Display response
                 st.subheader("Research Summary")
@@ -168,9 +200,30 @@ if st.button("Generate Research Report"):
                     )
                 
                 st.success("Research report generated successfully!")
-                
-            except Exception as e:
-                st.error(f"An error occurred: {e}")
+        
+        except Exception as e:
+            # Catch any unexpected errors
+            st.error(f"An error occurred: {e}")
+            
+            # Provide suggestions
+            suggestions_col1, suggestions_col2 = st.columns(2)
+            
+            with suggestions_col1:
+                st.markdown("#### Troubleshooting")
+                st.write("- Check your internet connection")
+                st.write("- Verify API keys are correctly set")
+            
+            with suggestions_col2:
+                st.markdown("#### Alternative Actions")
+                st.write("- Try a different research topic")
+                st.write("- Restart the application")
+            
+            # Log the error for debugging
+            logger.error(f"Unexpected error in report generation: {e}")
+            
+            # Option to modify search parameters
+            if st.button("Try Again"):
+                st.experimental_rerun()
     else:
         st.warning("Please enter a research topic.")
 

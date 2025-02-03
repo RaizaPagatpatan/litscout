@@ -98,17 +98,32 @@ def prepare_documents_for_embedding(articles):
             logger.error(f"Error processing article for embedding: {e}")
             continue
     
+    logger.info(f"Prepared {len(docs)} documents for embedding")
     return docs
 
 def create_vector_store(articles):
     """
     Create a vector store from articles using Pinecone and OpenAI embeddings
     """
+    # Log the input articles for debugging
+    logger.info(f"Creating vector store. Input articles type: {type(articles)}")
+    logger.info(f"Number of input articles: {len(articles) if hasattr(articles, '__len__') else 'Unknown'}")
+    
+    # Validate input
+    if not articles:
+        logger.warning("No articles provided for vector store creation")
+        return None
+    
     try:
+        # Ensure articles is a list
+        if not isinstance(articles, list):
+            articles = list(articles)
+        
         # Prepare documents
         docs = prepare_documents_for_embedding(articles)
+        
         if not docs:
-            logger.warning("No documents to embed")
+            logger.warning("No documents were prepared for embedding")
             return None
 
         # Create or get existing index
@@ -127,14 +142,14 @@ def create_vector_store(articles):
                     metric='cosine',
                     spec=ServerlessSpec(
                         cloud='aws',
-                        region='us-east-1'  # Updated to match your environment
+                        region='us-east-1'
                     )
                 )
                 # Wait for index to be ready
                 import time
                 time.sleep(10)  # Give some time for index to initialize
             
-            logger.info(f"Using existing index: {index_name}")
+            logger.info(f"Using index: {index_name}")
             
             # Initialize Pinecone vector store with LangChain
             vector_store = LangchainPinecone.from_documents(
@@ -147,34 +162,46 @@ def create_vector_store(articles):
             return vector_store
             
         except Exception as e:
-            logger.error(f"Error with Pinecone index operations: {str(e)}")
+            logger.error(f"Pinecone index error: {str(e)}")
             raise
     
     except Exception as e:
-        logger.error(f"Error creating vector store: {str(e)}")
+        logger.error(f"Vector store creation error: {str(e)}")
+        # Log the first few articles for debugging
+        if articles:
+            logger.error(f"First article details: {articles[0]}")
         return None
 
 def retrieve_relevant_context(vector_store, query, top_k=3):
     """
     Retrieve most relevant context from vector store
     """
+    # Check if vector store is None or invalid
+    if vector_store is None:
+        logger.warning("No vector store provided for context retrieval")
+        return ""
+    
     try:
-        if not vector_store:
-            logger.warning("No vector store available")
-            return []
-
-        # Search for similar documents
-        results = vector_store.similarity_search(
-            query,
-            k=top_k
-        )
+        # Retrieve relevant documents
+        relevant_docs = vector_store.similarity_search(query, k=top_k)
         
-        logger.info(f"Retrieved {len(results)} relevant documents")
-        return results
+        # If no relevant documents found
+        if not relevant_docs:
+            logger.info("No relevant context found")
+            return ""
+        
+        # Extract and format context
+        context = "\n\n".join([
+            f"Document {i+1}: {doc.page_content}" 
+            for i, doc in enumerate(relevant_docs)
+        ])
+        
+        logger.info(f"Retrieved {len(relevant_docs)} relevant context documents")
+        return context
     
     except Exception as e:
         logger.error(f"Error retrieving context: {str(e)}")
-        return []
+        return ""
 
 def get_chatgpt_response(
     research_topic, 
@@ -206,8 +233,12 @@ def get_chatgpt_response(
     # word -> vec (Create vector store)
     vector_store = create_vector_store(search_results)
 
+    if vector_store is None:
+        logger.warning("No vector store provided for context retrieval")
+        return ""
     # Retrieve relevant context
     context = retrieve_relevant_context(vector_store, query)
+
 
     # Use OpenAI to generate response with retrieved context (Semantic decomposition by providing the AI assistant about the intent of the qquery)
     try:

@@ -36,6 +36,9 @@ def search_arxiv_articles(
     """Searches for articles on ArXiv based on the query and date range."""
     
     start_year, end_year = date_range
+    logger.info(f"Searching ArXiv with query: {query}")
+    logger.info(f"Date range: {start_year} - {end_year}")
+    
     base_url = "http://export.arxiv.org/api/query"
     params = {
         "search_query": query,
@@ -45,8 +48,11 @@ def search_arxiv_articles(
         "sortOrder": "descending"
     }
     try:
+        logger.info(f"Sending request to ArXiv with params: {params}")
         response = requests.get(base_url, params=params)
         response.raise_for_status()
+        
+        logger.info(f"Received response from ArXiv. Status code: {response.status_code}")
         
         # Parse XML response
         import xml.etree.ElementTree as ET
@@ -72,15 +78,19 @@ def search_arxiv_articles(
                 published_year = datetime.strptime(published, "%Y-%m-%dT%H:%M:%SZ").year
                 
                 if start_year <= published_year <= end_year:
-                    articles.append({
+                    article = {
                         'title': title,
                         'summary': summary,
                         'authors': authors,
                         'published': published,
                         'url': url
-                    })
+                    }
+                    articles.append(article)
+                    logger.info(f"Added article: {title}")
             except Exception as e:
                 logger.error(f"Error processing article: {e}")
+        
+        logger.info(f"Total articles found: {len(articles)}")
         return articles
     except requests.RequestException as e:
         logger.error(f"Error retrieving data from ArXiv: {e}")
