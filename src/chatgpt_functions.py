@@ -3,7 +3,8 @@
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-from pinecone import Pinecone, ServerlessSpec
+# from pinecone import Pinecone, ServerlessSpec
+import pinecone
 import logging
 #langchain imports
 from langchain.docstore.document import Document
@@ -25,7 +26,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Check for required environment variables
-pinecone_api_key = os.getenv("PINECONE_API_KEY")
+# pinecone_api_key = os.getenv("PINECONE_API_KEY")
+pinecone_api_key = pinecone.Pinecone(api_key= os.getenv("PINECONE_API_KEY"))
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 if not pinecone_api_key:
