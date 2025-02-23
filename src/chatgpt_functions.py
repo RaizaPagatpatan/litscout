@@ -26,8 +26,8 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 
 # Check for required environment variables
-# pinecone_api_key = os.getenv("PINECONE_API_KEY")
-pinecone_api_key = pinecone.Pinecone(api_key= os.getenv("PINECONE_API_KEY"))
+pinecone_api_key = os.getenv("PINECONE_API_KEY")
+# pinecone_api_key = pinecone.Pinecone(api_key= os.getenv("PINECONE_API_KEY"))
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 if not pinecone_api_key:
@@ -43,7 +43,7 @@ if not openai_api_key:
     )
 
 # Initialize Pinecone with explicit API key
-pc = Pinecone(
+pc = pinecone.Pinecone(
     api_key=pinecone_api_key  # Use the explicitly loaded API key
 )
 
