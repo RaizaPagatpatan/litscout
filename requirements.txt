@@ -8,4 +8,3 @@ pinecone
 langchain-pinecone
 tiktoken
 sentence-transformers
-pinecone-plugin-inference
