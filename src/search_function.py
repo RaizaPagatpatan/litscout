@@ -7,6 +7,7 @@ import time
 import os
 from dotenv import load_dotenv
 import xml.etree.ElementTree as ET
+from scrape_functions import search_google_scholar_articles
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -27,6 +28,9 @@ def search_articles(query, date_range, open_access_site):
     elif open_access_site.lower() == "openaire":
         print("Searching OpenAIRE...")
         return search_openaire_articles(query, date_range)
+    elif open_access_site.lower() == "google scholar":
+        print("Searching Google Scholar...")
+        return search_google_scholar_articles(query, date_range)
     else:
         logger.error(f"Unsupported database: {open_access_site}")
         return []
@@ -120,7 +124,7 @@ def search_pubmed_articles(query, date_range):
             "db": "pubmed",
             "term": formatted_query,
             "api_key": pubmed_api_key,
-            "retmax": 20,  # Limit results for testing
+            "retmax": 20,  
             "retmode": "json"
         }
 

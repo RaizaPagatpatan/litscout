@@ -1,0 +1,465 @@
+[
+    {
+        "title": "Entity relationship extraction from Chinese electronic medical records based on feature augmentation and cascade binary tagging framework.",
+        "abstract": "Extracting entity relations from unstructured Chinese electronic medical records is an important task in medical information extraction. However, Chinese electronic medical records mostly have document-level volumes, and existing models are either unable to handle long text sequences or exhibit poor performance. This paper proposes a neural network based on feature augmentation and cascade binary tagging framework. First, we utilize a pre-trained model to tokenize the original text and obtain word embedding vectors. Second, the word vectors are fed into the feature augmentation network and fused with the original features and position features. Finally, the cascade binary tagging decoder generates the results. In the current work, we built a Chinese document-level electronic medical record dataset named VSCMeD, which contains 595 real electronic medical records from vascular surgery patients. The experimental results show that the model achieves a precision of 87.82% and recall of 88.47%. It is also verified on another Chinese medical dataset CMeIE-V2 that the model achieves a precision of 54.51% and recall of 48.63%.",
+        "authors": [
+            "Xiaoqing Lu",
+            "Jijun Tong",
+            "Shudong Xia"
+        ],
+        "published": "2024",
+        "pmid": "38303468",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38303468/",
+        "content": "Title: Entity relationship extraction from Chinese electronic medical records based on feature augmentation and cascade binary tagging framework.\nAuthors: Xiaoqing Lu, Jijun Tong, Shudong Xia\nAbstract: Extracting entity relations from unstructured Chinese electronic medical records is an important task in medical information extraction. However, Chinese electronic medical records mostly have document-level volumes, and existing models are either unable to handle long text sequences or exhibit poor performance. This paper proposes a neural network based on feature augmentation and cascade binary tagging framework. First, we utilize a pre-trained model to tokenize the original text and obtain word embedding vectors. Second, the word vectors are fed into the feature augmentation network and fused with the original features and position features. Finally, the cascade binary tagging decoder generates the results. In the current work, we built a Chinese document-level electronic medical record dataset named VSCMeD, which contains 595 real electronic medical records from vascular surgery patients. The experimental results show that the model achieves a precision of 87.82% and recall of 88.47%. It is also verified on another Chinese medical dataset CMeIE-V2 that the model achieves a precision of 54.51% and recall of 48.63%.\nURL: https://pubmed.ncbi.nlm.nih.gov/38303468/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Entity relationship extraction from Chinese electronic medical records based on feature augmentation and cascade binary tagging framework.",
+            "authors": "Xiaoqing Lu, Jijun Tong, Shudong Xia",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38303468/",
+            "pmid": "38303468",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Contaminated Airway Task Training: How to Adapt an Existing Airway Manikin Head for Active Airway Soiling.",
+        "abstract": "The massively contaminated airway is an important and often daunting entity for airway providers. Although massively contaminated airways are considered high acuity, low-occurrence presentations in emergency medicine and pre-hospital settings, formal training in the management of contaminated airways is heterogeneous and infrequent. To facilitate training and augment simulation, an airway task trainer is critical. To our knowledge, this is the first readily accessible, peer-reviewed, detailed technical report to build a low-cost, high-fidelity, contaminated airway task trainer. This trainer can be seamlessly integrated into simulated resuscitation scenarios and/or airway training workshops, reinforcing skill acquisition and retention for the management of the massively contaminated airway.",
+        "authors": [
+            "Melissa Bouwsema",
+            "Amar Chakraborty",
+            "Akshay Rajaram",
+            "Loren Fleming",
+            "Adam Parks"
+        ],
+        "published": "2023",
+        "pmid": "38288184",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38288184/",
+        "content": "Title: Contaminated Airway Task Training: How to Adapt an Existing Airway Manikin Head for Active Airway Soiling.\nAuthors: Melissa Bouwsema, Amar Chakraborty, Akshay Rajaram, Loren Fleming, Adam Parks\nAbstract: The massively contaminated airway is an important and often daunting entity for airway providers. Although massively contaminated airways are considered high acuity, low-occurrence presentations in emergency medicine and pre-hospital settings, formal training in the management of contaminated airways is heterogeneous and infrequent. To facilitate training and augment simulation, an airway task trainer is critical. To our knowledge, this is the first readily accessible, peer-reviewed, detailed technical report to build a low-cost, high-fidelity, contaminated airway task trainer. This trainer can be seamlessly integrated into simulated resuscitation scenarios and/or airway training workshops, reinforcing skill acquisition and retention for the management of the massively contaminated airway.\nURL: https://pubmed.ncbi.nlm.nih.gov/38288184/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Contaminated Airway Task Training: How to Adapt an Existing Airway Manikin Head for Active Airway Soiling.",
+            "authors": "Melissa Bouwsema, Amar Chakraborty, Akshay Rajaram, Loren Fleming, Adam Parks",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38288184/",
+            "pmid": "38288184",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Digital technologies for behavioral change in sustainability domains: a systematic mapping review.",
+        "abstract": "Sustainability research has emerged as an interdisciplinary area of knowledge about how to achieve sustainable development, while political actions toward the goal are still in their infancy. A sustainable world is mirrored by a healthy environment in which humans can live without jeopardizing the survival of future generations. The main aim of this contribution was to carry out a systematic mapping (SM) of the applications of digital technologies in promoting environmental sustainability. From a rigorous search of different databases, a set of more than 1000 studies was initially retrieved and then, following screening criteria based on the ROSES (RepOrting standards for Systematic Evidence Syntheses) procedure, a total of ",
+        "authors": [
+            "Oriana Mosca",
+            "Andrea Manunza",
+            "Sara Manca",
+            "Giuliano Vivanet",
+            "Ferdinando Fornara"
+        ],
+        "published": "2023",
+        "pmid": "38239482",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38239482/",
+        "content": "Title: Digital technologies for behavioral change in sustainability domains: a systematic mapping review.\nAuthors: Oriana Mosca, Andrea Manunza, Sara Manca, Giuliano Vivanet, Ferdinando Fornara\nAbstract: Sustainability research has emerged as an interdisciplinary area of knowledge about how to achieve sustainable development, while political actions toward the goal are still in their infancy. A sustainable world is mirrored by a healthy environment in which humans can live without jeopardizing the survival of future generations. The main aim of this contribution was to carry out a systematic mapping (SM) of the applications of digital technologies in promoting environmental sustainability. From a rigorous search of different databases, a set of more than 1000 studies was initially retrieved and then, following screening criteria based on the ROSES (RepOrting standards for Systematic Evidence Syntheses) procedure, a total of \nURL: https://pubmed.ncbi.nlm.nih.gov/38239482/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Digital technologies for behavioral change in sustainability domains: a systematic mapping review.",
+            "authors": "Oriana Mosca, Andrea Manunza, Sara Manca, Giuliano Vivanet, Ferdinando Fornara",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38239482/",
+            "pmid": "38239482",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Disclosure Standards for Social Media and Generative Artificial Intelligence Research: Toward Transparency and Replicability.",
+        "abstract": "Social media dominate today's information ecosystem and provide valuable information for social research. Market researchers, social scientists, policymakers, government entities, public health researchers, and practitioners recognize the potential for social data to inspire innovation, support products and services, characterize public opinion, and guide decisions. The appeal of mining these rich datasets is clear. However, there is potential risk of data misuse, underscoring an equally huge and fundamental flaw in the research: there are no procedural standards and little transparency. Transparency across the processes of collecting and analyzing social media data is often limited due to proprietary algorithms. Spurious findings and biases introduced by artificial intelligence (AI) demonstrate the challenges this lack of transparency poses for research. Social media research remains a virtual \"wild west,\" with no clear standards for reporting regarding data retrieval, preprocessing steps, analytic methods, or interpretation. Use of emerging generative AI technologies to augment social media analytics can undermine validity and replicability of findings, potentially turning this research into a \"black box\" enterprise. Clear guidance for social media analyses and reporting is needed to assure the quality of the resulting research. In this article, we propose criteria for evaluating the quality of studies using social media data, grounded in established scientific practice. We offer clear documentation guidelines to ensure that social data are used properly and transparently in research and applications. A checklist of disclosure elements to meet minimal reporting standards is proposed. These criteria will make it possible for scholars and practitioners to assess the quality, credibility, and comparability of research findings using digital data.",
+        "authors": [
+            "Ganna Kostygina",
+            "Yoonsang Kim",
+            "Zachary Seeskin",
+            "Felicia LeClere",
+            "Sherry Emery"
+        ],
+        "published": "2023",
+        "pmid": "38239338",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38239338/",
+        "content": "Title: Disclosure Standards for Social Media and Generative Artificial Intelligence Research: Toward Transparency and Replicability.\nAuthors: Ganna Kostygina, Yoonsang Kim, Zachary Seeskin, Felicia LeClere, Sherry Emery\nAbstract: Social media dominate today's information ecosystem and provide valuable information for social research. Market researchers, social scientists, policymakers, government entities, public health researchers, and practitioners recognize the potential for social data to inspire innovation, support products and services, characterize public opinion, and guide decisions. The appeal of mining these rich datasets is clear. However, there is potential risk of data misuse, underscoring an equally huge and fundamental flaw in the research: there are no procedural standards and little transparency. Transparency across the processes of collecting and analyzing social media data is often limited due to proprietary algorithms. Spurious findings and biases introduced by artificial intelligence (AI) demonstrate the challenges this lack of transparency poses for research. Social media research remains a virtual \"wild west,\" with no clear standards for reporting regarding data retrieval, preprocessing steps, analytic methods, or interpretation. Use of emerging generative AI technologies to augment social media analytics can undermine validity and replicability of findings, potentially turning this research into a \"black box\" enterprise. Clear guidance for social media analyses and reporting is needed to assure the quality of the resulting research. In this article, we propose criteria for evaluating the quality of studies using social media data, grounded in established scientific practice. We offer clear documentation guidelines to ensure that social data are used properly and transparently in research and applications. A checklist of disclosure elements to meet minimal reporting standards is proposed. These criteria will make it possible for scholars and practitioners to assess the quality, credibility, and comparability of research findings using digital data.\nURL: https://pubmed.ncbi.nlm.nih.gov/38239338/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Disclosure Standards for Social Media and Generative Artificial Intelligence Research: Toward Transparency and Replicability.",
+            "authors": "Ganna Kostygina, Yoonsang Kim, Zachary Seeskin, Felicia LeClere, Sherry Emery",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38239338/",
+            "pmid": "38239338",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Retrieval augmentation of large language models for lay language generation.",
+        "abstract": "The complex linguistic structures and specialized terminology of expert-authored content limit the accessibility of biomedical literature to the general public. Automated methods have the potential to render this literature more interpretable to readers with different educational backgrounds. Prior work has framed such lay language generation as a summarization or simplification task. However, adapting biomedical text for the lay public includes the additional and distinct task of background explanation: adding external content in the form of definitions, motivation, or examples to enhance comprehensibility. This task is especially challenging because the source document may not include the required background knowledge. Furthermore, background explanation capabilities have yet to be formally evaluated, and little is known about how best to enhance them. To address this problem, we introduce Retrieval-Augmented Lay Language (RALL) generation, which intuitively fits the need for external knowledge beyond that in expert-authored source documents. In addition, we introduce CELLS, the largest (63k pairs) and broadest-ranging (12 journals) parallel corpus for lay language generation. To evaluate RALL, we augmented state-of-the-art text generation models with information retrieval of either term definitions from the UMLS and Wikipedia, or embeddings of explanations from Wikipedia documents. Of these, embedding-based RALL models improved summary quality and simplicity while maintaining factual correctness, suggesting that Wikipedia is a helpful source for background explanation in this context. We also evaluated the ability of both an open-source Large Language Model (Llama 2) and a closed-source Large Language Model (GPT-4) in background explanation, with and without retrieval augmentation. Results indicate that these LLMs can generate simplified content, but that the summary quality is not ideal. Taken together, this work presents the first comprehensive study of background explanation for lay language generation, paving the path for disseminating scientific knowledge to a broader audience. Our code and data are publicly available at: https://github.com/LinguisticAnomalies/pls_retrieval.",
+        "authors": [
+            "Yue Guo",
+            "Wei Qiu",
+            "Gondy Leroy",
+            "Sheng Wang",
+            "Trevor Cohen"
+        ],
+        "published": "2024",
+        "pmid": "38163514",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38163514/",
+        "content": "Title: Retrieval augmentation of large language models for lay language generation.\nAuthors: Yue Guo, Wei Qiu, Gondy Leroy, Sheng Wang, Trevor Cohen\nAbstract: The complex linguistic structures and specialized terminology of expert-authored content limit the accessibility of biomedical literature to the general public. Automated methods have the potential to render this literature more interpretable to readers with different educational backgrounds. Prior work has framed such lay language generation as a summarization or simplification task. However, adapting biomedical text for the lay public includes the additional and distinct task of background explanation: adding external content in the form of definitions, motivation, or examples to enhance comprehensibility. This task is especially challenging because the source document may not include the required background knowledge. Furthermore, background explanation capabilities have yet to be formally evaluated, and little is known about how best to enhance them. To address this problem, we introduce Retrieval-Augmented Lay Language (RALL) generation, which intuitively fits the need for external knowledge beyond that in expert-authored source documents. In addition, we introduce CELLS, the largest (63k pairs) and broadest-ranging (12 journals) parallel corpus for lay language generation. To evaluate RALL, we augmented state-of-the-art text generation models with information retrieval of either term definitions from the UMLS and Wikipedia, or embeddings of explanations from Wikipedia documents. Of these, embedding-based RALL models improved summary quality and simplicity while maintaining factual correctness, suggesting that Wikipedia is a helpful source for background explanation in this context. We also evaluated the ability of both an open-source Large Language Model (Llama 2) and a closed-source Large Language Model (GPT-4) in background explanation, with and without retrieval augmentation. Results indicate that these LLMs can generate simplified content, but that the summary quality is not ideal. Taken together, this work presents the first comprehensive study of background explanation for lay language generation, paving the path for disseminating scientific knowledge to a broader audience. Our code and data are publicly available at: https://github.com/LinguisticAnomalies/pls_retrieval.\nURL: https://pubmed.ncbi.nlm.nih.gov/38163514/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Retrieval augmentation of large language models for lay language generation.",
+            "authors": "Yue Guo, Wei Qiu, Gondy Leroy, Sheng Wang, Trevor Cohen",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38163514/",
+            "pmid": "38163514",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials.",
+        "abstract": "The study of biological materials and bio-inspired materials science is well established; however, surprisingly little knowledge is systematically translated to engineering solutions. To accelerate discovery and guide insights, an open-source autoregressive transformer large language model (LLM), BioinspiredLLM, is reported. The model is finetuned with a corpus of over a thousand peer-reviewed articles in the field of structural biological and bio-inspired materials and can be prompted to recall information, assist with research tasks, and function as an engine for creativity. The model has proven that it is able to accurately recall information about biological materials and is further strengthened with enhanced reasoning ability, as well as with Retrieval-Augmented Generation (RAG) to incorporate new data during generation that can also help to traceback sources, update the knowledge base, and connect knowledge domains. BioinspiredLLM also has shown to develop sound hypotheses regarding biological materials design and remarkably so for materials that have never been explicitly studied before. Lastly, the model shows impressive promise in collaborating with other generative artificial intelligence models in a workflow that can reshape the traditional materials design process. This collaborative generative artificial intelligence method can stimulate and enhance bio-inspired materials design workflows. Biological materials are at a critical intersection of multiple scientific fields and models like BioinspiredLLM help to connect knowledge domains.",
+        "authors": [
+            "Rachel K Luu",
+            "Markus J Buehler"
+        ],
+        "published": "2024",
+        "pmid": "38145334",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38145334/",
+        "content": "Title: BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials.\nAuthors: Rachel K Luu, Markus J Buehler\nAbstract: The study of biological materials and bio-inspired materials science is well established; however, surprisingly little knowledge is systematically translated to engineering solutions. To accelerate discovery and guide insights, an open-source autoregressive transformer large language model (LLM), BioinspiredLLM, is reported. The model is finetuned with a corpus of over a thousand peer-reviewed articles in the field of structural biological and bio-inspired materials and can be prompted to recall information, assist with research tasks, and function as an engine for creativity. The model has proven that it is able to accurately recall information about biological materials and is further strengthened with enhanced reasoning ability, as well as with Retrieval-Augmented Generation (RAG) to incorporate new data during generation that can also help to traceback sources, update the knowledge base, and connect knowledge domains. BioinspiredLLM also has shown to develop sound hypotheses regarding biological materials design and remarkably so for materials that have never been explicitly studied before. Lastly, the model shows impressive promise in collaborating with other generative artificial intelligence models in a workflow that can reshape the traditional materials design process. This collaborative generative artificial intelligence method can stimulate and enhance bio-inspired materials design workflows. Biological materials are at a critical intersection of multiple scientific fields and models like BioinspiredLLM help to connect knowledge domains.\nURL: https://pubmed.ncbi.nlm.nih.gov/38145334/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials.",
+            "authors": "Rachel K Luu, Markus J Buehler",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38145334/",
+            "pmid": "38145334",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Improving severity classification of Hebrew PET-CT pathology reports using test-time augmentation.",
+        "abstract": "Classifying medical reports written in Hebrew is challenging due to the ambiguity and complexity of the language. This study proposes Text Test Time Augmentation (TTTA), a novel method to improve the classification accuracy of cancer severity levels from PET-CT diagnostic reports in Hebrew. Hebrew, being a morphologically rich language, often leads to each word having multiple ambiguous interpretations. TTTA leverages test-time augmentation to enhance text information retrieval and model robustness. During training and testing phases, this method generates and evaluates sets of augmentations to enhance the semantics extracted from each report. Experiments utilize a large institutional report repository from Ziv hospital, Israel, where physicians manually labeled the reports. The results demonstrate that the proposed TTTA approach achieves superior performance over baseline models without TTA, improving PR-AUC by 15.18% on classifying cancer severity levels. The study highlights the efficacy of TTTA in extracting essential medical concepts from free text reports and accurately classifying the severity of cancer. The approach addresses the limitations of prior methods and contributes towards improved automated analysis of Hebrew medical reports. TTTA has the potential to assist physicians in cancer diagnosis and treatment planning.",
+        "authors": [
+            "Seffi Cohen",
+            "Edo Lior",
+            "Moshe Bocher",
+            "Lior Rokach"
+        ],
+        "published": "2024",
+        "pmid": "38101689",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38101689/",
+        "content": "Title: Improving severity classification of Hebrew PET-CT pathology reports using test-time augmentation.\nAuthors: Seffi Cohen, Edo Lior, Moshe Bocher, Lior Rokach\nAbstract: Classifying medical reports written in Hebrew is challenging due to the ambiguity and complexity of the language. This study proposes Text Test Time Augmentation (TTTA), a novel method to improve the classification accuracy of cancer severity levels from PET-CT diagnostic reports in Hebrew. Hebrew, being a morphologically rich language, often leads to each word having multiple ambiguous interpretations. TTTA leverages test-time augmentation to enhance text information retrieval and model robustness. During training and testing phases, this method generates and evaluates sets of augmentations to enhance the semantics extracted from each report. Experiments utilize a large institutional report repository from Ziv hospital, Israel, where physicians manually labeled the reports. The results demonstrate that the proposed TTTA approach achieves superior performance over baseline models without TTA, improving PR-AUC by 15.18% on classifying cancer severity levels. The study highlights the efficacy of TTTA in extracting essential medical concepts from free text reports and accurately classifying the severity of cancer. The approach addresses the limitations of prior methods and contributes towards improved automated analysis of Hebrew medical reports. TTTA has the potential to assist physicians in cancer diagnosis and treatment planning.\nURL: https://pubmed.ncbi.nlm.nih.gov/38101689/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Improving severity classification of Hebrew PET-CT pathology reports using test-time augmentation.",
+            "authors": "Seffi Cohen, Edo Lior, Moshe Bocher, Lior Rokach",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38101689/",
+            "pmid": "38101689",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "The Microbiome of Peri-Implantitis: A Systematic Review of Next-Generation Sequencing Studies.",
+        "abstract": "(1) Introduction: Current evidence shows that mechanical debridement augmented with systemic and topical antibiotics may be beneficial for the treatment of peri-implantitis. The microbial profile of peri-implantitis plays a key role in identifying the most suitable antibiotics to be used for the treatment and prevention of peri-implantitis. This systematic review aimed to summarize and critically analyze the methodology and findings of studies which have utilized sequencing techniques to elucidate the microbial profiles of peri-implantitis. (2) Results: ",
+        "authors": [
+            "Koay Chun Giok",
+            "Rohit Kunnath Menon"
+        ],
+        "published": "2023",
+        "pmid": "37998812",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37998812/",
+        "content": "Title: The Microbiome of Peri-Implantitis: A Systematic Review of Next-Generation Sequencing Studies.\nAuthors: Koay Chun Giok, Rohit Kunnath Menon\nAbstract: (1) Introduction: Current evidence shows that mechanical debridement augmented with systemic and topical antibiotics may be beneficial for the treatment of peri-implantitis. The microbial profile of peri-implantitis plays a key role in identifying the most suitable antibiotics to be used for the treatment and prevention of peri-implantitis. This systematic review aimed to summarize and critically analyze the methodology and findings of studies which have utilized sequencing techniques to elucidate the microbial profiles of peri-implantitis. (2) Results: \nURL: https://pubmed.ncbi.nlm.nih.gov/37998812/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "The Microbiome of Peri-Implantitis: A Systematic Review of Next-Generation Sequencing Studies.",
+            "authors": "Koay Chun Giok, Rohit Kunnath Menon",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37998812/",
+            "pmid": "37998812",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Relational Consistency Induced Self-Supervised Hashing for Image Retrieval.",
+        "abstract": "This article proposes a new hashing framework named relational consistency induced self-supervised hashing (RCSH) for large-scale image retrieval. To capture the potential semantic structure of data, RCSH explores the relational consistency between data samples in different spaces, which learns reliable data relationships in the latent feature space and then preserves the learned relationships in the Hamming space. The data relationships are uncovered by learning a set of prototypes that group similar data samples in the latent feature space. By uncovering the semantic structure of the data, meaningful data-to-prototype and data-to-data relationships are jointly constructed. The data-to-prototype relationships are captured by constraining the prototype assignments generated from different augmented views of an image to be the same. Meanwhile, these data-to-prototype relationships are preserved to learn informative compact hash codes by matching them with these reliable prototypes. To accomplish this, a novel dual prototype contrastive loss is proposed to maximize the agreement of prototype assignments in the latent feature space and Hamming space. The data-to-data relationships are captured by enforcing the distribution of pairwise similarities in the latent feature space and Hamming space to be consistent, which makes the learned hash codes preserve meaningful similarity relationships. Extensive experimental results on four widely used image retrieval datasets demonstrate that the proposed method significantly outperforms the state-of-the-art methods. Besides, the proposed method achieves promising performance in out-of-domain retrieval tasks, which shows its good generalization ability. The source code and models are available at https://github.com/IMAG-LuJin/RCSH.",
+        "authors": [
+            "Lu Jin",
+            "Zechao Li",
+            "Yonghua Pan",
+            "Jinhui Tang"
+        ],
+        "published": "2023",
+        "pmid": "37995167",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37995167/",
+        "content": "Title: Relational Consistency Induced Self-Supervised Hashing for Image Retrieval.\nAuthors: Lu Jin, Zechao Li, Yonghua Pan, Jinhui Tang\nAbstract: This article proposes a new hashing framework named relational consistency induced self-supervised hashing (RCSH) for large-scale image retrieval. To capture the potential semantic structure of data, RCSH explores the relational consistency between data samples in different spaces, which learns reliable data relationships in the latent feature space and then preserves the learned relationships in the Hamming space. The data relationships are uncovered by learning a set of prototypes that group similar data samples in the latent feature space. By uncovering the semantic structure of the data, meaningful data-to-prototype and data-to-data relationships are jointly constructed. The data-to-prototype relationships are captured by constraining the prototype assignments generated from different augmented views of an image to be the same. Meanwhile, these data-to-prototype relationships are preserved to learn informative compact hash codes by matching them with these reliable prototypes. To accomplish this, a novel dual prototype contrastive loss is proposed to maximize the agreement of prototype assignments in the latent feature space and Hamming space. The data-to-data relationships are captured by enforcing the distribution of pairwise similarities in the latent feature space and Hamming space to be consistent, which makes the learned hash codes preserve meaningful similarity relationships. Extensive experimental results on four widely used image retrieval datasets demonstrate that the proposed method significantly outperforms the state-of-the-art methods. Besides, the proposed method achieves promising performance in out-of-domain retrieval tasks, which shows its good generalization ability. The source code and models are available at https://github.com/IMAG-LuJin/RCSH.\nURL: https://pubmed.ncbi.nlm.nih.gov/37995167/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Relational Consistency Induced Self-Supervised Hashing for Image Retrieval.",
+            "authors": "Lu Jin, Zechao Li, Yonghua Pan, Jinhui Tang",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37995167/",
+            "pmid": "37995167",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Development of a Liver Disease-Specific Large Language Model Chat Interface using Retrieval Augmented Generation.",
+        "abstract": "BACKGROUND: Large language models (LLMs) have significant capabilities in clinical information processing tasks. Commercially available LLMs, however, are not optimized for clinical uses and are prone to generating incorrect or hallucinatory information. Retrieval-augmented generation (RAG) is an enterprise architecture that allows embedding of customized data into LLMs. This approach \"specializes\" the LLMs and is thought to reduce hallucinations. METHODS: We developed \"LiVersa,\" a liver disease-specific LLM, by using our institution's protected health information (PHI)-complaint text embedding and LLM platform, \"Versa.\" We conducted RAG on 30 publicly available American Association for the Study of Liver Diseases (AASLD) guidelines and guidance documents to be incorporated into LiVersa. We evaluated LiVersa's performance by comparing its responses versus those of trainees from a previously published knowledge assessment study regarding hepatitis B (HBV) treatment and hepatocellular carcinoma (HCC) surveillance. RESULTS: LiVersa answered all 10 questions correctly when forced to provide a \"yes\" or \"no\" answer. Full detailed responses with justifications and rationales, however, were not completely correct for three of the questions. DISCUSSIONS: In this study, we demonstrated the ability to build disease-specific and PHI-compliant LLMs using RAG. While our LLM, LiVersa, demonstrated more specificity in answering questions related to clinical hepatology - there were some knowledge deficiencies due to limitations set by the number and types of documents used for RAG. The LiVersa prototype, however, is a proof of concept for utilizing RAG to customize LLMs for clinical uses and a potential strategy to realize personalized medicine in the future.",
+        "authors": [
+            "Jin Ge",
+            "Steve Sun",
+            "Joseph Owens",
+            "Victor Galvez",
+            "Oksana Gologorskaya",
+            "Jennifer C Lai",
+            "Mark J Pletcher",
+            "Ki Lai"
+        ],
+        "published": "2023",
+        "pmid": "37986764",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37986764/",
+        "content": "Title: Development of a Liver Disease-Specific Large Language Model Chat Interface using Retrieval Augmented Generation.\nAuthors: Jin Ge, Steve Sun, Joseph Owens, Victor Galvez, Oksana Gologorskaya, Jennifer C Lai, Mark J Pletcher, Ki Lai\nAbstract: BACKGROUND: Large language models (LLMs) have significant capabilities in clinical information processing tasks. Commercially available LLMs, however, are not optimized for clinical uses and are prone to generating incorrect or hallucinatory information. Retrieval-augmented generation (RAG) is an enterprise architecture that allows embedding of customized data into LLMs. This approach \"specializes\" the LLMs and is thought to reduce hallucinations. METHODS: We developed \"LiVersa,\" a liver disease-specific LLM, by using our institution's protected health information (PHI)-complaint text embedding and LLM platform, \"Versa.\" We conducted RAG on 30 publicly available American Association for the Study of Liver Diseases (AASLD) guidelines and guidance documents to be incorporated into LiVersa. We evaluated LiVersa's performance by comparing its responses versus those of trainees from a previously published knowledge assessment study regarding hepatitis B (HBV) treatment and hepatocellular carcinoma (HCC) surveillance. RESULTS: LiVersa answered all 10 questions correctly when forced to provide a \"yes\" or \"no\" answer. Full detailed responses with justifications and rationales, however, were not completely correct for three of the questions. DISCUSSIONS: In this study, we demonstrated the ability to build disease-specific and PHI-compliant LLMs using RAG. While our LLM, LiVersa, demonstrated more specificity in answering questions related to clinical hepatology - there were some knowledge deficiencies due to limitations set by the number and types of documents used for RAG. The LiVersa prototype, however, is a proof of concept for utilizing RAG to customize LLMs for clinical uses and a potential strategy to realize personalized medicine in the future.\nURL: https://pubmed.ncbi.nlm.nih.gov/37986764/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Development of a Liver Disease-Specific Large Language Model Chat Interface using Retrieval Augmented Generation.",
+            "authors": "Jin Ge, Steve Sun, Joseph Owens, Victor Galvez, Oksana Gologorskaya, Jennifer C Lai, Mark J Pletcher, Ki Lai",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37986764/",
+            "pmid": "37986764",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "The integrative multi-omics approach identifies the novel competing endogenous RNA (ceRNA) network in colorectal cancer.",
+        "abstract": "Circular RNAs (circRNA) are known to function as competing endogenous RNA (ceRNA) in various cancers by regulating microRNAs (miRNA). However, in colorectal cancer (CRC), the precise pathological role of circ000240/miRNA/mRNA remains indeterminate. The expression level of hsa_circ_000240 was evaluated using qRT-PCR in matching pairs of CRC tumor and adjacent normal tissue samples in our laboratory. Then, to determine whether hsa_circ_000240 acted as a ceRNA in CRC, the linked miRNAs and gene targets were retrieved. Topological analysis of candidate genes using a network approach identified the most critical hub genes and subnetworks related to CRC disease. Microarray and bulk RNA sequencing analyses were utilized to comprehensively evaluate the expression levels of both miRNA and mRNA in CRC. Single-cell RNA-seq analysis was also used to evaluate the significant overall survival (OS) genes at the cellular level. ATAC-seq data provided insights into candidate genes' accessible chromatin regions. The research uncovered a considerable upregulation of hsa_circ_000240 in CRC tissues. Three miRNAs interacted with the target circRNA. One thousand six hundred eighty intersected genes regulated by three miRNAs were further identified, and the relevant functionality of identified neighbor genes highlighted their relevance to cancer. The topological analysis of the constructed network has identified 33 hub genes with notably high expression in CRC. Among these genes, eight, including CHEK1, CDC6, FANCI, GINS2, MAD2L1, ORC1, RACGAP1, and SMC4, have demonstrated a significant impact on overall survival. The utilization of single-cell RNA sequencing unequivocally corroborated the augmented expression levels of CDC6 and ORC1 in individuals with CRC, alongside their noteworthy connection with the infiltration of immune cells. ATAC-seq analyses revealed altered accessibility regions in Chr2, 4, and 12 for CDC6 and ORC1 high-expression. Correlation analysis of CDC6 and ORC1 further highlighted the association of candidate gene expression with exhaustion markers such as CTLA4, CD247, TIGIT, and CD244. The candidate genes exhibit a positive correlation with chromatin remodeling and histone acetylation. These epigenetic modifications play a significant role in influencing the cancer progression following expression of CDC6 and ORC1 in CRC. Additionally, results showed that the methylation rate of the promoter region of CDC6 was elevated in CRC disease, confirming the functional importance of CDC6 and their interaction with hsa_circ_000240 and associated ceRNA in CRC. In conclusion, this study highlights hsa_circ_000240's role as a ceRNA in CRC. It opens new avenues for further dissection of CDC6, ORC1, and underlying novel epigenetics and immunotherapy targets for CRC therapy.",
+        "authors": [
+            "Ghanbar Mahmoodi Chalbatani",
+            "Elahe Gharagouzloo",
+            "Mohammad Amin Malekraeisi",
+            "Paniz Azizi",
+            "Amirabbas Ebrahimi",
+            "Michael R Hamblin",
+            "Habibollah Mahmoodzadeh",
+            "Eyad Elkord",
+            "Seyed Rohollah Miri",
+            "Mohammad Hossein Sanati",
+            "Bahman Panahi"
+        ],
+        "published": "2023",
+        "pmid": "37945594",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37945594/",
+        "content": "Title: The integrative multi-omics approach identifies the novel competing endogenous RNA (ceRNA) network in colorectal cancer.\nAuthors: Ghanbar Mahmoodi Chalbatani, Elahe Gharagouzloo, Mohammad Amin Malekraeisi, Paniz Azizi, Amirabbas Ebrahimi, Michael R Hamblin, Habibollah Mahmoodzadeh, Eyad Elkord, Seyed Rohollah Miri, Mohammad Hossein Sanati, Bahman Panahi\nAbstract: Circular RNAs (circRNA) are known to function as competing endogenous RNA (ceRNA) in various cancers by regulating microRNAs (miRNA). However, in colorectal cancer (CRC), the precise pathological role of circ000240/miRNA/mRNA remains indeterminate. The expression level of hsa_circ_000240 was evaluated using qRT-PCR in matching pairs of CRC tumor and adjacent normal tissue samples in our laboratory. Then, to determine whether hsa_circ_000240 acted as a ceRNA in CRC, the linked miRNAs and gene targets were retrieved. Topological analysis of candidate genes using a network approach identified the most critical hub genes and subnetworks related to CRC disease. Microarray and bulk RNA sequencing analyses were utilized to comprehensively evaluate the expression levels of both miRNA and mRNA in CRC. Single-cell RNA-seq analysis was also used to evaluate the significant overall survival (OS) genes at the cellular level. ATAC-seq data provided insights into candidate genes' accessible chromatin regions. The research uncovered a considerable upregulation of hsa_circ_000240 in CRC tissues. Three miRNAs interacted with the target circRNA. One thousand six hundred eighty intersected genes regulated by three miRNAs were further identified, and the relevant functionality of identified neighbor genes highlighted their relevance to cancer. The topological analysis of the constructed network has identified 33 hub genes with notably high expression in CRC. Among these genes, eight, including CHEK1, CDC6, FANCI, GINS2, MAD2L1, ORC1, RACGAP1, and SMC4, have demonstrated a significant impact on overall survival. The utilization of single-cell RNA sequencing unequivocally corroborated the augmented expression levels of CDC6 and ORC1 in individuals with CRC, alongside their noteworthy connection with the infiltration of immune cells. ATAC-seq analyses revealed altered accessibility regions in Chr2, 4, and 12 for CDC6 and ORC1 high-expression. Correlation analysis of CDC6 and ORC1 further highlighted the association of candidate gene expression with exhaustion markers such as CTLA4, CD247, TIGIT, and CD244. The candidate genes exhibit a positive correlation with chromatin remodeling and histone acetylation. These epigenetic modifications play a significant role in influencing the cancer progression following expression of CDC6 and ORC1 in CRC. Additionally, results showed that the methylation rate of the promoter region of CDC6 was elevated in CRC disease, confirming the functional importance of CDC6 and their interaction with hsa_circ_000240 and associated ceRNA in CRC. In conclusion, this study highlights hsa_circ_000240's role as a ceRNA in CRC. It opens new avenues for further dissection of CDC6, ORC1, and underlying novel epigenetics and immunotherapy targets for CRC therapy.\nURL: https://pubmed.ncbi.nlm.nih.gov/37945594/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "The integrative multi-omics approach identifies the novel competing endogenous RNA (ceRNA) network in colorectal cancer.",
+            "authors": "Ghanbar Mahmoodi Chalbatani, Elahe Gharagouzloo, Mohammad Amin Malekraeisi, Paniz Azizi, Amirabbas Ebrahimi, Michael R Hamblin, Habibollah Mahmoodzadeh, Eyad Elkord, Seyed Rohollah Miri, Mohammad Hossein Sanati, Bahman Panahi",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37945594/",
+            "pmid": "37945594",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Medical Specialty Classification Based on Semiadversarial Data Augmentation.",
+        "abstract": "Rapidly increasing adoption of electronic health record (EHR) systems has caused automated medical specialty classification to become an important research field. Medical specialty classification not only improves EHR system retrieval efficiency and helps general practitioners identify urgent patient issues but also is useful in studying the practice and validity of clinical referral patterns. However, currently available medical note data are imbalanced and insufficient. In addition, medical specialty classification is a multicategory problem, and it is not easy to remove sensitive information from numerous medical notes and tag them. To solve those problems, we propose a data augmentation method based on adversarial attacks. The semiadversarial examples generated during the dynamic process of adversarial attacking are added to the training set as augmented examples, which can effectively expand the coverage of the training data on the decision space. Besides, as nouns in medical notes are critical information, we design a classification framework incorporating probabilistic information of nouns, with confidence recalculation after the softmax layer. We validate our proposed method on an 18-class dataset with extremely unbalanced data, and comparison experiments with four benchmarks show that our method improves accuracy and ",
+        "authors": [
+            "Huan Zhang",
+            "Dong Zhu",
+            "Hao Tan",
+            "Muhammad Shafiq",
+            "Zhaoquan Gu"
+        ],
+        "published": "2023",
+        "pmid": "37881209",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37881209/",
+        "content": "Title: Medical Specialty Classification Based on Semiadversarial Data Augmentation.\nAuthors: Huan Zhang, Dong Zhu, Hao Tan, Muhammad Shafiq, Zhaoquan Gu\nAbstract: Rapidly increasing adoption of electronic health record (EHR) systems has caused automated medical specialty classification to become an important research field. Medical specialty classification not only improves EHR system retrieval efficiency and helps general practitioners identify urgent patient issues but also is useful in studying the practice and validity of clinical referral patterns. However, currently available medical note data are imbalanced and insufficient. In addition, medical specialty classification is a multicategory problem, and it is not easy to remove sensitive information from numerous medical notes and tag them. To solve those problems, we propose a data augmentation method based on adversarial attacks. The semiadversarial examples generated during the dynamic process of adversarial attacking are added to the training set as augmented examples, which can effectively expand the coverage of the training data on the decision space. Besides, as nouns in medical notes are critical information, we design a classification framework incorporating probabilistic information of nouns, with confidence recalculation after the softmax layer. We validate our proposed method on an 18-class dataset with extremely unbalanced data, and comparison experiments with four benchmarks show that our method improves accuracy and \nURL: https://pubmed.ncbi.nlm.nih.gov/37881209/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Medical Specialty Classification Based on Semiadversarial Data Augmentation.",
+            "authors": "Huan Zhang, Dong Zhu, Hao Tan, Muhammad Shafiq, Zhaoquan Gu",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37881209/",
+            "pmid": "37881209",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Artificial intelligence for telemedicine diabetic retinopathy screening: a review.",
+        "abstract": "PURPOSE: This study aims to compare artificial intelligence (AI) systems applied in diabetic retinopathy (DR) teleophthalmology screening, currently deployed systems, fairness initiatives and the challenges for implementation. METHODS: The review included articles retrieved from PubMed/Medline/EMBASE literature search strategy regarding telemedicine, DR and AI. The screening criteria included human articles in English, Portuguese or Spanish and related to telemedicine and AI for DR screening. The author's affiliations and the study's population income group were classified according to the World Bank Country and Lending Groups. RESULTS: The literature search yielded a total of 132 articles, and nine were included after full-text assessment. The selected articles were published between 2004 and 2020 and were grouped as telemedicine systems, algorithms, economic analysis and image quality assessment. Four telemedicine systems that perform a quality assessment, image preprocessing and pathological screening were reviewed. A data and post-deployment bias assessment are not performed in any of the algorithms, and none of the studies evaluate the social impact implementations. There is a lack of representativeness in the reviewed articles, with most authors and target populations from high-income countries and no low-income country representation. CONCLUSIONS: Telemedicine and AI hold great promise for augmenting decision-making in medical care, expanding patient access and enhancing cost-effectiveness. Economic studies and social science analysis are crucial to support the implementation of AI in teleophthalmology screening programs. Promoting fairness and generalizability in automated systems combined with telemedicine screening programs is not straightforward. Improving data representativeness, reducing biases and promoting equity in deployment and post-deployment studies are all critical steps in model development.",
+        "authors": [
+            "Luis Filipe Nakayama",
+            "Lucas Zago Ribeiro",
+            "Frederico Novaes",
+            "Isabele Ayumi Miyawaki",
+            "Andresa Emy Miyawaki",
+            "Juliana Angélica Estevão de Oliveira",
+            "Talita Oliveira",
+            "Fernando Korn Malerbi",
+            "Caio Vinicius Saito Regatieri",
+            "Leo Anthony Celi",
+            "Paolo S Silva"
+        ],
+        "published": "2023",
+        "pmid": "37734417",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37734417/",
+        "content": "Title: Artificial intelligence for telemedicine diabetic retinopathy screening: a review.\nAuthors: Luis Filipe Nakayama, Lucas Zago Ribeiro, Frederico Novaes, Isabele Ayumi Miyawaki, Andresa Emy Miyawaki, Juliana Angélica Estevão de Oliveira, Talita Oliveira, Fernando Korn Malerbi, Caio Vinicius Saito Regatieri, Leo Anthony Celi, Paolo S Silva\nAbstract: PURPOSE: This study aims to compare artificial intelligence (AI) systems applied in diabetic retinopathy (DR) teleophthalmology screening, currently deployed systems, fairness initiatives and the challenges for implementation. METHODS: The review included articles retrieved from PubMed/Medline/EMBASE literature search strategy regarding telemedicine, DR and AI. The screening criteria included human articles in English, Portuguese or Spanish and related to telemedicine and AI for DR screening. The author's affiliations and the study's population income group were classified according to the World Bank Country and Lending Groups. RESULTS: The literature search yielded a total of 132 articles, and nine were included after full-text assessment. The selected articles were published between 2004 and 2020 and were grouped as telemedicine systems, algorithms, economic analysis and image quality assessment. Four telemedicine systems that perform a quality assessment, image preprocessing and pathological screening were reviewed. A data and post-deployment bias assessment are not performed in any of the algorithms, and none of the studies evaluate the social impact implementations. There is a lack of representativeness in the reviewed articles, with most authors and target populations from high-income countries and no low-income country representation. CONCLUSIONS: Telemedicine and AI hold great promise for augmenting decision-making in medical care, expanding patient access and enhancing cost-effectiveness. Economic studies and social science analysis are crucial to support the implementation of AI in teleophthalmology screening programs. Promoting fairness and generalizability in automated systems combined with telemedicine screening programs is not straightforward. Improving data representativeness, reducing biases and promoting equity in deployment and post-deployment studies are all critical steps in model development.\nURL: https://pubmed.ncbi.nlm.nih.gov/37734417/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Artificial intelligence for telemedicine diabetic retinopathy screening: a review.",
+            "authors": "Luis Filipe Nakayama, Lucas Zago Ribeiro, Frederico Novaes, Isabele Ayumi Miyawaki, Andresa Emy Miyawaki, Juliana Angélica Estevão de Oliveira, Talita Oliveira, Fernando Korn Malerbi, Caio Vinicius Saito Regatieri, Leo Anthony Celi, Paolo S Silva",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37734417/",
+            "pmid": "37734417",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Training models and simulators for endoscopic transsphenoidal surgery: a systematic review.",
+        "abstract": "Endoscopic transsphenoidal surgery is a novel surgical technique requiring specific training. Different models and simulators have been recently suggested for it, but no systematic review is available. To provide a systematic and critical literature review and up-to-date description of the training models or simulators dedicated to endoscopic transsphenoidal surgery. A search was performed on PubMed and Scopus databases for articles published until February 2023; Google was also searched to document commercially available. For each model, the following features were recorded: training performed, tumor/arachnoid reproduction, assessment and validation, and cost. Of the 1199 retrieved articles, 101 were included in the final analysis. The described models can be subdivided into 5 major categories: (1) enhanced cadaveric heads; (2) animal models; (3) training artificial solutions, with increasing complexity (from \"box-trainers\" to multi-material, ct-based models); (4) training simulators, based on virtual or augmented reality; (5) Pre-operative planning models and simulators. Each available training model has specific advantages and limitations. Costs are high for cadaver-based solutions and vary significantly for the other solutions. Cheaper solutions seem useful only for the first stages of training. Most models do not provide a simulation of the sellar tumor, and a realistic simulation of the suprasellar arachnoid. Most artificial models do not provide a realistic and cost-efficient simulation of the most delicate and relatively common phase of surgery, i.e., tumor removal with arachnoid preservation; current research should optimize this to train future neurosurgical generations efficiently and safely.",
+        "authors": [
+            "Giacomo Santona",
+            "Alba Madoglio",
+            "Davide Mattavelli",
+            "Mario Rigante",
+            "Marco Ferrari",
+            "Liverana Lauretti",
+            "Pierpaolo Mattogno",
+            "Claudio Parrilla",
+            "Pasquale De Bonis",
+            "Jacopo Galli",
+            "Alessandro Olivi",
+            "Marco Maria Fontanella",
+            "Antonio Fiorentino",
+            "Mauro Serpelloni",
+            "Francesco Doglietto"
+        ],
+        "published": "2023",
+        "pmid": "37725193",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37725193/",
+        "content": "Title: Training models and simulators for endoscopic transsphenoidal surgery: a systematic review.\nAuthors: Giacomo Santona, Alba Madoglio, Davide Mattavelli, Mario Rigante, Marco Ferrari, Liverana Lauretti, Pierpaolo Mattogno, Claudio Parrilla, Pasquale De Bonis, Jacopo Galli, Alessandro Olivi, Marco Maria Fontanella, Antonio Fiorentino, Mauro Serpelloni, Francesco Doglietto\nAbstract: Endoscopic transsphenoidal surgery is a novel surgical technique requiring specific training. Different models and simulators have been recently suggested for it, but no systematic review is available. To provide a systematic and critical literature review and up-to-date description of the training models or simulators dedicated to endoscopic transsphenoidal surgery. A search was performed on PubMed and Scopus databases for articles published until February 2023; Google was also searched to document commercially available. For each model, the following features were recorded: training performed, tumor/arachnoid reproduction, assessment and validation, and cost. Of the 1199 retrieved articles, 101 were included in the final analysis. The described models can be subdivided into 5 major categories: (1) enhanced cadaveric heads; (2) animal models; (3) training artificial solutions, with increasing complexity (from \"box-trainers\" to multi-material, ct-based models); (4) training simulators, based on virtual or augmented reality; (5) Pre-operative planning models and simulators. Each available training model has specific advantages and limitations. Costs are high for cadaver-based solutions and vary significantly for the other solutions. Cheaper solutions seem useful only for the first stages of training. Most models do not provide a simulation of the sellar tumor, and a realistic simulation of the suprasellar arachnoid. Most artificial models do not provide a realistic and cost-efficient simulation of the most delicate and relatively common phase of surgery, i.e., tumor removal with arachnoid preservation; current research should optimize this to train future neurosurgical generations efficiently and safely.\nURL: https://pubmed.ncbi.nlm.nih.gov/37725193/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Training models and simulators for endoscopic transsphenoidal surgery: a systematic review.",
+            "authors": "Giacomo Santona, Alba Madoglio, Davide Mattavelli, Mario Rigante, Marco Ferrari, Liverana Lauretti, Pierpaolo Mattogno, Claudio Parrilla, Pasquale De Bonis, Jacopo Galli, Alessandro Olivi, Marco Maria Fontanella, Antonio Fiorentino, Mauro Serpelloni, Francesco Doglietto",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37725193/",
+            "pmid": "37725193",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "The Expanding Role of ChatGPT (Chat-Generative Pre-Trained Transformer) in Neurosurgery: A Systematic Review of Literature and Conceptual Framework.",
+        "abstract": "The objective of this study is to explore the use of ChatGPT (Chat-Generative Pre-Trained Transformer) in neurosurgery and its potential impact on the field. The authors aim to discuss, through a systematic review of current literature, how this rising new artificial intelligence (AI) technology may prove to be a useful tool in the future, weighing its potential benefits and limitations. The authors conducted a comprehensive and systematic literature review of the use of ChatGPT and its applications in healthcare and different neurosurgery topics. Through a systematic review of the literature, with a search strategy using the databases such as PubMed, Google Scholar, and Embase, we analyzed the advantages and limitations of using ChatGPT in neurosurgery and evaluated its potential impact. ChatGPT has demonstrated promising results in various applications, such as natural language processing, language translation, and text summarization. In neurosurgery, ChatGPT can assist in different areas such as surgical planning, image recognition, medical diagnosis, patient care, and scientific production. A total of 128 articles were retrieved from databases, where the final 22 articles were included for thorough analysis. The studies reviewed demonstrate the potential of AI and deep learning (DL), through language models such as ChatGPT, to improve the accuracy and efficiency of neurosurgical procedures, as well as diagnosis, treatment, and patient outcomes across various medical specialties, including neurosurgery. There are, however, limitations to its use, including the need for large datasets and the potential for errors in the output, which most authors concur will need human verification for the final application. Our search demonstrated the potential that ChatGPT holds for the present and future, in accordance with the studies' authors' findings herein analyzed and expert opinions. Further research and development are required to fully understand its capabilities and limitations. AI technology can serve as a useful tool to augment human intelligence; however, it is essential to use it in a responsible and ethical manner.",
+        "authors": [
+            "Alex Roman",
+            "Lubna Al-Sharif",
+            "Mohamed Al Gharyani"
+        ],
+        "published": "2023",
+        "pmid": "37719492",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37719492/",
+        "content": "Title: The Expanding Role of ChatGPT (Chat-Generative Pre-Trained Transformer) in Neurosurgery: A Systematic Review of Literature and Conceptual Framework.\nAuthors: Alex Roman, Lubna Al-Sharif, Mohamed Al Gharyani\nAbstract: The objective of this study is to explore the use of ChatGPT (Chat-Generative Pre-Trained Transformer) in neurosurgery and its potential impact on the field. The authors aim to discuss, through a systematic review of current literature, how this rising new artificial intelligence (AI) technology may prove to be a useful tool in the future, weighing its potential benefits and limitations. The authors conducted a comprehensive and systematic literature review of the use of ChatGPT and its applications in healthcare and different neurosurgery topics. Through a systematic review of the literature, with a search strategy using the databases such as PubMed, Google Scholar, and Embase, we analyzed the advantages and limitations of using ChatGPT in neurosurgery and evaluated its potential impact. ChatGPT has demonstrated promising results in various applications, such as natural language processing, language translation, and text summarization. In neurosurgery, ChatGPT can assist in different areas such as surgical planning, image recognition, medical diagnosis, patient care, and scientific production. A total of 128 articles were retrieved from databases, where the final 22 articles were included for thorough analysis. The studies reviewed demonstrate the potential of AI and deep learning (DL), through language models such as ChatGPT, to improve the accuracy and efficiency of neurosurgical procedures, as well as diagnosis, treatment, and patient outcomes across various medical specialties, including neurosurgery. There are, however, limitations to its use, including the need for large datasets and the potential for errors in the output, which most authors concur will need human verification for the final application. Our search demonstrated the potential that ChatGPT holds for the present and future, in accordance with the studies' authors' findings herein analyzed and expert opinions. Further research and development are required to fully understand its capabilities and limitations. AI technology can serve as a useful tool to augment human intelligence; however, it is essential to use it in a responsible and ethical manner.\nURL: https://pubmed.ncbi.nlm.nih.gov/37719492/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "The Expanding Role of ChatGPT (Chat-Generative Pre-Trained Transformer) in Neurosurgery: A Systematic Review of Literature and Conceptual Framework.",
+            "authors": "Alex Roman, Lubna Al-Sharif, Mohamed Al Gharyani",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37719492/",
+            "pmid": "37719492",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "PyProtif: a PyMol plugin to retrieve and visualize protein motifs for structural studies.",
+        "abstract": "Proteins often possess several motifs and the ones with similar motifs were found to have similar biochemical properties and thus related biological functions. Thereby, multiple databases were developed to store information on such motifs in proteins. For instance, PDBsum stores the results of Promotif's generated structural motifs and Pfam stores pre-computed patterns of functional domains. In addition to the fact that all this stored information is extremely useful, we can further augment its importance if we ought to integrate these motifs into visualization software. In this work, we have developed PyProtif, a plugin for the PyMOL molecular visualization program, which automatically retrieves protein structural and functional motifs from different databases and integrates them in PyMOL for visualization and analyses. Through an expendable menu and a user-friendly interface, the plugin grants the users the ability to study simultaneously multiple proteins and to select and manipulate each motif separately. Thus, this plugin will be of great interest for structural, evolutionary and classification studies of proteins.",
+        "authors": [
+            "Gilbert El Khoury",
+            "Wael Azzam",
+            "Joseph Rebehmed"
+        ],
+        "published": "2023",
+        "pmid": "37698713",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37698713/",
+        "content": "Title: PyProtif: a PyMol plugin to retrieve and visualize protein motifs for structural studies.\nAuthors: Gilbert El Khoury, Wael Azzam, Joseph Rebehmed\nAbstract: Proteins often possess several motifs and the ones with similar motifs were found to have similar biochemical properties and thus related biological functions. Thereby, multiple databases were developed to store information on such motifs in proteins. For instance, PDBsum stores the results of Promotif's generated structural motifs and Pfam stores pre-computed patterns of functional domains. In addition to the fact that all this stored information is extremely useful, we can further augment its importance if we ought to integrate these motifs into visualization software. In this work, we have developed PyProtif, a plugin for the PyMOL molecular visualization program, which automatically retrieves protein structural and functional motifs from different databases and integrates them in PyMOL for visualization and analyses. Through an expendable menu and a user-friendly interface, the plugin grants the users the ability to study simultaneously multiple proteins and to select and manipulate each motif separately. Thus, this plugin will be of great interest for structural, evolutionary and classification studies of proteins.\nURL: https://pubmed.ncbi.nlm.nih.gov/37698713/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "PyProtif: a PyMol plugin to retrieve and visualize protein motifs for structural studies.",
+            "authors": "Gilbert El Khoury, Wael Azzam, Joseph Rebehmed",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37698713/",
+            "pmid": "37698713",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Translation, Association and Augmentation: Learning Cross-Modality Re-Identification From Single-Modality Annotation.",
+        "abstract": "Daytime visible modality (RGB) and night-time infrared (IR) modality person re-identification (VI-ReID) is a challenging cross-modality pedestrian retrieval problem. However, training a cross-modality ReID model requires plenty of cross-modality (visible-infrared) identity labels that are more expensive than single-modality person ReID. To alleviate this issue, this paper studies unsupervised domain adaptive visible infrared person re-identification (UDA-VI-ReID) task without the reliance on any cross-modality annotation. To transfer learned knowledge from the labelled visible source domain to the unlabelled visible-infrared target domain, we propose a Translation, Association and Augmentation (TAA) framework. Specifically, the modality translator is firstly utilized to transfer visible image to infrared image, formulating generated visible-infrared image pairs for cross-modality supervised training. A Robust Association and Mutual Learning (RAML) module is then designed to exploit the underlying relations between visible and infrared modalities for label noise modeling. Moreover, a Translation Supervision and Feature Augmentation (TSFA) module is designed to enhance the discriminability by enriching the supervision with feature augmentation and modality translation. The extensive experimental results demonstrate that our method significantly outperforms current state-of-the-art unsupervised methods under various settings, and even surpasses some supervised counterparts, providing a powerful baseline for UDA-VI-ReID.",
+        "authors": [
+            "Bin Yang",
+            "Jun Chen",
+            "Xianzheng Ma",
+            "Mang Ye"
+        ],
+        "published": "2023",
+        "pmid": "37669187",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37669187/",
+        "content": "Title: Translation, Association and Augmentation: Learning Cross-Modality Re-Identification From Single-Modality Annotation.\nAuthors: Bin Yang, Jun Chen, Xianzheng Ma, Mang Ye\nAbstract: Daytime visible modality (RGB) and night-time infrared (IR) modality person re-identification (VI-ReID) is a challenging cross-modality pedestrian retrieval problem. However, training a cross-modality ReID model requires plenty of cross-modality (visible-infrared) identity labels that are more expensive than single-modality person ReID. To alleviate this issue, this paper studies unsupervised domain adaptive visible infrared person re-identification (UDA-VI-ReID) task without the reliance on any cross-modality annotation. To transfer learned knowledge from the labelled visible source domain to the unlabelled visible-infrared target domain, we propose a Translation, Association and Augmentation (TAA) framework. Specifically, the modality translator is firstly utilized to transfer visible image to infrared image, formulating generated visible-infrared image pairs for cross-modality supervised training. A Robust Association and Mutual Learning (RAML) module is then designed to exploit the underlying relations between visible and infrared modalities for label noise modeling. Moreover, a Translation Supervision and Feature Augmentation (TSFA) module is designed to enhance the discriminability by enriching the supervision with feature augmentation and modality translation. The extensive experimental results demonstrate that our method significantly outperforms current state-of-the-art unsupervised methods under various settings, and even surpasses some supervised counterparts, providing a powerful baseline for UDA-VI-ReID.\nURL: https://pubmed.ncbi.nlm.nih.gov/37669187/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Translation, Association and Augmentation: Learning Cross-Modality Re-Identification From Single-Modality Annotation.",
+            "authors": "Bin Yang, Jun Chen, Xianzheng Ma, Mang Ye",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37669187/",
+            "pmid": "37669187",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Concept-Aware Video Captioning: Describing Videos With Effective Prior Information.",
+        "abstract": "Concepts, a collective term for meaningful words that correspond to objects, actions, and attributes, can act as an intermediary for video captioning. While many efforts have been made to augment video captioning with concepts, most methods suffer from limited precision of concept detection and insufficient utilization of concepts, which could provide caption generation with inaccurate and inadequate prior information. Considering these issues, we propose a Concept-awARE video captioning framework (CARE) to facilitate plausible caption generation. Based on the encoder-decoder structure, CARE detects concepts precisely via multimodal-driven concept detection (MCD) and offers sufficient prior information to caption generation by global-local semantic guidance (G-LSG). Specifically, we implement MCD by leveraging video-to-text retrieval and the multimedia nature of videos. To achieve G-LSG, given the concept probabilities predicted by MCD, we weight and aggregate concepts to mine the video's latent topic to affect decoding globally and devise a simple yet efficient hybrid attention module to exploit concepts and video content to impact decoding locally. Finally, to develop CARE, we emphasize on the knowledge transfer of a contrastive vision-language pre-trained model (i.e., CLIP) in terms of visual understanding and video-to-text retrieval. With the multi-role CLIP, CARE can outperform CLIP-based strong video captioning baselines with affordable extra parameter and inference latency costs. Extensive experiments on MSVD, MSR-VTT, and VATEX datasets demonstrate the versatility of our approach for different encoder-decoder networks and the superiority of CARE against state-of-the-art methods. Our code is available at https://github.com/yangbang18/CARE.",
+        "authors": [
+            "Bang Yang",
+            "Meng Cao",
+            "Yuexian Zou"
+        ],
+        "published": "2023",
+        "pmid": "37639408",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37639408/",
+        "content": "Title: Concept-Aware Video Captioning: Describing Videos With Effective Prior Information.\nAuthors: Bang Yang, Meng Cao, Yuexian Zou\nAbstract: Concepts, a collective term for meaningful words that correspond to objects, actions, and attributes, can act as an intermediary for video captioning. While many efforts have been made to augment video captioning with concepts, most methods suffer from limited precision of concept detection and insufficient utilization of concepts, which could provide caption generation with inaccurate and inadequate prior information. Considering these issues, we propose a Concept-awARE video captioning framework (CARE) to facilitate plausible caption generation. Based on the encoder-decoder structure, CARE detects concepts precisely via multimodal-driven concept detection (MCD) and offers sufficient prior information to caption generation by global-local semantic guidance (G-LSG). Specifically, we implement MCD by leveraging video-to-text retrieval and the multimedia nature of videos. To achieve G-LSG, given the concept probabilities predicted by MCD, we weight and aggregate concepts to mine the video's latent topic to affect decoding globally and devise a simple yet efficient hybrid attention module to exploit concepts and video content to impact decoding locally. Finally, to develop CARE, we emphasize on the knowledge transfer of a contrastive vision-language pre-trained model (i.e., CLIP) in terms of visual understanding and video-to-text retrieval. With the multi-role CLIP, CARE can outperform CLIP-based strong video captioning baselines with affordable extra parameter and inference latency costs. Extensive experiments on MSVD, MSR-VTT, and VATEX datasets demonstrate the versatility of our approach for different encoder-decoder networks and the superiority of CARE against state-of-the-art methods. Our code is available at https://github.com/yangbang18/CARE.\nURL: https://pubmed.ncbi.nlm.nih.gov/37639408/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Concept-Aware Video Captioning: Describing Videos With Effective Prior Information.",
+            "authors": "Bang Yang, Meng Cao, Yuexian Zou",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37639408/",
+            "pmid": "37639408",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "Annotated dataset creation through large language models for non-english medical NLP.",
+        "abstract": "Obtaining text datasets with semantic annotations is an effortful process, yet crucial for supervised training in natural language processing (NLP). In general, developing and applying new NLP pipelines in domain-specific contexts for tasks often requires custom-designed datasets to address NLP tasks in a supervised machine learning fashion. When operating in non-English languages for medical data processing, this exposes several minor and major, interconnected problems such as the lack of task-matching datasets as well as task-specific pre-trained models. In our work, we suggest to leverage pre-trained large language models for training data acquisition in order to retrieve sufficiently large datasets for training smaller and more efficient models for use-case-specific tasks. To demonstrate the effectiveness of your approach, we create a custom dataset that we use to train a medical NER model for German texts, GPTNERMED, yet our method remains language-independent in principle. Our obtained dataset as well as our pre-trained models are publicly available at https://github.com/frankkramer-lab/GPTNERMED.",
+        "authors": [
+            "Johann Frei",
+            "Frank Kramer"
+        ],
+        "published": "2023",
+        "pmid": "37625508",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37625508/",
+        "content": "Title: Annotated dataset creation through large language models for non-english medical NLP.\nAuthors: Johann Frei, Frank Kramer\nAbstract: Obtaining text datasets with semantic annotations is an effortful process, yet crucial for supervised training in natural language processing (NLP). In general, developing and applying new NLP pipelines in domain-specific contexts for tasks often requires custom-designed datasets to address NLP tasks in a supervised machine learning fashion. When operating in non-English languages for medical data processing, this exposes several minor and major, interconnected problems such as the lack of task-matching datasets as well as task-specific pre-trained models. In our work, we suggest to leverage pre-trained large language models for training data acquisition in order to retrieve sufficiently large datasets for training smaller and more efficient models for use-case-specific tasks. To demonstrate the effectiveness of your approach, we create a custom dataset that we use to train a medical NER model for German texts, GPTNERMED, yet our method remains language-independent in principle. Our obtained dataset as well as our pre-trained models are publicly available at https://github.com/frankkramer-lab/GPTNERMED.\nURL: https://pubmed.ncbi.nlm.nih.gov/37625508/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Annotated dataset creation through large language models for non-english medical NLP.",
+            "authors": "Johann Frei, Frank Kramer",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37625508/",
+            "pmid": "37625508",
+            "published": "2023"
+        }
+    },
+    {
+        "title": "cazy_webscraper: local compilation and interrogation of comprehensive CAZyme datasets.",
+        "abstract": "Carbohydrate active enzymes (CAZymes) are pivotal in biological processes including energy metabolism, cell structure maintenance, signalling, and pathogen recognition. Bioinformatic prediction and mining of CAZymes improves our understanding of these activities and enables discovery of candidates of interest for industrial biotechnology, particularly the processing of organic waste for biofuel production. CAZy (www.cazy.org) is a high-quality, manually curated, and authoritative database of CAZymes that is often the starting point for these analyses. Automated querying and integration of CAZy data with other public datasets would constitute a powerful resource for mining and exploring CAZyme diversity. However, CAZy does not itself provide methods to automate queries, or integrate annotation data from other sources (except by following hyperlinks) to support further analysis. To overcome these limitations we developed cazy_webscraper, a command-line tool that retrieves data from CAZy and other online resources to build a local, shareable and reproducible database that augments and extends the authoritative CAZy database. cazy_webscraper's integration of curated CAZyme annotations with their corresponding protein sequences, up-to-date taxonomy assignments, and protein structure data facilitates automated large-scale and targeted bioinformatic CAZyme family analysis and candidate screening. This tool has found widespread uptake in the community, with over 35 000 downloads (from April 2021 to June 2023). We demonstrate the use and application of cazy_webscraper to: (i) augment, update and correct CAZy database accessions; (ii) explore the taxonomic distribution of CAZymes recorded in CAZy, identifying under-represented taxa and unusual CAZy class distributions; and (iii) investigate three CAZymes having potential biotechnological application for degradation of biomass, but lacking a representative structure in the PDB database. We describe in general how cazy_webscraper facilitates functional, structural and evolutionary studies to aid identification of candidate enzymes for further characterization, and specifically note that CAZy provides supporting evidence for recent expansion of the Auxiliary Activities (AA) CAZy family in eukaryotes, consistent with functions potentially specific to eukaryotic lifestyles.",
+        "authors": [
+            "Emma E M Hobbs",
+            "Tracey M Gloster",
+            "Leighton Pritchard"
+        ],
+        "published": "2023",
+        "pmid": "37578822",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37578822/",
+        "content": "Title: cazy_webscraper: local compilation and interrogation of comprehensive CAZyme datasets.\nAuthors: Emma E M Hobbs, Tracey M Gloster, Leighton Pritchard\nAbstract: Carbohydrate active enzymes (CAZymes) are pivotal in biological processes including energy metabolism, cell structure maintenance, signalling, and pathogen recognition. Bioinformatic prediction and mining of CAZymes improves our understanding of these activities and enables discovery of candidates of interest for industrial biotechnology, particularly the processing of organic waste for biofuel production. CAZy (www.cazy.org) is a high-quality, manually curated, and authoritative database of CAZymes that is often the starting point for these analyses. Automated querying and integration of CAZy data with other public datasets would constitute a powerful resource for mining and exploring CAZyme diversity. However, CAZy does not itself provide methods to automate queries, or integrate annotation data from other sources (except by following hyperlinks) to support further analysis. To overcome these limitations we developed cazy_webscraper, a command-line tool that retrieves data from CAZy and other online resources to build a local, shareable and reproducible database that augments and extends the authoritative CAZy database. cazy_webscraper's integration of curated CAZyme annotations with their corresponding protein sequences, up-to-date taxonomy assignments, and protein structure data facilitates automated large-scale and targeted bioinformatic CAZyme family analysis and candidate screening. This tool has found widespread uptake in the community, with over 35 000 downloads (from April 2021 to June 2023). We demonstrate the use and application of cazy_webscraper to: (i) augment, update and correct CAZy database accessions; (ii) explore the taxonomic distribution of CAZymes recorded in CAZy, identifying under-represented taxa and unusual CAZy class distributions; and (iii) investigate three CAZymes having potential biotechnological application for degradation of biomass, but lacking a representative structure in the PDB database. We describe in general how cazy_webscraper facilitates functional, structural and evolutionary studies to aid identification of candidate enzymes for further characterization, and specifically note that CAZy provides supporting evidence for recent expansion of the Auxiliary Activities (AA) CAZy family in eukaryotes, consistent with functions potentially specific to eukaryotic lifestyles.\nURL: https://pubmed.ncbi.nlm.nih.gov/37578822/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "cazy_webscraper: local compilation and interrogation of comprehensive CAZyme datasets.",
+            "authors": "Emma E M Hobbs, Tracey M Gloster, Leighton Pritchard",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37578822/",
+            "pmid": "37578822",
+            "published": "2023"
+        }
+    }
+]

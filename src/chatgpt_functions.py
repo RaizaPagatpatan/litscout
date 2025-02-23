@@ -219,7 +219,7 @@ def get_chatgpt_response(
     query = research_topic
     if related_topic:
         query += f" related to {related_topic}"
-    if field_of_study != "-- Select --":
+    if field_of_study != "-- Not Specified --":
         query += f" in {field_of_study}"
     if type_of_publication != "-- Select --":
         query += f" {type_of_publication}"
@@ -229,7 +229,7 @@ def get_chatgpt_response(
     # Search for articles via 1 openSourceDB for articles for the mean time. Add more when data source input field is specified in app.py
     # search_results = search_arxiv_articles(query, date_range)
     search_results = search_articles(query, date_range, open_access_site)
-
+    logger.info(f"Search results: {search_results}")
     # word -> vec (Create vector store)
     vector_store = create_vector_store(search_results)
 

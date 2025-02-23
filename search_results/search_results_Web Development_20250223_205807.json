@@ -1,0 +1,109 @@
+[
+    {
+        "title": "Towards Semantic Web: Challenges and Needs",
+        "summary": "  There has been recently a growth of interest in developing the current\nmachine-readable Web towards the next generation of machine-understandable Web\n- Semantic Web. The development of the Web to a global business was reasonably\nfast, whereas Semantic Web development has taken time from a plan to be used as\nthe mainstream Web. It is also important to note that the use of Semantic Web\nwould only be successful in small technologies. However, the goal of Semantic\nWeb is to be used in big technologies and to be the mainstream Web. Some\nchallenges may impede make further progress of Semantic Web. In this review\npaper, an overview of the current status and future needs of Semantic Web will\nbe presented. Specifically, the challenges and needs of Semantic Web in the\nhope of shedding some light on the adoption or infusion of Semantic Web in the\nfuture will be discussed. Then, a critical evaluation of these challenges and\nneeds will be presented. Semantic Web has a clear vision. It is moving, in line\nwith this vision, towards overcoming the challenges and usability in real world\napplications.\n",
+        "authors": [
+            "Bryar A. Hassan"
+        ],
+        "published": "2021-05-06T14:20:14Z",
+        "url": "http://arxiv.org/abs/2105.02708v1"
+    },
+    {
+        "title": "Engineering Semantic Web Applications by Using Object-Oriented Paradigm",
+        "summary": "  The web information resources are growing explosively in number and volume.\nNow to retrieve relevant data from web has become very difficult and\ntime-consuming. Semantic Web envisions that these web resources should be\ndeveloped in machine-processable way in order to handle irrelevancy and manual\nprocessing problems. Whereas, the Semantic Web is an extension of current web,\nin which web resources are equipped with formal semantics about their\ninterpretation through machines. These web resources are usually contained in\nweb applications and systems, and their formal semantics are normally\nrepresented in the form of web-ontologies. In this research paper, an\nobject-oriented design methodology (OODM) is upgraded for developing semantic\nweb applications. OODM has been developed for designing of web applications for\nthe current web. This methodology is good enough to develop web applications.\nIt also provides a systematic approach for the web applications development but\nit is not helpful in generating machine-pocessable content of web applications\nin their development. Therefore, this methodology needs to be extended. In this\npaper, we propose that extension in OODM. This new extended version is referred\nto as the semantic web object-oriented design methodology (SW-OODM).\n",
+        "authors": [
+            "Amjad Farooq",
+            "Syed Ahsan",
+            "Abad Shah"
+        ],
+        "published": "2010-06-23T15:17:47Z",
+        "url": "http://arxiv.org/abs/1006.4562v1"
+    },
+    {
+        "title": "Full-Text and URL Search Over Web Archives",
+        "summary": "  Web archives are a historically valuable source of information. In some\nrespects, web archives are the only record of the evolution of human society in\nthe last two decades. They preserve a mix of personal and collective memories,\nthe importance of which tends to grow as they age. However, the value of web\narchives depends on their users being able to search and access the information\nthey require in efficient and effective ways. Without the possibility of\nexploring and exploiting the archived contents, web archives are useless. Web\narchive access functionalities range from basic browsing to advanced search and\nanalytical services, accessed through user-friendly interfaces. Full-text and\nURL search have become the predominant and preferred forms of information\ndiscovery in web archives, fulfilling user needs and supporting search APIs\nthat feed complex applications. Both full-text and URL search are based on the\ntechnology developed for modern web search engines, since the Web is the main\nresource targeted by both systems. However, while web search engines enable\nsearching over the most recent web snapshot, web archives enable searching over\nmultiple snapshots from the past. This means that web archives have to deal\nwith a temporal dimension that is the cause of new challenges and\nopportunities, discussed throughout this chapter.\n",
+        "authors": [
+            "Miguel Costa"
+        ],
+        "published": "2021-08-03T16:10:34Z",
+        "url": "http://arxiv.org/abs/2108.01603v1"
+    },
+    {
+        "title": "Towards Maximum Spanning Tree Model in Web 3.0 Design and Development\n  for Students using Discriminant Analysis",
+        "summary": "  Web 3.0 is an evolving extension of the web 2.0 scenario. The perceptions\nregarding web 3.0 is different from person to person . Web 3.0 Architecture\nsupports ubiquitous connectivity, network computing, open identity, intelligent\nweb, distributed databases and intelligent applications. Some of the\ntechnologies which lead to the design and development of web 3.0 applications\nare Artificial intelligence, Automated reasoning, Cognitive architecture,\nSemantic web . An attempt is made to capture the requirements of Students\ninline with web 3.0 so as to bridge the gap between the design and development\nof web 3.0 applications and requirements among Students. Maximum Spanning Tree\nmodeling of the requirements facilitate the identification of key areas and key\nattributes in the design and development of software products for Students in\nWeb 3.0 using Discriminant analysis. Keywords : Web 3.0, Discriminant analysis,\nDesign and Development, Model, Maximum Spanning Tree 1.\n",
+        "authors": [
+            "S. Padma",
+            "Ananthi Seshasaayee"
+        ],
+        "published": "2012-02-15T17:45:56Z",
+        "url": "http://arxiv.org/abs/1202.3386v1"
+    },
+    {
+        "title": "Web Engineering",
+        "summary": "  Web Engineering is the application of systematic, disciplined and\nquantifiable approaches to development, operation, and maintenance of Web-based\napplications. It is both a pro-active approach and a growing collection of\ntheoretical and empirical research in Web application development. This paper\ngives an overview of Web Engineering by addressing the questions: a) why is it\nneeded? b) what is its domain of operation? c) how does it help and what should\nit do to improve Web application development? and d) how should it be\nincorporated in education and training? The paper discusses the significant\ndifferences that exist between Web applications and conventional software, the\ntaxonomy of Web applications, the progress made so far and the research issues\nand experience of creating a specialisation at the master's level. The paper\nreaches a conclusion that Web Engineering at this stage is a moving target\nsince Web technologies are constantly evolving, making new types of\napplications possible, which in turn may require innovations in how they are\nbuilt, deployed and maintained.\n",
+        "authors": [
+            "Yogesh Deshpande",
+            "San Murugesan",
+            "Athula Ginige",
+            "Steve Hansen",
+            "Daniel Schwabe",
+            "Martin Gaedke",
+            "Bebo White"
+        ],
+        "published": "2003-06-18T03:13:44Z",
+        "url": "http://arxiv.org/abs/cs/0306108v1"
+    },
+    {
+        "title": "Student's Interests Related to Web and Mobile Technologies Study",
+        "summary": "  We explore in this paper the interests and challenges of students regarding\nweb and mobile technologies. Our study is based on a survey among undergraduate\nstudents, students that attend a Web Programming course. In particular, we\nstudy the challenges students have in following a successful career in web or\nmobile development and we have found that the most important one is the large\neffort required for keeping up to date with the fast changing web and mobile\ntechnologies. Overall, the attitude of the surveyed undergraduate students\ntowards web development and mobile development is rather positive, as more than\n60% of them said that they are interested in a career in web or mobile\ndevelopment. We also found out that most of them prefer working on back-end web\ntechnologies. As for the specific web technologies students are interested on,\nthey are highly varied. Overall, our study provides valuable insights into the\ninterests and challenges of students regarding web and mobile technologies,\nwhich can guide the development of effective teaching and learning approaches\nin this area.\n",
+        "authors": [
+            "Manuela Petrescu",
+            "Adrian Sterca",
+            "Ioan Badarinza"
+        ],
+        "published": "2023-11-26T13:24:30Z",
+        "url": "http://arxiv.org/abs/2311.15293v1"
+    },
+    {
+        "title": "Realization of Ontology Web Search Engine",
+        "summary": "  This paper describes the realization of the Ontology Web Search Engine. The\nOntology Web Search Engine is realizable as independent project and as a part\nof other projects. The main purpose of this paper is to present the Ontology\nWeb Search Engine realization details as the part of the Semantic Web Expert\nSystem and to present the results of the Ontology Web Search Engine\nfunctioning. It is expected that the Semantic Web Expert System will be able to\nprocess ontologies from the Web, generate rules from these ontologies and\ndevelop its knowledge base.\n",
+        "authors": [
+            "Olegs Verhodubs"
+        ],
+        "published": "2017-02-22T18:35:43Z",
+        "url": "http://arxiv.org/abs/1702.06934v1"
+    },
+    {
+        "title": "A Model for Web-Intelligence Index to Evaluate the Web Intelligence\n  Capacity of Government Web Sites of Sri Lanka",
+        "summary": "  Web intelligence can be considered as a subset of Artificial Intelligence. It\nuses existing data in web to produce new data, knowledge and wisdom to support\ndecision making and new predictions for web users. Artificial Intelligence is\never changing and evolving field of computer science and it is extensively used\nin wide array of web based business applications. Although it is used\nsubstantially in web based systems in developed countries, it is not examined\nwhether it is being substantially used in Sri Lanka. Every Sri Lankan citizen\ndepends on Public Service more or less throughout his/ her life time and at\nleast more than 3 times: at birth, marriage and death. So providing most of\nthese services to its citizen, Sri Lankan Government uses more or less of its\ncountry web portal. This paper presents a model to evaluate web intelligence\ncapability based on weight to key functionalities with respect to web\nintelligence. The government websites were checked by the proposed criteria to\nshow the potential of using web intelligent technology to provide website based\nservices. The result indicates that the use of web intelligence techniques\nopenly and publicly to provide web based services through government web portal\nto its citizens is not satisfactory. It also indicates that lack of using the\ntechnologies pertaining to web intelligence in the public service web hinders\nthe most of the advantages that citizen and government can gain from such\ntechnological involvement.\n",
+        "authors": [
+            "Prabath Chaminda Abeysiriwardana",
+            "S. R. Kodituwakku"
+        ],
+        "published": "2015-11-20T22:37:19Z",
+        "url": "http://arxiv.org/abs/1511.06787v1"
+    },
+    {
+        "title": "The Rise of Disappearing Frameworks in Web Development",
+        "summary": "  The evolution of the web can be characterized as an emergence of frameworks\npaving the way from static websites to dynamic web applications. As the scope\nof web applications has grown, new technical challenges have emerged, leading\nto the need for new solutions. The latest of these developments is the rise of\nso-called disappearing web frameworks that question the axioms of earlier\ngenerations of web frameworks, providing benefits of the early web and simple\nstatic sites.\n",
+        "authors": [
+            "Juho Vepsäläinen",
+            "Arto Hellas",
+            "Petri Vuorimaa"
+        ],
+        "published": "2023-04-03T09:00:25Z",
+        "url": "http://arxiv.org/abs/2304.01947v2"
+    },
+    {
+        "title": "Axis2UNO: Web Services Enabled Openoffice.org",
+        "summary": "  Openoffice.org is a popular, free and open source office product. This\nproduct is used by millions of people and developed, maintained and extended by\nthousands of developers worldwide. Playing a dominant role in the web, web\nservices technology is serving millions of people every day. Axis2 is one of\nthe most popular, free and open source web service engines. The framework\npresented in this paper, Axis2UNO, a combination of such two technologies is\ncapable of making a new era in office environment. Two other attempts to\nenhance web services functionality in office products are Excel Web Services\nand UNO Web Service Proxy. Excel Web Services is combined with Microsoft\nSharePoint technology and exposes information sharing in a different\nperspective within the proprietary Microsoft office products. UNO Web Service\nProxy is implemented with Java Web Services Developer Pack and enables basic\nweb services related functionality in Openoffice.org. However, the work\npresented here is the first one to combine Openoffice.org and Axis2 and we\nexpect it to outperform the other efforts with the community involvement and\nfeature richness in those products.\n",
+        "authors": [
+            "B. A. N. M. Bambarasinghe",
+            "H. M. S. Huruggamuwa",
+            "R. G. Ragel",
+            "S. Radhakrishnan"
+        ],
+        "published": "2014-02-04T09:31:51Z",
+        "url": "http://arxiv.org/abs/1402.0670v1"
+    }
+]

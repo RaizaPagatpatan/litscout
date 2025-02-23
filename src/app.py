@@ -84,17 +84,20 @@ if keywords:
 else:
     st.write("Enter Items!")
 
-
-# Load language options from JSON file
 # language_options = languages_data.get("languages", ["-- Not Specified --"])
 
 with st.expander("Advanced Search Options"):
     col1, col2, col3 = st.columns(3)
     with col1:
         open_access_site = st.selectbox(
-            "Open Access Publication Site:",
-            ["ArXiv", "PubMed", "OpenAIRE"],
-            help="Select the citation style for references"
+            "Select Open Access Site",
+            [
+                "-- Not Specified --", 
+                "ArXiv", 
+                "PubMed", 
+                "OpenAIRE", 
+                "Google Scholar"  
+            ]
         )
         # authors = st.text_area(
         #     "Author(s)",
@@ -144,7 +147,34 @@ if st.button("Generate Research Report"):
                 # Search for articles
                 search_results = search_articles(research_topic, date_range, open_access_site)
                 logger.info(f"Search results count: {len(search_results)}")
-                logger.info(f"First few search results: {search_results[:2] if search_results else 'No results'}")
+                
+                # Save search results to JSON file
+                import json
+                from datetime import datetime
+                import os
+                
+                try:
+                    # Ensure the directory exists
+                    json_dir = os.path.join(os.path.dirname(__file__), '..', 'search_results')
+                    os.makedirs(json_dir, exist_ok=True)
+                    
+                    # Create a filename with timestamp and research topic
+                    safe_topic = ''.join(c if c.isalnum() or c in [' ', '_'] else '_' for c in research_topic)
+                    safe_topic = safe_topic[:50]  # Limit filename length
+                    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                    json_filename = os.path.join(json_dir, f"search_results_{safe_topic}_{timestamp}.json")
+                    
+                    # Save search results to JSON
+                    with open(json_filename, 'w', encoding='utf-8') as f:
+                        json.dump(search_results, f, ensure_ascii=False, indent=4)
+                    
+                    logger.info(f"Saved search results to {json_filename}")
+                    logger.info(f"First search result: {search_results[0] if search_results else 'No results'}")
+                
+                except Exception as e:
+                    logger.error(f"Error saving search results to JSON: {e}")
+                
+                logger.info(f"First few search results: {search_results[:1] if search_results else 'No results'}")
                 
                 # Generate response
                 response = get_chatgpt_response(

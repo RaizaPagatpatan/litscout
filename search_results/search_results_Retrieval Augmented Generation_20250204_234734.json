@@ -1,0 +1,39 @@
+[
+    {
+        "title": "A Survey on Retrieval-Augmented Text Generation",
+        "summary": "  Recently, retrieval-augmented text generation attracted increasing attention\nof the computational linguistics community. Compared with conventional\ngeneration models, retrieval-augmented text generation has remarkable\nadvantages and particularly has achieved state-of-the-art performance in many\nNLP tasks. This paper aims to conduct a survey about retrieval-augmented text\ngeneration. It firstly highlights the generic paradigm of retrieval-augmented\ngeneration, and then it reviews notable approaches according to different tasks\nincluding dialogue response generation, machine translation, and other\ngeneration tasks. Finally, it points out some important directions on top of\nrecent methods to facilitate future research.\n",
+        "authors": [
+            "Huayang Li",
+            "Yixuan Su",
+            "Deng Cai",
+            "Yan Wang",
+            "Lemao Liu"
+        ],
+        "published": "2022-02-02T16:18:41Z",
+        "url": "http://arxiv.org/abs/2202.01110v2"
+    },
+    {
+        "title": "Context Tuning for Retrieval Augmented Generation",
+        "summary": "  Large language models (LLMs) have the remarkable ability to solve new tasks\nwith just a few examples, but they need access to the right tools. Retrieval\nAugmented Generation (RAG) addresses this problem by retrieving a list of\nrelevant tools for a given task. However, RAG's tool retrieval step requires\nall the required information to be explicitly present in the query. This is a\nlimitation, as semantic search, the widely adopted tool retrieval method, can\nfail when the query is incomplete or lacks context. To address this limitation,\nwe propose Context Tuning for RAG, which employs a smart context retrieval\nsystem to fetch relevant information that improves both tool retrieval and plan\ngeneration. Our lightweight context retrieval model uses numerical,\ncategorical, and habitual usage signals to retrieve and rank context items. Our\nempirical results demonstrate that context tuning significantly enhances\nsemantic search, achieving a 3.5-fold and 1.5-fold improvement in Recall@K for\ncontext retrieval and tool retrieval tasks respectively, and resulting in an\n11.6% increase in LLM-based planner accuracy. Additionally, we show that our\nproposed lightweight model using Reciprocal Rank Fusion (RRF) with LambdaMART\noutperforms GPT-4 based retrieval. Moreover, we observe context augmentation at\nplan generation, even after tool retrieval, reduces hallucination.\n",
+        "authors": [
+            "Raviteja Anantha",
+            "Tharun Bethi",
+            "Danil Vodianik",
+            "Srinivas Chappidi"
+        ],
+        "published": "2023-12-09T23:33:16Z",
+        "url": "http://arxiv.org/abs/2312.05708v1"
+    },
+    {
+        "title": "Augmentation-Adapted Retriever Improves Generalization of Language\n  Models as Generic Plug-In",
+        "summary": "  Retrieval augmentation can aid language models (LMs) in knowledge-intensive\ntasks by supplying them with external information. Prior works on retrieval\naugmentation usually jointly fine-tune the retriever and the LM, making them\nclosely coupled. In this paper, we explore the scheme of generic retrieval\nplug-in: the retriever is to assist target LMs that may not be known beforehand\nor are unable to be fine-tuned together. To retrieve useful documents for\nunseen target LMs, we propose augmentation-adapted retriever (AAR), which\nlearns LM's preferences obtained from a known source LM. Experiments on the\nMMLU and PopQA datasets demonstrate that our AAR trained with a small source LM\nis able to significantly improve the zero-shot generalization of larger target\nLMs ranging from 250M Flan-T5 to 175B InstructGPT. Further analysis indicates\nthat the preferences of different LMs overlap, enabling AAR trained with a\nsingle source LM to serve as a generic plug-in for various target LMs. Our code\nis open-sourced at https://github.com/OpenMatch/Augmentation-Adapted-Retriever.\n",
+        "authors": [
+            "Zichun Yu",
+            "Chenyan Xiong",
+            "Shi Yu",
+            "Zhiyuan Liu"
+        ],
+        "published": "2023-05-27T02:26:52Z",
+        "url": "http://arxiv.org/abs/2305.17331v1"
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "title": "Design and Fabrication of Novel Digital Transcranial Electrical\n  Stimulator for Medical and Psychiatry Applications",
+        "summary": "  In this article, we design a novel Transcranial Electrical Stimulator for\nmedical applications, which is very cheap and can produce the desired signals\nvery accurately. Our fabricated stimulator generates all current signals\nrelated to Transcranial Electrical Stimulation (TES) methods, i.e. Transcranial\nDirect Current Stimulation (tDCS), Transcranial Pulsed Current Stimulation\n(tPCS), Cranial Electrotherapy Stimulation (CES), and Microcurrent Electrical\nTherapy (MET). The proposed device has been constructed of an advanced digital\ncontroller which makes it tunable. One of the major advantages of the device is\nits ability to generate Burst pulses.\n",
+        "authors": [
+            "HoseinAli Jafari",
+            "Mohammad Bagher Heydari",
+            "Niloofar Jafari",
+            "Hamid Mirhosseini"
+        ],
+        "published": "2020-09-09T16:37:40Z",
+        "url": "http://arxiv.org/abs/2009.04411v1"
+    },
+    {
+        "title": "Application Embedding: A Language Approach to Declarative Web\n  Programming",
+        "summary": "  Since the early days of the Web, web application developers have aspired to\ndevelop much of their applications declaratively. However, one aspect of the\napplication, namely its business-logic is constantly left imperative. In this\nwork we present Application Embedding, a novel approach to application\ndevelopment which allows all aspects of an application, including its\nbusiness-logic, to be programmed declaratively.\n  We develop this approach in a two-step process. First, we draw a mapping\nbetween web applications and Domain-Specific Languages (DSLs). Second, we note\nthat out of the two methods for implementing DSLs, namely as either internal or\nexternal, most traditional web applications correspond to external DSLs, while\nthe the technique that corresponds to DSL embedding (implementing internal\nDSLs) is left mostly unexplored.\n  By projecting the well-known technique of DSL embedding onto web\napplications, we derive a novel technique--Application Embedding. Application\nembedding offers a separation of code assets that encourages reuse of\nimperative code, while keeping all application-specific assets, including those\nspecifying its business- logic, declarative.\n  As validation, we implemented a simple, though nontrivial web application\nusing the proposed separation of assets. This implementation includes an\napplication-agnostic imperative host application named FishTank, intended to be\napplicable for a wide variety of web applications, and a declarative definition\nof the different aspects of the specific application, intended to be loaded on\nthat host.\n  Our method of separation of code assets facilitates a better separation of\nwork, in comparison to traditional methods. By this separation, host\napplication developers can focus mostly on the extra-functional aspects of a\nweb application, namely on improving performance, scalability, and\navailability, while developers of an embedded application can focus on the\nfunctional aspects of their application, without worrying about extra-\nfunctional concerns. The reusability of the host application makes the effort\nput into a better implementation cost-effective, since it can benefit all\napplications built on top of it.\n",
+        "authors": [
+            "David H. Lorenz",
+            "Boaz Rosenan"
+        ],
+        "published": "2017-01-27T17:11:59Z",
+        "url": "http://arxiv.org/abs/1701.08119v1"
+    },
+    {
+        "title": "Multi-Application Resource Allocation with Users Discrimination in\n  Cellular Networks",
+        "summary": "  In this paper, we consider resource allocation optimization problem in\ncellular networks for different types of users running multiple applications\nsimultaneously. In our proposed model, each user application is assigned a\nutility function that represents the application type running on the user\nequipment (UE). The network operators assign a subscription weight to each UE\nbased on its subscription. Each UE assigns an application weight to each of its\napplications based on the instantaneous usage percentage of the application.\nAdditionally, UEs with higher priority assign applications target rates to\ntheir applications. Our objective is to allocate the resources optimally among\nthe UEs and their applications from a single evolved node B (eNodeB) based on a\nutility proportional fairness policy with priority to real-time application\nusers. A minimum quality of service (QoS) is guaranteed to each UE application\nbased on the UE subscription weight, the UE application weight and the UE\napplication target rate. We propose a two-stage rate allocation algorithm to\nallocate the eNodeB resources among users and their applications. Finally, we\npresent simulation results for the performance of our rate allocation\nalgorithm.\n",
+        "authors": [
+            "Haya Shajaiah",
+            "Ahmed Abdelhadi",
+            "Charles Clancy"
+        ],
+        "published": "2014-06-06T21:28:12Z",
+        "url": "http://arxiv.org/abs/1406.1818v1"
+    },
+    {
+        "title": "Studying Logging Practice in Machine Learning-based Applications",
+        "summary": "  Logging is a common practice in traditional software development. Several\nresearch works have been done to investigate the different characteristics of\nlogging practices in traditional software systems (e.g., Android applications,\nJAVA applications, C/C++ applications). Nowadays, we are witnessing more and\nmore development of Machine Learning-based applications (ML-based\napplications). Today, there are many popular libraries that facilitate and\ncontribute to the development of such applications, among which we can mention:\nPytorch, Tensorflow, Theano, MXNet, Scikit-Learn, Caffe, and Keras. Despite the\npopularity of ML, we don't have a clear understanding of logging practices in\nML applications. In this paper, we aim to fill this knowledge gap and help ML\npractitioners understand the characteristics of logging in ML-based\napplications. In particular, we conduct an empirical study on 110 open-source\nML-based applications. Through a quantitative analysis, we find that logging\npractice in ML-based applications is less pervasive than in traditional\napplications including Android, JAVA, and C/C++ applications. Furthermore, the\nmajority of logging statements in ML-based applications are in info and warn\nlevels, compared to traditional applications where info is the majority of\nlogging statement in C/C++ application and debug, error levels constitute the\nmajority of logging statement in Android application. We also perform a\nquantitative and qualitative analysis of a random sample of logging statements\nto understand where ML developers put most of logging statements and examine\nwhy and how they are using logging. These analyses led to the following\nobservations: (i) ML developers put most of the logging statements in model\ntraining, and in non-ML components. (ii) Data and model management appear to be\nthe main reason behind the introduction of logging statements in ML-based\napplications.\n",
+        "authors": [
+            "Patrick Loic Foalem",
+            "Foutse Khomh",
+            "Heng Li"
+        ],
+        "published": "2023-01-10T22:48:54Z",
+        "url": "http://arxiv.org/abs/2301.04234v1"
+    },
+    {
+        "title": "Signal to noise in matching markets",
+        "summary": "  In many matching markets, one side \"applies\" to the other, and these\napplications are often expensive and time-consuming (e.g. students applying to\ncollege). It is tempting to think that making the application process easier\nshould benefit both sides of the market. After all, the applicants could submit\nmore applications, and the recipients would have more applicants to choose\nfrom. In this paper, we propose and analyze a simple model to understand\nsettings where both sides of the market suffer from increased number of\napplications.\n  The main insights of the paper are derived from quantifying the signal to\nnoise tradeoffs in random matchings, as applications provide a signal of the\napplicants' preferences. When applications are costly the signal is stronger,\nas the act of making an application itself is meaningful. Therefore more\napplications may yield potentially better matches, but fewer applications\ncreate stronger signals for the receiving side to learn true preferences.\n  We derive analytic characterizations of the expected quality of stable\nmatchings in a simple utility model where applicants have an overall quality,\nbut also synergy with specific possible partners. Our results show how reducing\napplication cost without introducing an effective signaling mechanism might\nlead to inefficiencies for both sides of the market.\n",
+        "authors": [
+            "S. Matthew Weinberg",
+            "James Zou"
+        ],
+        "published": "2016-12-28T23:27:01Z",
+        "url": "http://arxiv.org/abs/1612.09006v1"
+    },
+    {
+        "title": "Determination of Checkpointing Intervals for Malleable Applications",
+        "summary": "  Selecting optimal intervals of checkpointing an application is important for\nminimizing the run time of the application in the presence of system failures.\nMost of the existing efforts on checkpointing interval selection were developed\nfor sequential applications while few efforts deal with parallel applications\nwhere the applications are executed on the same number of processors for the\nentire duration of execution. Some checkpointing systems support parallel\napplications where the number of processors on which the applications execute\ncan be changed during the execution. We refer to these kinds of parallel\napplications as {\\em malleable} applications. In this paper, we develop a\nperformance model for malleable parallel applications that estimates the amount\nof useful work performed in unit time (UWT) by a malleable application in the\npresence of failures as a function of checkpointing interval. We use this\nperformance model function with different intervals and select the interval\nthat maximizes the UWT value. By conducting a large number of simulations with\nthe traces obtained on real supercomputing systems, we show that the\ncheckpointing intervals determined by our model can lead to high efficiency of\napplications in the presence of failures.\n",
+        "authors": [
+            "K. Raghavendra",
+            "Sathish S Vadhiyar"
+        ],
+        "published": "2017-11-01T10:19:22Z",
+        "url": "http://arxiv.org/abs/1711.00270v1"
+    },
+    {
+        "title": "An Empirical Study on Quality of Android Applications written in Kotlin\n  language",
+        "summary": "  Context: During the last years, developers of mobile applications have the\npossibility to use new paradigms and tools for developing mobile applications.\nFor instance, since 2017 Android developers have the official support to write\nAndroid applications using Kotlin language. Kotlin is programming language\nfully interoperable with Java that combines object-oriented and functional\nfeatures. Objective: The goal of this paper is twofold. First, it aims to study\nthe degree of adoption of Kotlin language on development of open-source Android\napplications and to measure the amount of Kotlin code inside Android\napplications. Secondly, it aims to measure the quality of Android applications\nthat are written using Kotlin and to compare it with the quality of Android\napplications written using Java. Method: We first defined a method to detect\nKotlin applications from a dataset of open-source Android applications. Then,\nwe analyzed those applications to detect instances of code smells and computed\nan estimation of quality of the applications. Finally, we studied how the\nintroduction of Kotlin code impacts on the quality of an Android application.\nResults: Our experiment found that 11.26% of applications from a dataset with\n2,167 open-source applications have been written (partially or fully) using\nKotlin language. We found that the introduction of Kotlin code increases the\nquality (in terms of presence of code smells) of the majority of the Android\napplications initially written in Java.\n",
+        "authors": [
+            "Bruno Gois Mateus",
+            "Matias Martinez"
+        ],
+        "published": "2018-07-31T18:50:16Z",
+        "url": "http://arxiv.org/abs/1808.00025v3"
+    },
+    {
+        "title": "A Novel Re-Targetable Application Development Platform for Healthcare\n  Mobile Applications",
+        "summary": "  The rapid enhancement of central power unit CPU performance enables the\ndevelopment of computationally-intensive healthcare mobile applications for\nsmartphones and wearable devices. However, computationally intensive mobile\napplications require significant application development time during the\napplication porting procedure when the number of considering target devices\noperating systems OSs is large. In this paper, we propose a novel retargetable\napplication development platform for healthcare mobile applications, which\nreduces application development time with maintaining the performance of the\nalgorithm. Although the number of applications target OSs increases, the amount\nof time required for the code conversion step in the application porting\nprocedure remains constant in the proposed retargetable platform. Experimental\nresults show that our proposed retargetable platform gives reduced application\ndevelopment time compared to the conventional platform with maintaining the\nperformance of the mobile application.\n",
+        "authors": [
+            "Chae Ho Cho",
+            "Fatemehsadat Tabei",
+            "Tra Nguyen Phan",
+            "Yeesock Kim",
+            "Jo Woon Chong"
+        ],
+        "published": "2019-03-14T01:16:30Z",
+        "url": "http://arxiv.org/abs/1903.05783v1"
+    },
+    {
+        "title": "Properties and applications of some special integer number sequences",
+        "summary": "  In this paper, we provide properties and applications of some special integer\nsequences. We generalize and give some properties of Pisano period. Moreover,\nwe provide a new application in Cryptography and applications of some\nquaternion elements.\n",
+        "authors": [
+            "Cristina Flaut",
+            "Diana Savin",
+            "Geanina Zaharia"
+        ],
+        "published": "2020-01-12T17:19:33Z",
+        "url": "http://arxiv.org/abs/2001.03963v1"
+    },
+    {
+        "title": "Connected Vehicle Application Development Platform (CVDeP) for\n  Edge-centric Cyber-Physical Systems",
+        "summary": "  Connected vehicle (CV) application developers need a development platform to\nbuild, test and debug CV applications, such as safety, mobility, and\nenvironmental applications, in an edge-centric Cyber-Physical Systems. Our\nstudy objective is to develop and evaluate a scalable and secure CV application\ndevelopment platform (CVDeP) that enables the CV application developers to\nbuild, test and debug CV applications in real-time. CVDeP ensures that the\nfunctional requirements of the CV applications meet the latency requirements\nimposed by corresponding CV applications. We conducted a case study to evaluate\nthe efficacy of CVDeP using two CV applications (one safety and one mobility\napplication) and validated them through a field evaluation at the Clemson\nUniversity Connected and Autonomous Vehicle Testbed (CU-CAVT). The analysis\noutcome proves the efficacy of CVDeP, which satisfies the functional\nrequirements (e.g., latency, throughput) of a CV application while maintaining\nscalability, and security of the platform and applications.\n",
+        "authors": [
+            "Mhafuzul Islam",
+            "Mizanur Rahman",
+            "Sakib Mahmud Khan",
+            "Mashrur Chowdhury",
+            "Lipika Deka"
+        ],
+        "published": "2018-12-02T19:55:13Z",
+        "url": "http://arxiv.org/abs/1812.11648v1"
+    }
+]

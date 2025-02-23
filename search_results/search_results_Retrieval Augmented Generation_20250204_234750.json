@@ -1,0 +1,477 @@
+[
+    {
+        "title": "Digitalomics: Towards Artificial Intelligence / Machine Learning-Based Precision Cardiovascular Medicine.",
+        "abstract": "Recent advances in traditional \"-omics\" technologies have provided deeper insights into cardiovascular diseases through comprehensive molecular profiling. Accordingly, digitalomics has emerged as a novel transdisciplinary concept that integrates multimodal information with digitized physiological data, medical imaging, environmental data, electronic health records, environmental records, and biometric data from wearables. This digitalomics-driven augmented multiomics approach can provide more precise personalized health risk assessments and optimization when combined with conventional multiomics approaches. Artificial intelligence and machine learning (AI/ML) technologies, alongside statistical methods, serve as key comprehensive analytical tools in realizing this comprehensive framework. This review focuses on two promising AI/ML applications in cardiovascular medicine: digital phonocardiography (PCG) and AI text generators. Digital PCG uses AI/ML models to objectively analyze heart sounds and predict clinical parameters, potentially surpassing traditional auscultation capabilities. In addition, large language models, such as generative pretrained transformer, have demonstrated remarkable performance in assessing medical knowledge, achieving accuracy rates exceeding 80% in medical licensing examinations, although there are issues regarding knowledge accuracy and safety. Current challenges to the implementation of these technologies include maintaining up-to-date medical knowledge and ensuring consistent accuracy of outputs, but ongoing developments in fine-tuning and retrieval-augmented generation show promise in addressing these challenges. Integration of AI/ML technologies in clinical practice, guided by appropriate validation and implementation strategies, may notably advance precision cardiovascular medicine through the digitalomics framework.",
+        "authors": [
+            "Akihiro Nomura",
+            "Yasuaki Takeji",
+            "Masaya Shimojima",
+            "Masayuki Takamura"
+        ],
+        "published": "2025",
+        "pmid": "39894532",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39894532/",
+        "content": "Title: Digitalomics: Towards Artificial Intelligence / Machine Learning-Based Precision Cardiovascular Medicine.\nAuthors: Akihiro Nomura, Yasuaki Takeji, Masaya Shimojima, Masayuki Takamura\nAbstract: Recent advances in traditional \"-omics\" technologies have provided deeper insights into cardiovascular diseases through comprehensive molecular profiling. Accordingly, digitalomics has emerged as a novel transdisciplinary concept that integrates multimodal information with digitized physiological data, medical imaging, environmental data, electronic health records, environmental records, and biometric data from wearables. This digitalomics-driven augmented multiomics approach can provide more precise personalized health risk assessments and optimization when combined with conventional multiomics approaches. Artificial intelligence and machine learning (AI/ML) technologies, alongside statistical methods, serve as key comprehensive analytical tools in realizing this comprehensive framework. This review focuses on two promising AI/ML applications in cardiovascular medicine: digital phonocardiography (PCG) and AI text generators. Digital PCG uses AI/ML models to objectively analyze heart sounds and predict clinical parameters, potentially surpassing traditional auscultation capabilities. In addition, large language models, such as generative pretrained transformer, have demonstrated remarkable performance in assessing medical knowledge, achieving accuracy rates exceeding 80% in medical licensing examinations, although there are issues regarding knowledge accuracy and safety. Current challenges to the implementation of these technologies include maintaining up-to-date medical knowledge and ensuring consistent accuracy of outputs, but ongoing developments in fine-tuning and retrieval-augmented generation show promise in addressing these challenges. Integration of AI/ML technologies in clinical practice, guided by appropriate validation and implementation strategies, may notably advance precision cardiovascular medicine through the digitalomics framework.\nURL: https://pubmed.ncbi.nlm.nih.gov/39894532/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Digitalomics: Towards Artificial Intelligence / Machine Learning-Based Precision Cardiovascular Medicine.",
+            "authors": "Akihiro Nomura, Yasuaki Takeji, Masaya Shimojima, Masayuki Takamura",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39894532/",
+            "pmid": "39894532",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Response to Wang, et al. ' Limitations and risks of custom GPTs in dermatology. Comment on \"ReconGPT: A novel artificial intelligence tool and its potential use in post-Mohs reconstructive decision-making\".",
+        "abstract": "No abstract available",
+        "authors": [
+            "Neil Jairath",
+            "Sophia Manduca",
+            "Syril Keena T Que"
+        ],
+        "published": "2025",
+        "pmid": "39894369",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39894369/",
+        "content": "Title: Response to Wang, et al. ' Limitations and risks of custom GPTs in dermatology. Comment on \"ReconGPT: A novel artificial intelligence tool and its potential use in post-Mohs reconstructive decision-making\".\nAuthors: Neil Jairath, Sophia Manduca, Syril Keena T Que\nAbstract: No abstract available\nURL: https://pubmed.ncbi.nlm.nih.gov/39894369/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Response to Wang, et al. ' Limitations and risks of custom GPTs in dermatology. Comment on \"ReconGPT: A novel artificial intelligence tool and its potential use in post-Mohs reconstructive decision-making\".",
+            "authors": "Neil Jairath, Sophia Manduca, Syril Keena T Que",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39894369/",
+            "pmid": "39894369",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Evaluating simulated teaching audio for teacher trainees using RAG and local LLMs.",
+        "abstract": "In the training of teacher students, simulated teaching is a key method for enhancing teaching skills. However, traditional evaluations of simulated teaching typically rely on direct teacher involvement and guidance, increasing teachers' workload and limiting the opportunities for teacher students to practice independently. This paper introduces a Retrieval-Augmented Generation (RAG) framework constructed using various open-source tools (such as FastChat for model inference and Whisper for speech-to-text) combined with a local large language model (LLM) for audio analysis of simulated teaching. We then selected three leading 7B-parameter open-source Chinese LLMs from the ModelScope community to analyze their generalizability and adaptability in simulated teaching voice evaluation tasks. The results show that the internlm2 model more effectively analyzes teacher students' teaching audio, providing key educational feedback. Finally, we conducted a system analysis of the simulated teaching of 10 participants in a teaching ability competition and invited three experts to score manually, verifying the system's application potential. This research demonstrates a potential approach to improving educational evaluation methods using advanced language technology.",
+        "authors": [
+            "Ke Fang",
+            "Ci Tang",
+            "Jing Wang"
+        ],
+        "published": "2025",
+        "pmid": "39881188",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39881188/",
+        "content": "Title: Evaluating simulated teaching audio for teacher trainees using RAG and local LLMs.\nAuthors: Ke Fang, Ci Tang, Jing Wang\nAbstract: In the training of teacher students, simulated teaching is a key method for enhancing teaching skills. However, traditional evaluations of simulated teaching typically rely on direct teacher involvement and guidance, increasing teachers' workload and limiting the opportunities for teacher students to practice independently. This paper introduces a Retrieval-Augmented Generation (RAG) framework constructed using various open-source tools (such as FastChat for model inference and Whisper for speech-to-text) combined with a local large language model (LLM) for audio analysis of simulated teaching. We then selected three leading 7B-parameter open-source Chinese LLMs from the ModelScope community to analyze their generalizability and adaptability in simulated teaching voice evaluation tasks. The results show that the internlm2 model more effectively analyzes teacher students' teaching audio, providing key educational feedback. Finally, we conducted a system analysis of the simulated teaching of 10 participants in a teaching ability competition and invited three experts to score manually, verifying the system's application potential. This research demonstrates a potential approach to improving educational evaluation methods using advanced language technology.\nURL: https://pubmed.ncbi.nlm.nih.gov/39881188/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Evaluating simulated teaching audio for teacher trainees using RAG and local LLMs.",
+            "authors": "Ke Fang, Ci Tang, Jing Wang",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39881188/",
+            "pmid": "39881188",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Improving clinical efficiency using retrieval-augmented generation in urologic oncology: A guideline-enhanced artificial intelligence approach.",
+        "abstract": "No abstract available",
+        "authors": [
+            "Harry Collin",
+            "Matthew J Roberts",
+            "Kandice Keogh",
+            "Amila Siriwardana",
+            "Marnique Basto"
+        ],
+        "published": "2025",
+        "pmid": "39877560",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39877560/",
+        "content": "Title: Improving clinical efficiency using retrieval-augmented generation in urologic oncology: A guideline-enhanced artificial intelligence approach.\nAuthors: Harry Collin, Matthew J Roberts, Kandice Keogh, Amila Siriwardana, Marnique Basto\nAbstract: No abstract available\nURL: https://pubmed.ncbi.nlm.nih.gov/39877560/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Improving clinical efficiency using retrieval-augmented generation in urologic oncology: A guideline-enhanced artificial intelligence approach.",
+            "authors": "Harry Collin, Matthew J Roberts, Kandice Keogh, Amila Siriwardana, Marnique Basto",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39877560/",
+            "pmid": "39877560",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Open-Source Large Language Models in Radiology: A Review and Tutorial for Practical Research and Clinical Deployment.",
+        "abstract": "Integrating large language models (LLMs) into health care holds substantial potential to enhance clinical workflows and care delivery. However, LLMs also pose serious risks if integration is not thoughtfully executed, with complex challenges spanning accuracy, accessibility, privacy, and regulation. Proprietary commercial LLMs (eg, GPT-4 [OpenAI], Claude 3 Sonnet and Claude 3 Opus [Anthropic], Gemini [Google]) have received much attention from researchers in the medical domain, including radiology. Interestingly, open-source LLMs (eg, Llama 3 and LLaVA-Med) have received comparatively little attention. Yet, open-source LLMs hold several key advantages over proprietary LLMs for medical institutions, hospitals, and individual researchers. The wider adoption of open-source LLMs has been slower, perhaps in part due to the lack of familiarity, accessible computational infrastructure, and community-built tools to streamline their local implementation and customize them for specific use cases. Thus, this article provides a tutorial for the implementation of open-source LLMs in radiology, including examples of commonly used tools for text generation and techniques for troubleshooting issues with prompt engineering, retrieval-augmented generation, and fine-tuning. Implementation-ready code for each tool is provided at ",
+        "authors": [
+            "Cody H Savage",
+            "Adway Kanhere",
+            "Vishwa Parekh",
+            "Curtis P Langlotz",
+            "Anupam Joshi",
+            "Heng Huang",
+            "Florence X Doo"
+        ],
+        "published": "2025",
+        "pmid": "39873598",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39873598/",
+        "content": "Title: Open-Source Large Language Models in Radiology: A Review and Tutorial for Practical Research and Clinical Deployment.\nAuthors: Cody H Savage, Adway Kanhere, Vishwa Parekh, Curtis P Langlotz, Anupam Joshi, Heng Huang, Florence X Doo\nAbstract: Integrating large language models (LLMs) into health care holds substantial potential to enhance clinical workflows and care delivery. However, LLMs also pose serious risks if integration is not thoughtfully executed, with complex challenges spanning accuracy, accessibility, privacy, and regulation. Proprietary commercial LLMs (eg, GPT-4 [OpenAI], Claude 3 Sonnet and Claude 3 Opus [Anthropic], Gemini [Google]) have received much attention from researchers in the medical domain, including radiology. Interestingly, open-source LLMs (eg, Llama 3 and LLaVA-Med) have received comparatively little attention. Yet, open-source LLMs hold several key advantages over proprietary LLMs for medical institutions, hospitals, and individual researchers. The wider adoption of open-source LLMs has been slower, perhaps in part due to the lack of familiarity, accessible computational infrastructure, and community-built tools to streamline their local implementation and customize them for specific use cases. Thus, this article provides a tutorial for the implementation of open-source LLMs in radiology, including examples of commonly used tools for text generation and techniques for troubleshooting issues with prompt engineering, retrieval-augmented generation, and fine-tuning. Implementation-ready code for each tool is provided at \nURL: https://pubmed.ncbi.nlm.nih.gov/39873598/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Open-Source Large Language Models in Radiology: A Review and Tutorial for Practical Research and Clinical Deployment.",
+            "authors": "Cody H Savage, Adway Kanhere, Vishwa Parekh, Curtis P Langlotz, Anupam Joshi, Heng Huang, Florence X Doo",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39873598/",
+            "pmid": "39873598",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Robotic surgery for paediatric neurogenic lower urinary tract dysfunction: a systematic review.",
+        "abstract": "OBJECTIVE: To evaluate in a systematic review the outcomes, benefits, and limitations of robot-assisted surgeries for paediatric neurogenic lower urinary tract dysfunction (LUTD), as robot-assisted techniques have emerged as a potential alternative, offering enhanced precision, dexterity, and visualisation. METHODS: This review was registered in the International Prospective Register of Systematic Reviews (PROSPERO identifier CRD42023464849) and adhered to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. We included studies of paediatric patients (aged <18 years) with neurogenic LUTD undergoing robot-assisted continence surgery, assessing safety and efficacy. Literature searches in the Medical Literature Analysis and Retrieval System Online (MEDLINE), Excerpta Medica dataBASE (EMBASE), and Scopus were conducted until 12 July 2024. Data extraction included surgical procedures, complications, operative times, lengths of stay, and bladder function outcomes. RESULTS: A total of 42 studies (20 case reports, 10 case series, six cohort studies, six comparative cohort studies) were included. Robotic procedures for continent catherisable channel construction, augmentation cystoplasty, and bladder neck reconstruction showed comparable peri- and postoperative outcomes. Meta-analysis of five studies comparing robotic vs open appendicovesicostomy indicated a significant reduction in length of stay for robotic groups, while operative time, complications, and re-intervention rates were not significantly different. Conversions to open surgery were rare, indicated by adhesions or small appendices during channel constructions. CONCLUSIONS: Robot-assisted surgeries for paediatric neurogenic LUTD demonstrate potential benefits, including reduced hospital stays and comparable complication rates to open surgery in certain contexts. However, the available evidence is limited by heterogeneity in study designs, small sample sizes, and single-centre experiences, which constrain generalisability. Standardised reporting of complications and outcomes, alongside multicentre studies, is essential to clarify the long-term efficacy and broader applicability of these techniques.",
+        "authors": [
+            "Ihtisham Ahmad",
+            "Dheidan Alshammari",
+            "Priyank Yadav",
+            "Michael Chua",
+            "Margarita Chancy",
+            "Mohd S Ansari",
+            "Mohan S Gundeti"
+        ],
+        "published": "2025",
+        "pmid": "39871668",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39871668/",
+        "content": "Title: Robotic surgery for paediatric neurogenic lower urinary tract dysfunction: a systematic review.\nAuthors: Ihtisham Ahmad, Dheidan Alshammari, Priyank Yadav, Michael Chua, Margarita Chancy, Mohd S Ansari, Mohan S Gundeti\nAbstract: OBJECTIVE: To evaluate in a systematic review the outcomes, benefits, and limitations of robot-assisted surgeries for paediatric neurogenic lower urinary tract dysfunction (LUTD), as robot-assisted techniques have emerged as a potential alternative, offering enhanced precision, dexterity, and visualisation. METHODS: This review was registered in the International Prospective Register of Systematic Reviews (PROSPERO identifier CRD42023464849) and adhered to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. We included studies of paediatric patients (aged <18 years) with neurogenic LUTD undergoing robot-assisted continence surgery, assessing safety and efficacy. Literature searches in the Medical Literature Analysis and Retrieval System Online (MEDLINE), Excerpta Medica dataBASE (EMBASE), and Scopus were conducted until 12 July 2024. Data extraction included surgical procedures, complications, operative times, lengths of stay, and bladder function outcomes. RESULTS: A total of 42 studies (20 case reports, 10 case series, six cohort studies, six comparative cohort studies) were included. Robotic procedures for continent catherisable channel construction, augmentation cystoplasty, and bladder neck reconstruction showed comparable peri- and postoperative outcomes. Meta-analysis of five studies comparing robotic vs open appendicovesicostomy indicated a significant reduction in length of stay for robotic groups, while operative time, complications, and re-intervention rates were not significantly different. Conversions to open surgery were rare, indicated by adhesions or small appendices during channel constructions. CONCLUSIONS: Robot-assisted surgeries for paediatric neurogenic LUTD demonstrate potential benefits, including reduced hospital stays and comparable complication rates to open surgery in certain contexts. However, the available evidence is limited by heterogeneity in study designs, small sample sizes, and single-centre experiences, which constrain generalisability. Standardised reporting of complications and outcomes, alongside multicentre studies, is essential to clarify the long-term efficacy and broader applicability of these techniques.\nURL: https://pubmed.ncbi.nlm.nih.gov/39871668/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Robotic surgery for paediatric neurogenic lower urinary tract dysfunction: a systematic review.",
+            "authors": "Ihtisham Ahmad, Dheidan Alshammari, Priyank Yadav, Michael Chua, Margarita Chancy, Mohd S Ansari, Mohan S Gundeti",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39871668/",
+            "pmid": "39871668",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Accuracy of Current Large Language Models and The Retrieval Augmented Generation Model in Determining Dietary Principles in Chronic Kidney Disease.",
+        "abstract": "OBJECTIVE: Large Language Models (LLMs) have emerged as powerful tools with significant potential for quickly accessing information in the nutrition and health, as in many fields. Retrieval augmented generation (RAG) has been included among artificial intelligence (AI) powered chatbot structures as a framework developed to increase the accuracy and ability of LLMs. This study aimed to evaluate the accuracy of LLMs (GPT4, Gemini, and Llama) and RAG in determining dietary principles in chronic kidney disease. DESIGN AND METHODS: The nutrition guideline published by the National Kidney Foundation in 2020 was used as an external information source in developed RAG model. Answers were obtained using 12 medical nutritional therapy prompts for CKD by four chatbots. The accuracy of the 48 answers generated by the chatbots was evaluated with a 5-point Likert scale. RESULTS: The results showed that Gemini and RAG had the highest accuracy scores (median:4.0), followed by GPT4 (median: 2.5) and Llama (median: 1.5), respectively. When the accuracy scores were examined between the two chatbots, a significant difference was detected between all groups except Gemini and RAG. CONCLUSION: These chatbots produced both completely correct answers and false information with potentially harmful clinical outcomes. Customization of LLMs in specific areas such as nutrition or the development of a nutrition-specific RAG framework by improving LLM structures with current guidelines and articles may be an important strategy to increase the accuracy of AI powered chatbots.",
+        "authors": [
+            "Feray Gençer Bingöl",
+            "Duygu Ağagündüz",
+            "Mustafa Can Bingöl"
+        ],
+        "published": "2025",
+        "pmid": "39864474",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39864474/",
+        "content": "Title: Accuracy of Current Large Language Models and The Retrieval Augmented Generation Model in Determining Dietary Principles in Chronic Kidney Disease.\nAuthors: Feray Gençer Bingöl, Duygu Ağagündüz, Mustafa Can Bingöl\nAbstract: OBJECTIVE: Large Language Models (LLMs) have emerged as powerful tools with significant potential for quickly accessing information in the nutrition and health, as in many fields. Retrieval augmented generation (RAG) has been included among artificial intelligence (AI) powered chatbot structures as a framework developed to increase the accuracy and ability of LLMs. This study aimed to evaluate the accuracy of LLMs (GPT4, Gemini, and Llama) and RAG in determining dietary principles in chronic kidney disease. DESIGN AND METHODS: The nutrition guideline published by the National Kidney Foundation in 2020 was used as an external information source in developed RAG model. Answers were obtained using 12 medical nutritional therapy prompts for CKD by four chatbots. The accuracy of the 48 answers generated by the chatbots was evaluated with a 5-point Likert scale. RESULTS: The results showed that Gemini and RAG had the highest accuracy scores (median:4.0), followed by GPT4 (median: 2.5) and Llama (median: 1.5), respectively. When the accuracy scores were examined between the two chatbots, a significant difference was detected between all groups except Gemini and RAG. CONCLUSION: These chatbots produced both completely correct answers and false information with potentially harmful clinical outcomes. Customization of LLMs in specific areas such as nutrition or the development of a nutrition-specific RAG framework by improving LLM structures with current guidelines and articles may be an important strategy to increase the accuracy of AI powered chatbots.\nURL: https://pubmed.ncbi.nlm.nih.gov/39864474/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Accuracy of Current Large Language Models and The Retrieval Augmented Generation Model in Determining Dietary Principles in Chronic Kidney Disease.",
+            "authors": "Feray Gençer Bingöl, Duygu Ağagündüz, Mustafa Can Bingöl",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39864474/",
+            "pmid": "39864474",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Pic2Plate: A Vision-Language and Retrieval-Augmented Framework for Personalized Recipe Recommendations.",
+        "abstract": "Choosing nutritious foods is essential for daily health, but finding recipes that match available ingredients and dietary preferences can be challenging. Traditional recommendation methods often lack personalization and accurate ingredient recognition. Personalized systems address this by integrating user preferences, dietary needs, and ingredient availability. This study presents Pic2Plate, a framework combining Vision-Language Models (VLMs) and Retrieval-Augmented Generation (RAG) to overcome these challenges. Pic2Plate uses advanced image recognition to extract ingredient lists from user images and RAG to retrieve and personalize recipe recommendations. Leveraging smartphone camera sensors ensures accessibility and portability. Pic2Plate's performance was evaluated in two areas: ingredient detection accuracy and recipe relevance. The ingredient detection module, powered by GPT-4o, achieved strong results with precision (0.83), recall (0.91), accuracy (0.77), and F1-score (0.86), demonstrating effectiveness in recognizing diverse food items. A survey of 120 participants assessed recipe relevance, with model rankings calculated using the Bradley-Terry method. Pic2Plate's VLM and RAG integration consistently outperformed other models. These results highlight Pic2Plate's ability to deliver context-aware, reliable, and diverse recipe suggestions. The study underscores its potential to transform recipe recommendation systems with a scalable, user-centric approach to personalized cooking.",
+        "authors": [
+            "Yosua Setyawan Soekamto",
+            "Andreas Lim",
+            "Leonard Christopher Limanjaya",
+            "Yoshua Kaleb Purwanto",
+            "Suk-Ho Lee",
+            "Dae-Ki Kang"
+        ],
+        "published": "2025",
+        "pmid": "39860820",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39860820/",
+        "content": "Title: Pic2Plate: A Vision-Language and Retrieval-Augmented Framework for Personalized Recipe Recommendations.\nAuthors: Yosua Setyawan Soekamto, Andreas Lim, Leonard Christopher Limanjaya, Yoshua Kaleb Purwanto, Suk-Ho Lee, Dae-Ki Kang\nAbstract: Choosing nutritious foods is essential for daily health, but finding recipes that match available ingredients and dietary preferences can be challenging. Traditional recommendation methods often lack personalization and accurate ingredient recognition. Personalized systems address this by integrating user preferences, dietary needs, and ingredient availability. This study presents Pic2Plate, a framework combining Vision-Language Models (VLMs) and Retrieval-Augmented Generation (RAG) to overcome these challenges. Pic2Plate uses advanced image recognition to extract ingredient lists from user images and RAG to retrieve and personalize recipe recommendations. Leveraging smartphone camera sensors ensures accessibility and portability. Pic2Plate's performance was evaluated in two areas: ingredient detection accuracy and recipe relevance. The ingredient detection module, powered by GPT-4o, achieved strong results with precision (0.83), recall (0.91), accuracy (0.77), and F1-score (0.86), demonstrating effectiveness in recognizing diverse food items. A survey of 120 participants assessed recipe relevance, with model rankings calculated using the Bradley-Terry method. Pic2Plate's VLM and RAG integration consistently outperformed other models. These results highlight Pic2Plate's ability to deliver context-aware, reliable, and diverse recipe suggestions. The study underscores its potential to transform recipe recommendation systems with a scalable, user-centric approach to personalized cooking.\nURL: https://pubmed.ncbi.nlm.nih.gov/39860820/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Pic2Plate: A Vision-Language and Retrieval-Augmented Framework for Personalized Recipe Recommendations.",
+            "authors": "Yosua Setyawan Soekamto, Andreas Lim, Leonard Christopher Limanjaya, Yoshua Kaleb Purwanto, Suk-Ho Lee, Dae-Ki Kang",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39860820/",
+            "pmid": "39860820",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Application of Generative Artificial Intelligence Models for Accurate Prescription Label Identification and Information Retrieval for the Elderly in Northern East of Thailand.",
+        "abstract": "This study introduces a novel AI-driven approach to support elderly patients in Thailand with medication management, focusing on accurate drug label interpretation. Two model architectures were explored: a Two-Stage Optical Character Recognition (OCR) and Large Language Model (LLM) pipeline combining EasyOCR with Qwen2-72b-instruct and a Uni-Stage Visual Question Answering (VQA) model using Qwen2-72b-VL. Both models operated in a zero-shot capacity, utilizing Retrieval-Augmented Generation (RAG) with DrugBank references to ensure contextual relevance and accuracy. Performance was evaluated on a dataset of 100 diverse prescription labels from Thai healthcare facilities, using RAG Assessment (RAGAs) metrics to assess Context Recall, Factual Correctness, Faithfulness, and Semantic Similarity. The Two-Stage model achieved high accuracy (94%) and strong RAGAs scores, particularly in Context Recall (0.88) and Semantic Similarity (0.91), making it well-suited for complex medication instructions. In contrast, the Uni-Stage model delivered faster response times, making it practical for high-volume environments such as pharmacies. This study demonstrates the potential of zero-shot AI models in addressing medication management challenges for the elderly by providing clear, accurate, and contextually relevant label interpretations. The findings underscore the adaptability of AI in healthcare, balancing accuracy and efficiency to meet various real-world needs.",
+        "authors": [
+            "Parinya Thetbanthad",
+            "Benjaporn Sathanarugsawait",
+            "Prasong Praneetpolgrang"
+        ],
+        "published": "2025",
+        "pmid": "39852324",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39852324/",
+        "content": "Title: Application of Generative Artificial Intelligence Models for Accurate Prescription Label Identification and Information Retrieval for the Elderly in Northern East of Thailand.\nAuthors: Parinya Thetbanthad, Benjaporn Sathanarugsawait, Prasong Praneetpolgrang\nAbstract: This study introduces a novel AI-driven approach to support elderly patients in Thailand with medication management, focusing on accurate drug label interpretation. Two model architectures were explored: a Two-Stage Optical Character Recognition (OCR) and Large Language Model (LLM) pipeline combining EasyOCR with Qwen2-72b-instruct and a Uni-Stage Visual Question Answering (VQA) model using Qwen2-72b-VL. Both models operated in a zero-shot capacity, utilizing Retrieval-Augmented Generation (RAG) with DrugBank references to ensure contextual relevance and accuracy. Performance was evaluated on a dataset of 100 diverse prescription labels from Thai healthcare facilities, using RAG Assessment (RAGAs) metrics to assess Context Recall, Factual Correctness, Faithfulness, and Semantic Similarity. The Two-Stage model achieved high accuracy (94%) and strong RAGAs scores, particularly in Context Recall (0.88) and Semantic Similarity (0.91), making it well-suited for complex medication instructions. In contrast, the Uni-Stage model delivered faster response times, making it practical for high-volume environments such as pharmacies. This study demonstrates the potential of zero-shot AI models in addressing medication management challenges for the elderly by providing clear, accurate, and contextually relevant label interpretations. The findings underscore the adaptability of AI in healthcare, balancing accuracy and efficiency to meet various real-world needs.\nURL: https://pubmed.ncbi.nlm.nih.gov/39852324/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Application of Generative Artificial Intelligence Models for Accurate Prescription Label Identification and Information Retrieval for the Elderly in Northern East of Thailand.",
+            "authors": "Parinya Thetbanthad, Benjaporn Sathanarugsawait, Prasong Praneetpolgrang",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39852324/",
+            "pmid": "39852324",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "The Potential Clinical Utility of the Customized Large Language Model in Gastroenterology: A Pilot Study.",
+        "abstract": "",
+        "authors": [
+            "Eun Jeong Gong",
+            "Chang Seok Bang",
+            "Jae Jun Lee",
+            "Jonghyung Park",
+            "Eunsil Kim",
+            "Subeen Kim",
+            "Minjae Kimm",
+            "Seoung-Ho Choi"
+        ],
+        "published": "2024",
+        "pmid": "39851275",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39851275/",
+        "content": "Title: The Potential Clinical Utility of the Customized Large Language Model in Gastroenterology: A Pilot Study.\nAuthors: Eun Jeong Gong, Chang Seok Bang, Jae Jun Lee, Jonghyung Park, Eunsil Kim, Subeen Kim, Minjae Kimm, Seoung-Ho Choi\nAbstract: \nURL: https://pubmed.ncbi.nlm.nih.gov/39851275/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "The Potential Clinical Utility of the Customized Large Language Model in Gastroenterology: A Pilot Study.",
+            "authors": "Eun Jeong Gong, Chang Seok Bang, Jae Jun Lee, Jonghyung Park, Eunsil Kim, Subeen Kim, Minjae Kimm, Seoung-Ho Choi",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39851275/",
+            "pmid": "39851275",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Empowering PET imaging reporting with retrieval-augmented large language models and reading reports database: a pilot single center study.",
+        "abstract": "PURPOSE: The potential of Large Language Models (LLMs) in enhancing a variety of natural language tasks in clinical fields includes medical imaging reporting. This pilot study examines the efficacy of a retrieval-augmented generation (RAG) LLM system considering zero-shot learning capability of LLMs, integrated with a comprehensive database of PET reading reports, in improving reference to prior reports and decision making. METHODS: We developed a custom LLM framework with retrieval capabilities, leveraging a database of over 10 years of PET imaging reports from a single center. The system uses vector space embedding to facilitate similarity-based retrieval. Queries prompt the system to generate context-based answers and identify similar cases or differential diagnoses. From routine clinical PET readings, experienced nuclear medicine physicians evaluated the performance of system in terms of the relevance of queried similar cases and the appropriateness score of suggested potential diagnoses. RESULTS: The system efficiently organized embedded vectors from PET reports, showing that imaging reports were accurately clustered within the embedded vector space according to the diagnosis or PET study type. Based on this system, a proof-of-concept chatbot was developed and showed the framework's potential in referencing reports of previous similar cases and identifying exemplary cases for various purposes. From routine clinical PET readings, 84.1% of the cases retrieved relevant similar cases, as agreed upon by all three readers. Using the RAG system, the appropriateness score of the suggested potential diagnoses was significantly better than that of the LLM without RAG. Additionally, it demonstrated the capability to offer differential diagnoses, leveraging the vast database to enhance the completeness and precision of generated reports. CONCLUSION: The integration of RAG LLM with a large database of PET imaging reports suggests the potential to support clinical practice of nuclear medicine imaging reading by various tasks of AI including finding similar cases and deriving potential diagnoses from them. This study underscores the potential of advanced AI tools in transforming medical imaging reporting practices.",
+        "authors": [
+            "Hongyoon Choi",
+            "Dongjoo Lee",
+            "Yeon-Koo Kang",
+            "Minseok Suh"
+        ],
+        "published": "2025",
+        "pmid": "39843863",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39843863/",
+        "content": "Title: Empowering PET imaging reporting with retrieval-augmented large language models and reading reports database: a pilot single center study.\nAuthors: Hongyoon Choi, Dongjoo Lee, Yeon-Koo Kang, Minseok Suh\nAbstract: PURPOSE: The potential of Large Language Models (LLMs) in enhancing a variety of natural language tasks in clinical fields includes medical imaging reporting. This pilot study examines the efficacy of a retrieval-augmented generation (RAG) LLM system considering zero-shot learning capability of LLMs, integrated with a comprehensive database of PET reading reports, in improving reference to prior reports and decision making. METHODS: We developed a custom LLM framework with retrieval capabilities, leveraging a database of over 10 years of PET imaging reports from a single center. The system uses vector space embedding to facilitate similarity-based retrieval. Queries prompt the system to generate context-based answers and identify similar cases or differential diagnoses. From routine clinical PET readings, experienced nuclear medicine physicians evaluated the performance of system in terms of the relevance of queried similar cases and the appropriateness score of suggested potential diagnoses. RESULTS: The system efficiently organized embedded vectors from PET reports, showing that imaging reports were accurately clustered within the embedded vector space according to the diagnosis or PET study type. Based on this system, a proof-of-concept chatbot was developed and showed the framework's potential in referencing reports of previous similar cases and identifying exemplary cases for various purposes. From routine clinical PET readings, 84.1% of the cases retrieved relevant similar cases, as agreed upon by all three readers. Using the RAG system, the appropriateness score of the suggested potential diagnoses was significantly better than that of the LLM without RAG. Additionally, it demonstrated the capability to offer differential diagnoses, leveraging the vast database to enhance the completeness and precision of generated reports. CONCLUSION: The integration of RAG LLM with a large database of PET imaging reports suggests the potential to support clinical practice of nuclear medicine imaging reading by various tasks of AI including finding similar cases and deriving potential diagnoses from them. This study underscores the potential of advanced AI tools in transforming medical imaging reporting practices.\nURL: https://pubmed.ncbi.nlm.nih.gov/39843863/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Empowering PET imaging reporting with retrieval-augmented large language models and reading reports database: a pilot single center study.",
+            "authors": "Hongyoon Choi, Dongjoo Lee, Yeon-Koo Kang, Minseok Suh",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39843863/",
+            "pmid": "39843863",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "ESCARGOT: An AI Agent Leveraging Large Language Models, Dynamic Graph of Thoughts, and Biomedical Knowledge Graphs for Enhanced Reasoning.",
+        "abstract": "MOTIVATION: LLMs like GPT-4, despite their advancements, often produce hallucinations and struggle with integrating external knowledge effectively. While Retrieval-Augmented Generation (RAG) attempts to address this by incorporating external information, it faces significant challenges such as context length limitations and imprecise vector similarity search. ESCARGOT aims to overcome these issues by combining LLMs with a dynamic Graph of Thoughts and biomedical knowledge graphs, improving output reliability and reducing hallucinations. RESULT: ESCARGOT significantly outperforms industry-standard RAG methods, particularly in open-ended questions that demand high precision. ESCARGOT also offers greater transparency in its reasoning process, allowing for the vetting of both code and knowledge requests, in contrast to the black-box nature of LLM-only or RAG-based approaches. AVAILABILITY AND IMPLEMENTATION: ESCARGOT is available as a pip package and on GitHub at: https://github.com/EpistasisLab/ESCARGOT.",
+        "authors": [
+            "Nicholas Matsumoto",
+            "Hyunjun Choi",
+            "Jay Moran",
+            "Miguel E Hernandez",
+            "Mythreye Venkatesan",
+            "Xi Li",
+            "Jui-Hsuan Chang",
+            "Paul Wang",
+            "Jason H Moore"
+        ],
+        "published": "2025",
+        "pmid": "39842860",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39842860/",
+        "content": "Title: ESCARGOT: An AI Agent Leveraging Large Language Models, Dynamic Graph of Thoughts, and Biomedical Knowledge Graphs for Enhanced Reasoning.\nAuthors: Nicholas Matsumoto, Hyunjun Choi, Jay Moran, Miguel E Hernandez, Mythreye Venkatesan, Xi Li, Jui-Hsuan Chang, Paul Wang, Jason H Moore\nAbstract: MOTIVATION: LLMs like GPT-4, despite their advancements, often produce hallucinations and struggle with integrating external knowledge effectively. While Retrieval-Augmented Generation (RAG) attempts to address this by incorporating external information, it faces significant challenges such as context length limitations and imprecise vector similarity search. ESCARGOT aims to overcome these issues by combining LLMs with a dynamic Graph of Thoughts and biomedical knowledge graphs, improving output reliability and reducing hallucinations. RESULT: ESCARGOT significantly outperforms industry-standard RAG methods, particularly in open-ended questions that demand high precision. ESCARGOT also offers greater transparency in its reasoning process, allowing for the vetting of both code and knowledge requests, in contrast to the black-box nature of LLM-only or RAG-based approaches. AVAILABILITY AND IMPLEMENTATION: ESCARGOT is available as a pip package and on GitHub at: https://github.com/EpistasisLab/ESCARGOT.\nURL: https://pubmed.ncbi.nlm.nih.gov/39842860/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "ESCARGOT: An AI Agent Leveraging Large Language Models, Dynamic Graph of Thoughts, and Biomedical Knowledge Graphs for Enhanced Reasoning.",
+            "authors": "Nicholas Matsumoto, Hyunjun Choi, Jay Moran, Miguel E Hernandez, Mythreye Venkatesan, Xi Li, Jui-Hsuan Chang, Paul Wang, Jason H Moore",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39842860/",
+            "pmid": "39842860",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Is ChatGPT ready for public use in organ-specific drug toxicity research?",
+        "abstract": "The growing impact of large language models (LLMs), such as ChatGPT, prompts questions about the reliability of their application in public health. We compared drug toxicity assessments by GPT-4 for liver, heart, and kidney against expert assessments using US Food and Drug Administration (FDA) drug-labeling documents. Two approaches were assessed: a 'General prompt', mimicking the conversational style used by the general public, and an 'Expert prompt' engineered to represent an approach of an expert. The Expert prompt achieved higher accuracy (64-75%) compared with the General prompt (48-72%), but the overall performance was moderate, indicating that caution is needed when using GPT-4 for public health. To improve reliability, an advanced framework,such as Retrieval Augmented Generation (RAG), might be required to leverage knowledge embedded in GPT-4.",
+        "authors": [
+            "Skylar Connor",
+            "Leihong Wu",
+            "Ruth A Roberts",
+            "Weida Tong"
+        ],
+        "published": "2025",
+        "pmid": "39842505",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39842505/",
+        "content": "Title: Is ChatGPT ready for public use in organ-specific drug toxicity research?\nAuthors: Skylar Connor, Leihong Wu, Ruth A Roberts, Weida Tong\nAbstract: The growing impact of large language models (LLMs), such as ChatGPT, prompts questions about the reliability of their application in public health. We compared drug toxicity assessments by GPT-4 for liver, heart, and kidney against expert assessments using US Food and Drug Administration (FDA) drug-labeling documents. Two approaches were assessed: a 'General prompt', mimicking the conversational style used by the general public, and an 'Expert prompt' engineered to represent an approach of an expert. The Expert prompt achieved higher accuracy (64-75%) compared with the General prompt (48-72%), but the overall performance was moderate, indicating that caution is needed when using GPT-4 for public health. To improve reliability, an advanced framework,such as Retrieval Augmented Generation (RAG), might be required to leverage knowledge embedded in GPT-4.\nURL: https://pubmed.ncbi.nlm.nih.gov/39842505/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Is ChatGPT ready for public use in organ-specific drug toxicity research?",
+            "authors": "Skylar Connor, Leihong Wu, Ruth A Roberts, Weida Tong",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39842505/",
+            "pmid": "39842505",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Authors' reply: Re: Koga et al. Retrieval-augmented generation versus document-grounded generation: a key distinction in large language models.",
+        "abstract": "No abstract available",
+        "authors": [
+            "Katherine J Hewitt",
+            "Isabella C Wiest",
+            "Jakob N Kather"
+        ],
+        "published": "2025",
+        "pmid": "39835649",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39835649/",
+        "content": "Title: Authors' reply: Re: Koga et al. Retrieval-augmented generation versus document-grounded generation: a key distinction in large language models.\nAuthors: Katherine J Hewitt, Isabella C Wiest, Jakob N Kather\nAbstract: No abstract available\nURL: https://pubmed.ncbi.nlm.nih.gov/39835649/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Authors' reply: Re: Koga et al. Retrieval-augmented generation versus document-grounded generation: a key distinction in large language models.",
+            "authors": "Katherine J Hewitt, Isabella C Wiest, Jakob N Kather",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39835649/",
+            "pmid": "39835649",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Clinical entity augmented retrieval for clinical information extraction.",
+        "abstract": "Large language models (LLMs) with retrieval-augmented generation (RAG) have improved information extraction over previous methods, yet their reliance on embeddings often leads to inefficient retrieval. We introduce CLinical Entity Augmented Retrieval (CLEAR), a RAG pipeline that retrieves information using entities. We compared CLEAR to embedding RAG and full-note approaches for extracting 18 variables using six LLMs across 20,000 clinical notes. Average F1 scores were 0.90, 0.86, and 0.79; inference times were 4.95, 17.41, and 20.08 s per note; average model queries were 1.68, 4.94, and 4.18 per note; and average input tokens were 1.1k, 3.8k, and 6.1k per note for CLEAR, embedding RAG, and full-note approaches, respectively. In conclusion, CLEAR utilizes clinical entities for information retrieval and achieves >70% reduction in token usage and inference time with improved performance compared to modern methods.",
+        "authors": [
+            "Ivan Lopez",
+            "Akshay Swaminathan",
+            "Karthik Vedula",
+            "Sanjana Narayanan",
+            "Fateme Nateghi Haredasht",
+            "Stephen P Ma",
+            "April S Liang",
+            "Steven Tate",
+            "Manoj Maddali",
+            "Robert Joseph Gallo",
+            "Nigam H Shah",
+            "Jonathan H Chen"
+        ],
+        "published": "2025",
+        "pmid": "39828800",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39828800/",
+        "content": "Title: Clinical entity augmented retrieval for clinical information extraction.\nAuthors: Ivan Lopez, Akshay Swaminathan, Karthik Vedula, Sanjana Narayanan, Fateme Nateghi Haredasht, Stephen P Ma, April S Liang, Steven Tate, Manoj Maddali, Robert Joseph Gallo, Nigam H Shah, Jonathan H Chen\nAbstract: Large language models (LLMs) with retrieval-augmented generation (RAG) have improved information extraction over previous methods, yet their reliance on embeddings often leads to inefficient retrieval. We introduce CLinical Entity Augmented Retrieval (CLEAR), a RAG pipeline that retrieves information using entities. We compared CLEAR to embedding RAG and full-note approaches for extracting 18 variables using six LLMs across 20,000 clinical notes. Average F1 scores were 0.90, 0.86, and 0.79; inference times were 4.95, 17.41, and 20.08 s per note; average model queries were 1.68, 4.94, and 4.18 per note; and average input tokens were 1.1k, 3.8k, and 6.1k per note for CLEAR, embedding RAG, and full-note approaches, respectively. In conclusion, CLEAR utilizes clinical entities for information retrieval and achieves >70% reduction in token usage and inference time with improved performance compared to modern methods.\nURL: https://pubmed.ncbi.nlm.nih.gov/39828800/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Clinical entity augmented retrieval for clinical information extraction.",
+            "authors": "Ivan Lopez, Akshay Swaminathan, Karthik Vedula, Sanjana Narayanan, Fateme Nateghi Haredasht, Stephen P Ma, April S Liang, Steven Tate, Manoj Maddali, Robert Joseph Gallo, Nigam H Shah, Jonathan H Chen",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39828800/",
+            "pmid": "39828800",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Evaluating and Enhancing Japanese Large Language Models for Genetic Counseling Support: Comparative Study of Domain Adaptation and the Development of an Expert-Evaluated Dataset.",
+        "abstract": "BACKGROUND: Advances in genetics have underscored a strong association between genetic factors and health outcomes, leading to an increased demand for genetic counseling services. However, a shortage of qualified genetic counselors poses a significant challenge. Large language models (LLMs) have emerged as a potential solution for augmenting support in genetic counseling tasks. Despite the potential, Japanese genetic counseling LLMs (JGCLLMs) are underexplored. To advance a JGCLLM-based dialogue system for genetic counseling, effective domain adaptation methods require investigation. OBJECTIVE: This study aims to evaluate the current capabilities and identify challenges in developing a JGCLLM-based dialogue system for genetic counseling. The primary focus is to assess the effectiveness of prompt engineering, retrieval-augmented generation (RAG), and instruction tuning within the context of genetic counseling. Furthermore, we will establish an experts-evaluated dataset of responses generated by LLMs adapted to Japanese genetic counseling for the future development of JGCLLMs. METHODS: Two primary datasets were used in this study: (1) a question-answer (QA) dataset for LLM adaptation and (2) a genetic counseling question dataset for evaluation. The QA dataset included 899 QA pairs covering medical and genetic counseling topics, while the evaluation dataset contained 120 curated questions across 6 genetic counseling categories. Three enhancement techniques of LLMs-instruction tuning, RAG, and prompt engineering-were applied to a lightweight Japanese LLM to enhance its ability for genetic counseling. The performance of the adapted LLM was evaluated on the 120-question dataset by 2 certified genetic counselors and 1 ophthalmologist (SK, YU, and AY). Evaluation focused on four metrics: (1) inappropriateness of information, (2) sufficiency of information, (3) severity of harm, and (4) alignment with medical consensus. RESULTS: The evaluation by certified genetic counselors and an ophthalmologist revealed varied outcomes across different methods. RAG showed potential, particularly in enhancing critical aspects of genetic counseling. In contrast, instruction tuning and prompt engineering produced less favorable outcomes. This evaluation process facilitated the creation an expert-evaluated dataset of responses generated by LLMs adapted with different combinations of these methods. Error analysis identified key ethical concerns, including inappropriate promotion of prenatal testing, criticism of relatives, and inaccurate probability statements. CONCLUSIONS: RAG demonstrated notable improvements across all evaluation metrics, suggesting potential for further enhancement through the expansion of RAG data. The expert-evaluated dataset developed in this study provides valuable insights for future optimization efforts. However, the ethical issues observed in JGCLLM responses underscore the critical need for ongoing refinement and thorough ethical evaluation before these systems can be implemented in health care settings.",
+        "authors": [
+            "Takuya Fukushima",
+            "Masae Manabe",
+            "Shuntaro Yada",
+            "Shoko Wakamiya",
+            "Akiko Yoshida",
+            "Yusaku Urakawa",
+            "Akiko Maeda",
+            "Shigeyuki Kan",
+            "Masayo Takahashi",
+            "Eiji Aramaki"
+        ],
+        "published": "2025",
+        "pmid": "39819819",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39819819/",
+        "content": "Title: Evaluating and Enhancing Japanese Large Language Models for Genetic Counseling Support: Comparative Study of Domain Adaptation and the Development of an Expert-Evaluated Dataset.\nAuthors: Takuya Fukushima, Masae Manabe, Shuntaro Yada, Shoko Wakamiya, Akiko Yoshida, Yusaku Urakawa, Akiko Maeda, Shigeyuki Kan, Masayo Takahashi, Eiji Aramaki\nAbstract: BACKGROUND: Advances in genetics have underscored a strong association between genetic factors and health outcomes, leading to an increased demand for genetic counseling services. However, a shortage of qualified genetic counselors poses a significant challenge. Large language models (LLMs) have emerged as a potential solution for augmenting support in genetic counseling tasks. Despite the potential, Japanese genetic counseling LLMs (JGCLLMs) are underexplored. To advance a JGCLLM-based dialogue system for genetic counseling, effective domain adaptation methods require investigation. OBJECTIVE: This study aims to evaluate the current capabilities and identify challenges in developing a JGCLLM-based dialogue system for genetic counseling. The primary focus is to assess the effectiveness of prompt engineering, retrieval-augmented generation (RAG), and instruction tuning within the context of genetic counseling. Furthermore, we will establish an experts-evaluated dataset of responses generated by LLMs adapted to Japanese genetic counseling for the future development of JGCLLMs. METHODS: Two primary datasets were used in this study: (1) a question-answer (QA) dataset for LLM adaptation and (2) a genetic counseling question dataset for evaluation. The QA dataset included 899 QA pairs covering medical and genetic counseling topics, while the evaluation dataset contained 120 curated questions across 6 genetic counseling categories. Three enhancement techniques of LLMs-instruction tuning, RAG, and prompt engineering-were applied to a lightweight Japanese LLM to enhance its ability for genetic counseling. The performance of the adapted LLM was evaluated on the 120-question dataset by 2 certified genetic counselors and 1 ophthalmologist (SK, YU, and AY). Evaluation focused on four metrics: (1) inappropriateness of information, (2) sufficiency of information, (3) severity of harm, and (4) alignment with medical consensus. RESULTS: The evaluation by certified genetic counselors and an ophthalmologist revealed varied outcomes across different methods. RAG showed potential, particularly in enhancing critical aspects of genetic counseling. In contrast, instruction tuning and prompt engineering produced less favorable outcomes. This evaluation process facilitated the creation an expert-evaluated dataset of responses generated by LLMs adapted with different combinations of these methods. Error analysis identified key ethical concerns, including inappropriate promotion of prenatal testing, criticism of relatives, and inaccurate probability statements. CONCLUSIONS: RAG demonstrated notable improvements across all evaluation metrics, suggesting potential for further enhancement through the expansion of RAG data. The expert-evaluated dataset developed in this study provides valuable insights for future optimization efforts. However, the ethical issues observed in JGCLLM responses underscore the critical need for ongoing refinement and thorough ethical evaluation before these systems can be implemented in health care settings.\nURL: https://pubmed.ncbi.nlm.nih.gov/39819819/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Evaluating and Enhancing Japanese Large Language Models for Genetic Counseling Support: Comparative Study of Domain Adaptation and the Development of an Expert-Evaluated Dataset.",
+            "authors": "Takuya Fukushima, Masae Manabe, Shuntaro Yada, Shoko Wakamiya, Akiko Yoshida, Yusaku Urakawa, Akiko Maeda, Shigeyuki Kan, Masayo Takahashi, Eiji Aramaki",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39819819/",
+            "pmid": "39819819",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Retrieval-augmented generation versus document-grounded generation: a key distinction in large language models.",
+        "abstract": "No abstract available",
+        "authors": [
+            "Shunsuke Koga",
+            "Daisuke Ono",
+            "Amrom Obstfeld"
+        ],
+        "published": "2025",
+        "pmid": "39817433",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39817433/",
+        "content": "Title: Retrieval-augmented generation versus document-grounded generation: a key distinction in large language models.\nAuthors: Shunsuke Koga, Daisuke Ono, Amrom Obstfeld\nAbstract: No abstract available\nURL: https://pubmed.ncbi.nlm.nih.gov/39817433/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Retrieval-augmented generation versus document-grounded generation: a key distinction in large language models.",
+            "authors": "Shunsuke Koga, Daisuke Ono, Amrom Obstfeld",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39817433/",
+            "pmid": "39817433",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "BiomedRAG: A retrieval augmented large language model for biomedicine.",
+        "abstract": "Retrieval-augmented generation (RAG) involves a solution by retrieving knowledge from an established database to enhance the performance of large language models (LLM). , these models retrieve information at the sentence or paragraph level, potentially introducing noise and affecting the generation quality. To address these issues, we propose a novel BiomedRAG framework that directly feeds automatically retrieved chunk-based documents into the LLM. Our evaluation of BiomedRAG across four biomedical natural language processing tasks using eight datasets demonstrates that our proposed framework not only improves the performance by 9.95% on average, but also achieves state-of-the-art results, surpassing various baselines by 4.97%. BiomedRAG paves the way for more accurate and adaptable LLM applications in the biomedical domain.",
+        "authors": [
+            "Mingchen Li",
+            "Halil Kilicoglu",
+            "Hua Xu",
+            "Rui Zhang"
+        ],
+        "published": "2025",
+        "pmid": "39814274",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39814274/",
+        "content": "Title: BiomedRAG: A retrieval augmented large language model for biomedicine.\nAuthors: Mingchen Li, Halil Kilicoglu, Hua Xu, Rui Zhang\nAbstract: Retrieval-augmented generation (RAG) involves a solution by retrieving knowledge from an established database to enhance the performance of large language models (LLM). , these models retrieve information at the sentence or paragraph level, potentially introducing noise and affecting the generation quality. To address these issues, we propose a novel BiomedRAG framework that directly feeds automatically retrieved chunk-based documents into the LLM. Our evaluation of BiomedRAG across four biomedical natural language processing tasks using eight datasets demonstrates that our proposed framework not only improves the performance by 9.95% on average, but also achieves state-of-the-art results, surpassing various baselines by 4.97%. BiomedRAG paves the way for more accurate and adaptable LLM applications in the biomedical domain.\nURL: https://pubmed.ncbi.nlm.nih.gov/39814274/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "BiomedRAG: A retrieval augmented large language model for biomedicine.",
+            "authors": "Mingchen Li, Halil Kilicoglu, Hua Xu, Rui Zhang",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39814274/",
+            "pmid": "39814274",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Improving large language model applications in biomedicine with retrieval-augmented generation: a systematic review, meta-analysis, and clinical development guidelines.",
+        "abstract": "OBJECTIVE: The objectives of this study are to synthesize findings from recent research of retrieval-augmented generation (RAG) and large language models (LLMs) in biomedicine and provide clinical development guidelines to improve effectiveness. MATERIALS AND METHODS: We conducted a systematic literature review and a meta-analysis. The report was created in adherence to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 analysis. Searches were performed in 3 databases (PubMed, Embase, PsycINFO) using terms related to \"retrieval augmented generation\" and \"large language model,\" for articles published in 2023 and 2024. We selected studies that compared baseline LLM performance with RAG performance. We developed a random-effect meta-analysis model, using odds ratio as the effect size. RESULTS: Among 335 studies, 20 were included in this literature review. The pooled effect size was 1.35, with a 95% confidence interval of 1.19-1.53, indicating a statistically significant effect (P = .001). We reported clinical tasks, baseline LLMs, retrieval sources and strategies, as well as evaluation methods. DISCUSSION: Building on our literature review, we developed Guidelines for Unified Implementation and Development of Enhanced LLM Applications with RAG in Clinical Settings to inform clinical applications using RAG. CONCLUSION: Overall, RAG implementation showed a 1.35 odds ratio increase in performance compared to baseline LLMs. Future research should focus on (1) system-level enhancement: the combination of RAG and agent, (2) knowledge-level enhancement: deep integration of knowledge into LLM, and (3) integration-level enhancement: integrating RAG systems within electronic health records.",
+        "authors": [
+            "Siru Liu",
+            "Allison B McCoy",
+            "Adam Wright"
+        ],
+        "published": "2025",
+        "pmid": "39812777",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39812777/",
+        "content": "Title: Improving large language model applications in biomedicine with retrieval-augmented generation: a systematic review, meta-analysis, and clinical development guidelines.\nAuthors: Siru Liu, Allison B McCoy, Adam Wright\nAbstract: OBJECTIVE: The objectives of this study are to synthesize findings from recent research of retrieval-augmented generation (RAG) and large language models (LLMs) in biomedicine and provide clinical development guidelines to improve effectiveness. MATERIALS AND METHODS: We conducted a systematic literature review and a meta-analysis. The report was created in adherence to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 analysis. Searches were performed in 3 databases (PubMed, Embase, PsycINFO) using terms related to \"retrieval augmented generation\" and \"large language model,\" for articles published in 2023 and 2024. We selected studies that compared baseline LLM performance with RAG performance. We developed a random-effect meta-analysis model, using odds ratio as the effect size. RESULTS: Among 335 studies, 20 were included in this literature review. The pooled effect size was 1.35, with a 95% confidence interval of 1.19-1.53, indicating a statistically significant effect (P = .001). We reported clinical tasks, baseline LLMs, retrieval sources and strategies, as well as evaluation methods. DISCUSSION: Building on our literature review, we developed Guidelines for Unified Implementation and Development of Enhanced LLM Applications with RAG in Clinical Settings to inform clinical applications using RAG. CONCLUSION: Overall, RAG implementation showed a 1.35 odds ratio increase in performance compared to baseline LLMs. Future research should focus on (1) system-level enhancement: the combination of RAG and agent, (2) knowledge-level enhancement: deep integration of knowledge into LLM, and (3) integration-level enhancement: integrating RAG systems within electronic health records.\nURL: https://pubmed.ncbi.nlm.nih.gov/39812777/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Improving large language model applications in biomedicine with retrieval-augmented generation: a systematic review, meta-analysis, and clinical development guidelines.",
+            "authors": "Siru Liu, Allison B McCoy, Adam Wright",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39812777/",
+            "pmid": "39812777",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Evaluation of a context-aware chatbot using retrieval-augmented generation for answering clinical questions on medication-related osteonecrosis of the jaw.",
+        "abstract": "The potential of large language models (LLMs) in medical applications is significant, and Retrieval-augmented generation (RAG) can address the weaknesses of these models in terms of data transparency and scientific accuracy by incorporating current scientific knowledge into responses. In this study, RAG and GPT-4 by OpenAI were applied to develop GuideGPT, a context aware chatbot integrated with a knowledge database from 449 scientific publications designed to provide answers on the prevention, diagnosis, and treatment of medication-related osteonecrosis of the jaw (MRONJ). A comparison was made with a generic LLM (\"PureGPT\") across 30 MRONJ-related questions. Ten international experts in MRONJ evaluated the responses based on content, language, scientific explanation, and agreement using 5-point Likert scales. Statistical analysis using the Mann-Whitney U test showed significantly better ratings for GuideGPT than PureGPT regarding content (p = 0.006), scientific explanation (p = 0.032), and agreement (p = 0.008), though not for language (p = 0.407). Thus, this study demonstrates RAG to be a promising tool to improve response quality and reliability of LLMs by incorporating domain-specific knowledge. This approach addresses the limitations of generic chatbots and can provide traceable and up-to-date responses essential for clinical practice.",
+        "authors": [
+            "David Steybe",
+            "Philipp Poxleitner",
+            "Suad Aljohani",
+            "Bente Brokstad Herlofson",
+            "Ourania Nicolatou-Galitis",
+            "Vinod Patel",
+            "Stefano Fedele",
+            "Tae-Geon Kwon",
+            "Vittorio Fusco",
+            "Sarina E C Pichardo",
+            "Katharina Theresa Obermeier",
+            "Sven Otto",
+            "Alexander Rau",
+            "Maximilian Frederik Russe"
+        ],
+        "published": "2025",
+        "pmid": "39799075",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39799075/",
+        "content": "Title: Evaluation of a context-aware chatbot using retrieval-augmented generation for answering clinical questions on medication-related osteonecrosis of the jaw.\nAuthors: David Steybe, Philipp Poxleitner, Suad Aljohani, Bente Brokstad Herlofson, Ourania Nicolatou-Galitis, Vinod Patel, Stefano Fedele, Tae-Geon Kwon, Vittorio Fusco, Sarina E C Pichardo, Katharina Theresa Obermeier, Sven Otto, Alexander Rau, Maximilian Frederik Russe\nAbstract: The potential of large language models (LLMs) in medical applications is significant, and Retrieval-augmented generation (RAG) can address the weaknesses of these models in terms of data transparency and scientific accuracy by incorporating current scientific knowledge into responses. In this study, RAG and GPT-4 by OpenAI were applied to develop GuideGPT, a context aware chatbot integrated with a knowledge database from 449 scientific publications designed to provide answers on the prevention, diagnosis, and treatment of medication-related osteonecrosis of the jaw (MRONJ). A comparison was made with a generic LLM (\"PureGPT\") across 30 MRONJ-related questions. Ten international experts in MRONJ evaluated the responses based on content, language, scientific explanation, and agreement using 5-point Likert scales. Statistical analysis using the Mann-Whitney U test showed significantly better ratings for GuideGPT than PureGPT regarding content (p = 0.006), scientific explanation (p = 0.032), and agreement (p = 0.008), though not for language (p = 0.407). Thus, this study demonstrates RAG to be a promising tool to improve response quality and reliability of LLMs by incorporating domain-specific knowledge. This approach addresses the limitations of generic chatbots and can provide traceable and up-to-date responses essential for clinical practice.\nURL: https://pubmed.ncbi.nlm.nih.gov/39799075/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Evaluation of a context-aware chatbot using retrieval-augmented generation for answering clinical questions on medication-related osteonecrosis of the jaw.",
+            "authors": "David Steybe, Philipp Poxleitner, Suad Aljohani, Bente Brokstad Herlofson, Ourania Nicolatou-Galitis, Vinod Patel, Stefano Fedele, Tae-Geon Kwon, Vittorio Fusco, Sarina E C Pichardo, Katharina Theresa Obermeier, Sven Otto, Alexander Rau, Maximilian Frederik Russe",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39799075/",
+            "pmid": "39799075",
+            "published": "2025"
+        }
+    }
+]

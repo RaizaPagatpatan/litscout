@@ -1,0 +1,125 @@
+[
+    {
+        "title": "R^2AG: Incorporating Retrieval Information into Retrieval Augmented\n  Generation",
+        "summary": "  Retrieval augmented generation (RAG) has been applied in many scenarios to\naugment large language models (LLMs) with external documents provided by\nretrievers. However, a semantic gap exists between LLMs and retrievers due to\ndifferences in their training objectives and architectures. This misalignment\nforces LLMs to passively accept the documents provided by the retrievers,\nleading to incomprehension in the generation process, where the LLMs are\nburdened with the task of distinguishing these documents using their inherent\nknowledge. This paper proposes R$^2$AG, a novel enhanced RAG framework to fill\nthis gap by incorporating Retrieval information into Retrieval Augmented\nGeneration. Specifically, R$^2$AG utilizes the nuanced features from the\nretrievers and employs a R$^2$-Former to capture retrieval information. Then, a\nretrieval-aware prompting strategy is designed to integrate retrieval\ninformation into LLMs' generation. Notably, R$^2$AG suits low-source scenarios\nwhere LLMs and retrievers are frozen. Extensive experiments across five\ndatasets validate the effectiveness, robustness, and efficiency of R$^2$AG. Our\nanalysis reveals that retrieval information serves as an anchor to aid LLMs in\nthe generation process, thereby filling the semantic gap.\n",
+        "authors": [
+            "Fuda Ye",
+            "Shuangyin Li",
+            "Yongqi Zhang",
+            "Lei Chen"
+        ],
+        "published": "2024-06-19T06:19:48Z",
+        "url": "http://arxiv.org/abs/2406.13249v2"
+    },
+    {
+        "title": "A Survey on Retrieval-Augmented Text Generation",
+        "summary": "  Recently, retrieval-augmented text generation attracted increasing attention\nof the computational linguistics community. Compared with conventional\ngeneration models, retrieval-augmented text generation has remarkable\nadvantages and particularly has achieved state-of-the-art performance in many\nNLP tasks. This paper aims to conduct a survey about retrieval-augmented text\ngeneration. It firstly highlights the generic paradigm of retrieval-augmented\ngeneration, and then it reviews notable approaches according to different tasks\nincluding dialogue response generation, machine translation, and other\ngeneration tasks. Finally, it points out some important directions on top of\nrecent methods to facilitate future research.\n",
+        "authors": [
+            "Huayang Li",
+            "Yixuan Su",
+            "Deng Cai",
+            "Yan Wang",
+            "Lemao Liu"
+        ],
+        "published": "2022-02-02T16:18:41Z",
+        "url": "http://arxiv.org/abs/2202.01110v2"
+    },
+    {
+        "title": "Meta-prompting Optimized Retrieval-augmented Generation",
+        "summary": "  Retrieval-augmented generation resorts to content retrieved from external\nsources in order to leverage the performance of large language models in\ndownstream tasks. The excessive volume of retrieved content, the possible\ndispersion of its parts, or their out of focus range may happen nevertheless to\neventually have a detrimental rather than an incremental effect. To mitigate\nthis issue and improve retrieval-augmented generation, we propose a method to\nrefine the retrieved content before it is included in the prompt by resorting\nto meta-prompting optimization. Put to empirical test with the demanding\nmulti-hop question answering task from the StrategyQA dataset, the evaluation\nresults indicate that this method outperforms a similar retrieval-augmented\nsystem but without this method by over 30%.\n",
+        "authors": [
+            "João Rodrigues",
+            "António Branco"
+        ],
+        "published": "2024-07-04T14:20:12Z",
+        "url": "http://arxiv.org/abs/2407.03955v1"
+    },
+    {
+        "title": "End-to-End Trainable Retrieval-Augmented Generation for Relation\n  Extraction",
+        "summary": "  This paper addresses a crucial challenge in retrieval-augmented\ngeneration-based relation extractors; the end-to-end training is not applicable\nto conventional retrieval-augmented generation due to the non-differentiable\nnature of instance retrieval. This problem prevents the instance retrievers\nfrom being optimized for the relation extraction task, and conventionally it\nmust be trained with an objective different from that for relation extraction.\nTo address this issue, we propose a novel End-to-end Trainable\nRetrieval-Augmented Generation (ETRAG), which allows end-to-end optimization of\nthe entire model, including the retriever, for the relation extraction\nobjective by utilizing a differentiable selection of the $k$ nearest instances.\nWe evaluate the relation extraction performance of ETRAG on the TACRED dataset,\nwhich is a standard benchmark for relation extraction. ETRAG demonstrates\nconsistent improvements against the baseline model as retrieved instances are\nadded. Furthermore, the analysis of instances retrieved by the end-to-end\ntrained retriever confirms that the retrieved instances contain common relation\nlabels or entities with the query and are specialized for the target task. Our\nfindings provide a promising foundation for future research on\nretrieval-augmented generation and the broader applications of text generation\nin Natural Language Processing.\n",
+        "authors": [
+            "Kohei Makino",
+            "Makoto Miwa",
+            "Yutaka Sasaki"
+        ],
+        "published": "2024-06-06T07:01:50Z",
+        "url": "http://arxiv.org/abs/2406.03790v2"
+    },
+    {
+        "title": "DuetRAG: Collaborative Retrieval-Augmented Generation",
+        "summary": "  Retrieval-Augmented Generation (RAG) methods augment the input of Large\nLanguage Models (LLMs) with relevant retrieved passages, reducing factual\nerrors in knowledge-intensive tasks. However, contemporary RAG approaches\nsuffer from irrelevant knowledge retrieval issues in complex domain questions\n(e.g., HotPot QA) due to the lack of corresponding domain knowledge, leading to\nlow-quality generations. To address this issue, we propose a novel\nCollaborative Retrieval-Augmented Generation framework, DuetRAG. Our\nbootstrapping philosophy is to simultaneously integrate the domain fintuning\nand RAG models to improve the knowledge retrieval quality, thereby enhancing\ngeneration quality. Finally, we demonstrate DuetRAG' s matches with expert\nhuman researchers on HotPot QA.\n",
+        "authors": [
+            "Dian Jiao",
+            "Li Cai",
+            "Jingsheng Huang",
+            "Wenqiao Zhang",
+            "Siliang Tang",
+            "Yueting Zhuang"
+        ],
+        "published": "2024-05-12T09:48:28Z",
+        "url": "http://arxiv.org/abs/2405.13002v1"
+    },
+    {
+        "title": "Context Tuning for Retrieval Augmented Generation",
+        "summary": "  Large language models (LLMs) have the remarkable ability to solve new tasks\nwith just a few examples, but they need access to the right tools. Retrieval\nAugmented Generation (RAG) addresses this problem by retrieving a list of\nrelevant tools for a given task. However, RAG's tool retrieval step requires\nall the required information to be explicitly present in the query. This is a\nlimitation, as semantic search, the widely adopted tool retrieval method, can\nfail when the query is incomplete or lacks context. To address this limitation,\nwe propose Context Tuning for RAG, which employs a smart context retrieval\nsystem to fetch relevant information that improves both tool retrieval and plan\ngeneration. Our lightweight context retrieval model uses numerical,\ncategorical, and habitual usage signals to retrieve and rank context items. Our\nempirical results demonstrate that context tuning significantly enhances\nsemantic search, achieving a 3.5-fold and 1.5-fold improvement in Recall@K for\ncontext retrieval and tool retrieval tasks respectively, and resulting in an\n11.6% increase in LLM-based planner accuracy. Additionally, we show that our\nproposed lightweight model using Reciprocal Rank Fusion (RRF) with LambdaMART\noutperforms GPT-4 based retrieval. Moreover, we observe context augmentation at\nplan generation, even after tool retrieval, reduces hallucination.\n",
+        "authors": [
+            "Raviteja Anantha",
+            "Tharun Bethi",
+            "Danil Vodianik",
+            "Srinivas Chappidi"
+        ],
+        "published": "2023-12-09T23:33:16Z",
+        "url": "http://arxiv.org/abs/2312.05708v1"
+    },
+    {
+        "title": "RuleRAG: Rule-guided retrieval-augmented generation with language models\n  for question answering",
+        "summary": "  Retrieval-augmented generation (RAG) framework has shown promising potential\nin knowledge-intensive question answering (QA) by retrieving external corpus\nand generating based on augmented context. However, existing approaches only\nconsider the query itself, neither specifying the retrieval preferences for the\nretrievers nor informing the generators of how to refer to the retrieved\ndocuments for the answers, which poses a significant challenge to the QA\nperformance. To address these issues, we propose Rule-Guided\nRetrieval-Augmented Generation with LMs, which explicitly introduces symbolic\nrules as demonstrations for in-context learning (RuleRAG-ICL) to guide\nretrievers to retrieve logically related documents in the directions of rules\nand uniformly guide generators to generate answers attributed by the guidance\nof the same set of rules. Moreover, the combination of queries and rules can be\nfurther used as supervised fine-tuning data to update retrievers and generators\n(RuleRAG-FT) to achieve better rule-based instruction following capability,\nleading to retrieve more supportive results and generate more acceptable\nanswers. To emphasize the attribution of rules, we construct five rule-aware QA\nbenchmarks, including three temporal and two static scenarios, and equip\nRuleRAG with several kinds of retrievers and generators. Experiments\ndemonstrate that training-free RuleRAG-ICL effectively improves the retrieval\nquality of +89.2% in Recall@10 scores and generation accuracy of +103.1% in\nexact match scores over standard RAG on average across the five benchmarks, and\nfurther fine-tuned RuleRAG-FT consistently yields more significant performance\nenhancement. Extensive analyses indicate that RuleRAG scales well with\nincreasing numbers of retrieved documents and exhibits generalization ability\nfor untrained rules.\n",
+        "authors": [
+            "Zhongwu Chen",
+            "Chengjin Xu",
+            "Dingmin Wang",
+            "Zhen Huang",
+            "Yong Dou",
+            "Jian Guo"
+        ],
+        "published": "2024-10-15T14:51:45Z",
+        "url": "http://arxiv.org/abs/2410.22353v1"
+    },
+    {
+        "title": "Augmentation-Adapted Retriever Improves Generalization of Language\n  Models as Generic Plug-In",
+        "summary": "  Retrieval augmentation can aid language models (LMs) in knowledge-intensive\ntasks by supplying them with external information. Prior works on retrieval\naugmentation usually jointly fine-tune the retriever and the LM, making them\nclosely coupled. In this paper, we explore the scheme of generic retrieval\nplug-in: the retriever is to assist target LMs that may not be known beforehand\nor are unable to be fine-tuned together. To retrieve useful documents for\nunseen target LMs, we propose augmentation-adapted retriever (AAR), which\nlearns LM's preferences obtained from a known source LM. Experiments on the\nMMLU and PopQA datasets demonstrate that our AAR trained with a small source LM\nis able to significantly improve the zero-shot generalization of larger target\nLMs ranging from 250M Flan-T5 to 175B InstructGPT. Further analysis indicates\nthat the preferences of different LMs overlap, enabling AAR trained with a\nsingle source LM to serve as a generic plug-in for various target LMs. Our code\nis open-sourced at https://github.com/OpenMatch/Augmentation-Adapted-Retriever.\n",
+        "authors": [
+            "Zichun Yu",
+            "Chenyan Xiong",
+            "Shi Yu",
+            "Zhiyuan Liu"
+        ],
+        "published": "2023-05-27T02:26:52Z",
+        "url": "http://arxiv.org/abs/2305.17331v1"
+    },
+    {
+        "title": "Enhancing Retrieval-Augmented LMs with a Two-stage Consistency Learning\n  Compressor",
+        "summary": "  Despite the prevalence of retrieval-augmented language models (RALMs), the\nseamless integration of these models with retrieval mechanisms to enhance\nperformance in document-based tasks remains challenging. While some\npost-retrieval processing Retrieval-Augmented Generation (RAG) methods have\nachieved success, most still lack the ability to distinguish pertinent from\nextraneous information, leading to potential inconsistencies and reduced\nprecision in the generated output, which subsequently affects the truthfulness\nof the language model's responses. To address these limitations, this work\nproposes a novel two-stage consistency learning approach for retrieved\ninformation compression in retrieval-augmented language models to enhance\nperformance. By incorporating consistency learning, the aim is to generate\nsummaries that maintain coherence and alignment with the intended semantic\nrepresentations of a teacher model while improving faithfulness to the original\nretrieved documents. The proposed method is empirically validated across\nmultiple datasets, demonstrating notable enhancements in precision and\nefficiency for question-answering tasks. It outperforms existing baselines and\nshowcases the synergistic effects of combining contrastive and consistency\nlearning paradigms within the retrieval-augmented generation framework.\n",
+        "authors": [
+            "Chuankai Xu",
+            "Dongming Zhao",
+            "Bo Wang",
+            "Hanwen Xing"
+        ],
+        "published": "2024-06-04T12:43:23Z",
+        "url": "http://arxiv.org/abs/2406.02266v1"
+    },
+    {
+        "title": "Alleviating Hallucination in Large Vision-Language Models with Active\n  Retrieval Augmentation",
+        "summary": "  Despite the remarkable ability of large vision-language models (LVLMs) in\nimage comprehension, these models frequently generate plausible yet factually\nincorrect responses, a phenomenon known as hallucination.Recently, in large\nlanguage models (LLMs), augmenting LLMs by retrieving information from external\nknowledge resources has been proven as a promising solution to mitigate\nhallucinations.However, the retrieval augmentation in LVLM significantly lags\nbehind the widespread applications of LVLM. Moreover, when transferred to\naugmenting LVLMs, sometimes the hallucination degree of the model is even\nexacerbated.Motivated by the research gap and counter-intuitive phenomenon, we\nintroduce a novel framework, the Active Retrieval-Augmented large\nvision-language model (ARA), specifically designed to address hallucinations by\nincorporating three critical dimensions: (i) dissecting the retrieval targets\nbased on the inherent hierarchical structures of images. (ii) pinpointing the\nmost effective retrieval methods and filtering out the reliable retrieval\nresults. (iii) timing the retrieval process to coincide with episodes of low\ncertainty, while circumventing unnecessary retrieval during periods of high\ncertainty. To assess the capability of our proposed ARA model in reducing\nhallucination, we employ three widely used LVLM models (LLaVA-1.5, Qwen-VL, and\nmPLUG-Owl2) across four benchmarks. Our empirical observations suggest that by\nutilizing fitting retrieval mechanisms and timing the retrieval judiciously, we\ncan effectively mitigate the hallucination problem. We hope that this study can\nprovide deeper insights into how to adapt the retrieval augmentation to LVLMs\nfor reducing hallucinations with more effective retrieval and minimal retrieval\noccurrences.\n",
+        "authors": [
+            "Xiaoye Qu",
+            "Qiyuan Chen",
+            "Wei Wei",
+            "Jishuo Sun",
+            "Jianfeng Dong"
+        ],
+        "published": "2024-08-01T13:38:58Z",
+        "url": "http://arxiv.org/abs/2408.00555v1"
+    }
+]
