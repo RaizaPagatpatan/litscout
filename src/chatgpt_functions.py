@@ -3,8 +3,8 @@
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
-# from pinecone import Pinecone, ServerlessSpec
 import pinecone
+from pinecone import Pinecone, ServerlessSpec
 import logging
 #langchain imports
 from langchain.docstore.document import Document
