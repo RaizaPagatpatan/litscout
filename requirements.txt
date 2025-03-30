@@ -8,3 +8,4 @@ pinecone-client
 langchain-pinecone
 tiktoken
 sentence-transformers
+Flask==3.0.0
