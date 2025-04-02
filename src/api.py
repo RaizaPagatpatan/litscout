@@ -5,9 +5,21 @@ from document_functions import create_word_doc_from_json
 from search_function import search_articles
 import json
 import os
+from flask_cors import CORS
 import logging
 
 app = Flask(__name__)
+
+CORS(app)
+
+# For more specific CORS configuration, you can use:
+# CORS(app, resources={
+#     r"/generate_report": {
+#         "origins": ["http://localhost:3000", "https://yourdomain.com"],
+#         "methods": ["POST"],
+#         "allow_headers": ["Content-Type"]
+#     }
+# })
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

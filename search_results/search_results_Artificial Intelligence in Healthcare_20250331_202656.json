@@ -1,0 +1,469 @@
+[
+    {
+        "title": "Artificial Intelligence to Promote Racial and Ethnic Cardiovascular Health Equity.",
+        "abstract": "PURPOSE OF REVIEW: The integration of artificial intelligence (AI) in medicine holds promise for transformative advancements aimed at improving healthcare outcomes. Amidst this promise, AI has been envisioned as a tool to detect and mitigate racial and ethnic inequity known to plague current cardiovascular care. However, this enthusiasm is dampened by the recognition that AI itself can harbor and propagate biases, necessitating a careful approach to ensure equity. This review highlights topics in the landscape of AI in cardiology, its role in identifying and addressing healthcare inequities, promoting diversity in research, concerns surrounding its applications, and proposed strategies for fostering equitable utilization. RECENT FINDINGS: Artificial intelligence has proven to be a valuable tool for clinicians in diagnosing and mitigating racial and ethnic inequities in cardiology, as well as the promotion of diversity in research. This promise is counterbalanced by the cautionary reality that AI can inadvertently perpetuate existent biases stemming from limited diversity in training data, inherent biases within datasets, and inadequate bias detection and monitoring mechanisms. Recognizing these concerns, experts emphasize the need for rigorous efforts to address these limitations in the development and deployment of AI within medicine. SUMMARY: Implementing AI in cardiovascular care to identify and address racial and ethnic inequities requires careful design and execution, beginning with meticulous data collection and a thorough review of training datasets. Furthermore, ensuring equitable performance involves rigorous testing and continuous surveillance of algorithms. Lastly, the promotion of diversity in the AI workforce and engagement of stakeholders are crucial to the advancement of equity to ultimately realize the potential for artificial intelligence for cardiovascular health equity.",
+        "authors": [
+            "Daniel Amponsah",
+            "Ritu Thamman",
+            "Eric Brandt",
+            "Cornelius James",
+            "Kayte Spector-Bagdady",
+            "Celina M Yong"
+        ],
+        "published": "2024",
+        "pmid": "40144330",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40144330/",
+        "content": "Title: Artificial Intelligence to Promote Racial and Ethnic Cardiovascular Health Equity.\nAuthors: Daniel Amponsah, Ritu Thamman, Eric Brandt, Cornelius James, Kayte Spector-Bagdady, Celina M Yong\nAbstract: PURPOSE OF REVIEW: The integration of artificial intelligence (AI) in medicine holds promise for transformative advancements aimed at improving healthcare outcomes. Amidst this promise, AI has been envisioned as a tool to detect and mitigate racial and ethnic inequity known to plague current cardiovascular care. However, this enthusiasm is dampened by the recognition that AI itself can harbor and propagate biases, necessitating a careful approach to ensure equity. This review highlights topics in the landscape of AI in cardiology, its role in identifying and addressing healthcare inequities, promoting diversity in research, concerns surrounding its applications, and proposed strategies for fostering equitable utilization. RECENT FINDINGS: Artificial intelligence has proven to be a valuable tool for clinicians in diagnosing and mitigating racial and ethnic inequities in cardiology, as well as the promotion of diversity in research. This promise is counterbalanced by the cautionary reality that AI can inadvertently perpetuate existent biases stemming from limited diversity in training data, inherent biases within datasets, and inadequate bias detection and monitoring mechanisms. Recognizing these concerns, experts emphasize the need for rigorous efforts to address these limitations in the development and deployment of AI within medicine. SUMMARY: Implementing AI in cardiovascular care to identify and address racial and ethnic inequities requires careful design and execution, beginning with meticulous data collection and a thorough review of training datasets. Furthermore, ensuring equitable performance involves rigorous testing and continuous surveillance of algorithms. Lastly, the promotion of diversity in the AI workforce and engagement of stakeholders are crucial to the advancement of equity to ultimately realize the potential for artificial intelligence for cardiovascular health equity.\nURL: https://pubmed.ncbi.nlm.nih.gov/40144330/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Artificial Intelligence to Promote Racial and Ethnic Cardiovascular Health Equity.",
+            "authors": "Daniel Amponsah, Ritu Thamman, Eric Brandt, Cornelius James, Kayte Spector-Bagdady, Celina M Yong",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40144330/",
+            "pmid": "40144330",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Perspectives on Big Data and Big Data Analytics in Healthcare.",
+        "abstract": "Big data (BD) is of high interest for research and practice purposes because it has the potential to provide insights into the population served and healthcare practices. Much progress has been made in collecting BD and creating tools for big data analytics (BDA). However, healthcare organizations continue to experience challenges associated with BD characteristics and BDA tools. Utilization of BD impacts current decision-making, planning, and future use of artificial intelligence (AI) tools, which are trained on BD. This qualitative study focused on better understanding the reality of BD and BDA management and usage by healthcare organizations. Six structured interviews were conducted with individuals who work with healthcare BD and BDA. Findings confirmed the known challenges associated with BD/BDA and added rich insights into the structural, operational and utilization aspects, as well as future directions. Such perspectives are valuable for education and improvements in BD/BDA management and development.",
+        "authors": [
+            "Egondu R Onyejekwe",
+            "Dasantila Sherifi",
+            "Hung Ching"
+        ],
+        "published": "2024",
+        "pmid": "40135704",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40135704/",
+        "content": "Title: Perspectives on Big Data and Big Data Analytics in Healthcare.\nAuthors: Egondu R Onyejekwe, Dasantila Sherifi, Hung Ching\nAbstract: Big data (BD) is of high interest for research and practice purposes because it has the potential to provide insights into the population served and healthcare practices. Much progress has been made in collecting BD and creating tools for big data analytics (BDA). However, healthcare organizations continue to experience challenges associated with BD characteristics and BDA tools. Utilization of BD impacts current decision-making, planning, and future use of artificial intelligence (AI) tools, which are trained on BD. This qualitative study focused on better understanding the reality of BD and BDA management and usage by healthcare organizations. Six structured interviews were conducted with individuals who work with healthcare BD and BDA. Findings confirmed the known challenges associated with BD/BDA and added rich insights into the structural, operational and utilization aspects, as well as future directions. Such perspectives are valuable for education and improvements in BD/BDA management and development.\nURL: https://pubmed.ncbi.nlm.nih.gov/40135704/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Perspectives on Big Data and Big Data Analytics in Healthcare.",
+            "authors": "Egondu R Onyejekwe, Dasantila Sherifi, Hung Ching",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40135704/",
+            "pmid": "40135704",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Leveraging an Innovation Model to Facilitate ICD-11 Implementation.",
+        "abstract": "The 11th Revision of the International Classification of Diseases (ICD-11) with its informatics-based infrastructure has transformed an antiquated classification system into a suite of 21st century computer applications. This manuscript proposes an innovation model to facilitate the implementation of ICD-11 by the US. The model introduces ICD-11 Comprehensive Clinical Linearization, Evolution and Response, or C-CLEAR, a fully coded comprehensive clinical linearization and syntactical rules for combining these codes. These enhancements can be incorporated into electronic coding tools that enable clinical reporters to transmit complex clinical concepts expressed in detailed natural clinical language by means of standardized clusters of ICD-11 stem and extension codes. The model can support rich clinical data captures such as condition acuity and severity, as well as pharmacological treatments. This approach shows promise to accelerate ICD-11 implementation with minimal disruption and maximal net benefits but will require vetting, testing and input from expert stakeholders.",
+        "authors": [
+            "Kathy L Giannangelo",
+            "Michael B Pine",
+            "Christopher P Tompkins"
+        ],
+        "published": "2024",
+        "pmid": "40135699",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40135699/",
+        "content": "Title: Leveraging an Innovation Model to Facilitate ICD-11 Implementation.\nAuthors: Kathy L Giannangelo, Michael B Pine, Christopher P Tompkins\nAbstract: The 11th Revision of the International Classification of Diseases (ICD-11) with its informatics-based infrastructure has transformed an antiquated classification system into a suite of 21st century computer applications. This manuscript proposes an innovation model to facilitate the implementation of ICD-11 by the US. The model introduces ICD-11 Comprehensive Clinical Linearization, Evolution and Response, or C-CLEAR, a fully coded comprehensive clinical linearization and syntactical rules for combining these codes. These enhancements can be incorporated into electronic coding tools that enable clinical reporters to transmit complex clinical concepts expressed in detailed natural clinical language by means of standardized clusters of ICD-11 stem and extension codes. The model can support rich clinical data captures such as condition acuity and severity, as well as pharmacological treatments. This approach shows promise to accelerate ICD-11 implementation with minimal disruption and maximal net benefits but will require vetting, testing and input from expert stakeholders.\nURL: https://pubmed.ncbi.nlm.nih.gov/40135699/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Leveraging an Innovation Model to Facilitate ICD-11 Implementation.",
+            "authors": "Kathy L Giannangelo, Michael B Pine, Christopher P Tompkins",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40135699/",
+            "pmid": "40135699",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "AI Horizons in Indian Healthcare: A Vision for Transformation and Equity.",
+        "abstract": "Artificial intelligence (AI) is poised to revolutionize healthcare delivery in India, offering solutions to address the nation's unique healthcare challenges. This position paper, presented by the Indian Association of Preventive and Social Medicine, examines the integration of AI in Indian healthcare, exploring its applications across diagnostic imaging, patient care, medical research, rehabilitation, and administrative processes. Notable implementations include AI-driven disease detection systems, telemedicine platforms, and public health surveillance tools, with successful applications in tuberculosis screening, breast cancer detection, and ophthalmological care. While these advancements show promise, significant challenges persist, related to data privacy concerns and interoperability issues, including the need for robust ethical frameworks. The paper highlights key stakeholder collaborations, including government initiatives and international partnerships, which are driving innovation in this space. Based on this analysis, we propose policy recommendations emphasizing research investment, professional training, and regulatory frameworks to ensure responsible AI adoption. Our vision advocates for an approach that balances technological advancement with accessibility and equity in healthcare delivery.",
+        "authors": [
+            "Neelesh Kapoor",
+            "S N Sanjana",
+            "Shubha B Davalagi",
+            "P S Balu",
+            "Soumitra Sethia"
+        ],
+        "published": "2024",
+        "pmid": "40124859",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40124859/",
+        "content": "Title: AI Horizons in Indian Healthcare: A Vision for Transformation and Equity.\nAuthors: Neelesh Kapoor, S N Sanjana, Shubha B Davalagi, P S Balu, Soumitra Sethia\nAbstract: Artificial intelligence (AI) is poised to revolutionize healthcare delivery in India, offering solutions to address the nation's unique healthcare challenges. This position paper, presented by the Indian Association of Preventive and Social Medicine, examines the integration of AI in Indian healthcare, exploring its applications across diagnostic imaging, patient care, medical research, rehabilitation, and administrative processes. Notable implementations include AI-driven disease detection systems, telemedicine platforms, and public health surveillance tools, with successful applications in tuberculosis screening, breast cancer detection, and ophthalmological care. While these advancements show promise, significant challenges persist, related to data privacy concerns and interoperability issues, including the need for robust ethical frameworks. The paper highlights key stakeholder collaborations, including government initiatives and international partnerships, which are driving innovation in this space. Based on this analysis, we propose policy recommendations emphasizing research investment, professional training, and regulatory frameworks to ensure responsible AI adoption. Our vision advocates for an approach that balances technological advancement with accessibility and equity in healthcare delivery.\nURL: https://pubmed.ncbi.nlm.nih.gov/40124859/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "AI Horizons in Indian Healthcare: A Vision for Transformation and Equity.",
+            "authors": "Neelesh Kapoor, S N Sanjana, Shubha B Davalagi, P S Balu, Soumitra Sethia",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40124859/",
+            "pmid": "40124859",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "A Holistic Approach to Implementing Artificial Intelligence in Lung Cancer.",
+        "abstract": "The application of artificial intelligence (AI) in lung cancer, particularly in surgical approaches, has significantly transformed the healthcare landscape. AI has demonstrated remarkable advancements in early lung cancer detection, precise medical image analysis, and personalized treatment planning, all of which are crucial for surgical interventions. By analyzing extensive datasets, AI algorithms can identify patterns and anomalies in lung scans, facilitating timely diagnoses and enhancing surgical outcomes. Furthermore, AI can detect subtle indicators that may be overlooked by human practitioners, leading to quicker intervention and more effective treatment strategies. The technology can also predict patient responses to surgical treatments, enabling tailored care plans that improve recovery rates. In addition to surgical applications, AI streamlines administrative tasks such as record management and appointment scheduling, allowing healthcare providers to concentrate on delivering high-quality care. The integration of AI with genomics and precision medicine holds the potential to further refine surgical approaches in lung cancer treatment by developing targeted strategies that enhance effectiveness and minimize side effects. Despite challenges related to data privacy and regulatory concerns, the ongoing advancements in AI, coupled with collaboration between healthcare professionals and AI experts, suggest a promising future for lung cancer care. This article explores how AI addresses the challenges of lung cancer treatment, focusing on current advancements, obstacles, and the future potential of surgical applications.",
+        "authors": [
+            "Seyed Masoud HaghighiKian",
+            "Ahmad Shirinzadeh-Dastgiri",
+            "Mohammad Vakili-Ojarood",
+            "Amirhosein Naseri",
+            "Maedeh Barahman",
+            "Ali Saberi",
+            "Amirhossein Rahmani",
+            "Amirmasoud Shiri",
+            "Ali Masoudi",
+            "Maryam Aghasipour",
+            "Amirhossein Shahbazi",
+            "Yaser Ghelmani",
+            "Kazem Aghili",
+            "Hossein Neamatzadeh"
+        ],
+        "published": "2025",
+        "pmid": "40114896",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40114896/",
+        "content": "Title: A Holistic Approach to Implementing Artificial Intelligence in Lung Cancer.\nAuthors: Seyed Masoud HaghighiKian, Ahmad Shirinzadeh-Dastgiri, Mohammad Vakili-Ojarood, Amirhosein Naseri, Maedeh Barahman, Ali Saberi, Amirhossein Rahmani, Amirmasoud Shiri, Ali Masoudi, Maryam Aghasipour, Amirhossein Shahbazi, Yaser Ghelmani, Kazem Aghili, Hossein Neamatzadeh\nAbstract: The application of artificial intelligence (AI) in lung cancer, particularly in surgical approaches, has significantly transformed the healthcare landscape. AI has demonstrated remarkable advancements in early lung cancer detection, precise medical image analysis, and personalized treatment planning, all of which are crucial for surgical interventions. By analyzing extensive datasets, AI algorithms can identify patterns and anomalies in lung scans, facilitating timely diagnoses and enhancing surgical outcomes. Furthermore, AI can detect subtle indicators that may be overlooked by human practitioners, leading to quicker intervention and more effective treatment strategies. The technology can also predict patient responses to surgical treatments, enabling tailored care plans that improve recovery rates. In addition to surgical applications, AI streamlines administrative tasks such as record management and appointment scheduling, allowing healthcare providers to concentrate on delivering high-quality care. The integration of AI with genomics and precision medicine holds the potential to further refine surgical approaches in lung cancer treatment by developing targeted strategies that enhance effectiveness and minimize side effects. Despite challenges related to data privacy and regulatory concerns, the ongoing advancements in AI, coupled with collaboration between healthcare professionals and AI experts, suggest a promising future for lung cancer care. This article explores how AI addresses the challenges of lung cancer treatment, focusing on current advancements, obstacles, and the future potential of surgical applications.\nURL: https://pubmed.ncbi.nlm.nih.gov/40114896/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "A Holistic Approach to Implementing Artificial Intelligence in Lung Cancer.",
+            "authors": "Seyed Masoud HaghighiKian, Ahmad Shirinzadeh-Dastgiri, Mohammad Vakili-Ojarood, Amirhosein Naseri, Maedeh Barahman, Ali Saberi, Amirhossein Rahmani, Amirmasoud Shiri, Ali Masoudi, Maryam Aghasipour, Amirhossein Shahbazi, Yaser Ghelmani, Kazem Aghili, Hossein Neamatzadeh",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40114896/",
+            "pmid": "40114896",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "A comparison of artificial intelligence-enhanced electrocardiography approaches for the prediction of time to mortality using electrocardiogram images.",
+        "abstract": "AIMS: Most artificial intelligence-enhanced electrocardiogram (AI-ECG) models used to predict adverse events including death require that the ECGs be stored digitally. However, the majority of clinical facilities worldwide store ECGs as images. METHODS AND RESULTS: A total of 1 163 401 ECGs (189 539 patients) from a secondary care data set were available as both natively digital traces and PDF images. A digitization pipeline extracted signals from PDFs. Separate 1D convolutional neural network (CNN) models were trained on natively digital or digitized ECGs, with a discrete-time survival loss function to predict  CONCLUSION: Both the image 2D CNN and digitized 1D CNN enable mortality prediction from ECG images, with comparable performance to natively digital 1D CNN. Models trained on natively digital 1D ECGs can also be applied to digitized 1D ECGs, without any significant loss in performance. This work allows AI-ECG mortality prediction to be applied in diverse global settings lacking digital ECG infrastructure.",
+        "authors": [
+            "Arunashis Sau",
+            "Boroumand Zeidaabadi",
+            "Konstantinos Patlatzoglou",
+            "Libor Pastika",
+            "Antônio H Ribeiro",
+            "Ester Sabino",
+            "Nicholas S Peters",
+            "Antonio Luiz P Ribeiro",
+            "Daniel B Kramer",
+            "Jonathan W Waks",
+            "Fu Siong Ng"
+        ],
+        "published": "2025",
+        "pmid": "40110221",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40110221/",
+        "content": "Title: A comparison of artificial intelligence-enhanced electrocardiography approaches for the prediction of time to mortality using electrocardiogram images.\nAuthors: Arunashis Sau, Boroumand Zeidaabadi, Konstantinos Patlatzoglou, Libor Pastika, Antônio H Ribeiro, Ester Sabino, Nicholas S Peters, Antonio Luiz P Ribeiro, Daniel B Kramer, Jonathan W Waks, Fu Siong Ng\nAbstract: AIMS: Most artificial intelligence-enhanced electrocardiogram (AI-ECG) models used to predict adverse events including death require that the ECGs be stored digitally. However, the majority of clinical facilities worldwide store ECGs as images. METHODS AND RESULTS: A total of 1 163 401 ECGs (189 539 patients) from a secondary care data set were available as both natively digital traces and PDF images. A digitization pipeline extracted signals from PDFs. Separate 1D convolutional neural network (CNN) models were trained on natively digital or digitized ECGs, with a discrete-time survival loss function to predict  CONCLUSION: Both the image 2D CNN and digitized 1D CNN enable mortality prediction from ECG images, with comparable performance to natively digital 1D CNN. Models trained on natively digital 1D ECGs can also be applied to digitized 1D ECGs, without any significant loss in performance. This work allows AI-ECG mortality prediction to be applied in diverse global settings lacking digital ECG infrastructure.\nURL: https://pubmed.ncbi.nlm.nih.gov/40110221/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "A comparison of artificial intelligence-enhanced electrocardiography approaches for the prediction of time to mortality using electrocardiogram images.",
+            "authors": "Arunashis Sau, Boroumand Zeidaabadi, Konstantinos Patlatzoglou, Libor Pastika, Antônio H Ribeiro, Ester Sabino, Nicholas S Peters, Antonio Luiz P Ribeiro, Daniel B Kramer, Jonathan W Waks, Fu Siong Ng",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40110221/",
+            "pmid": "40110221",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Advancement of post-market surveillance of medical devices leveraging artificial intelligence: Patient monitors case study.",
+        "abstract": "BackgroundHealthcare institutions throughout the world rely on medical devices to provide their services reliably and effectively. However, medical devices can, and do sometimes fail. These failures pose significant risk to patients.ObjectiveOne way to address these issues is through the use of artificial intelligence for the detection of medical device failure. This goal of this study was to develop automated systems utilising machine learning algorithms to predict patient monitor performance and potential failures based on data collected during regular safety and performance inspections.MethodsThe system developed in this study utilised machine learning techniques as its core. Throughout the study four algorithms were utilised. These algorithms include Decision Tree, Random Forest, Linear Regression and Support Vector Machines.ResultsFinal results showed that Random Forest algorithms had the best performance on various metrics among the four developed models. It achieved accuracy of 94% and precision and recall of 70% and 93% respectively.ConclusionThis study shows that use of systems like the one developed in this study have the potential to improve management and maintenance of medical devices.",
+        "authors": [
+            "Faruk Bećirović",
+            "Lemana Spahić",
+            "Nejra Merdović",
+            "Lejla Gurbeta Pokvić",
+            "Almir Badnjević"
+        ],
+        "published": "2025",
+        "pmid": "40105179",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40105179/",
+        "content": "Title: Advancement of post-market surveillance of medical devices leveraging artificial intelligence: Patient monitors case study.\nAuthors: Faruk Bećirović, Lemana Spahić, Nejra Merdović, Lejla Gurbeta Pokvić, Almir Badnjević\nAbstract: BackgroundHealthcare institutions throughout the world rely on medical devices to provide their services reliably and effectively. However, medical devices can, and do sometimes fail. These failures pose significant risk to patients.ObjectiveOne way to address these issues is through the use of artificial intelligence for the detection of medical device failure. This goal of this study was to develop automated systems utilising machine learning algorithms to predict patient monitor performance and potential failures based on data collected during regular safety and performance inspections.MethodsThe system developed in this study utilised machine learning techniques as its core. Throughout the study four algorithms were utilised. These algorithms include Decision Tree, Random Forest, Linear Regression and Support Vector Machines.ResultsFinal results showed that Random Forest algorithms had the best performance on various metrics among the four developed models. It achieved accuracy of 94% and precision and recall of 70% and 93% respectively.ConclusionThis study shows that use of systems like the one developed in this study have the potential to improve management and maintenance of medical devices.\nURL: https://pubmed.ncbi.nlm.nih.gov/40105179/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Advancement of post-market surveillance of medical devices leveraging artificial intelligence: Patient monitors case study.",
+            "authors": "Faruk Bećirović, Lemana Spahić, Nejra Merdović, Lejla Gurbeta Pokvić, Almir Badnjević",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40105179/",
+            "pmid": "40105179",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Advancement of post-market surveillance of medical devices leveraging artificial intelligence: Infusion pumps case study.",
+        "abstract": "BackgroundAnalysis of data from incident registries such as MAUDE has identified the need to improve surveillance and maintenance strategies for infusion pumps to enhance patient and healthcare staff safety.ObjectiveThe ultimate goal is to enhance infusion pump management strategies in healthcare facilities, thus transforming the current reactive approach to infusion pump management into a proactive and predictive one.",
+        "authors": [
+            "Nejra Merdović",
+            "Lemana Spahić",
+            "Madžida Hundur",
+            "Lejla Gurbeta Pokvić",
+            "Almir Badnjević"
+        ],
+        "published": "2025",
+        "pmid": "40105162",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40105162/",
+        "content": "Title: Advancement of post-market surveillance of medical devices leveraging artificial intelligence: Infusion pumps case study.\nAuthors: Nejra Merdović, Lemana Spahić, Madžida Hundur, Lejla Gurbeta Pokvić, Almir Badnjević\nAbstract: BackgroundAnalysis of data from incident registries such as MAUDE has identified the need to improve surveillance and maintenance strategies for infusion pumps to enhance patient and healthcare staff safety.ObjectiveThe ultimate goal is to enhance infusion pump management strategies in healthcare facilities, thus transforming the current reactive approach to infusion pump management into a proactive and predictive one.\nURL: https://pubmed.ncbi.nlm.nih.gov/40105162/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Advancement of post-market surveillance of medical devices leveraging artificial intelligence: Infusion pumps case study.",
+            "authors": "Nejra Merdović, Lemana Spahić, Madžida Hundur, Lejla Gurbeta Pokvić, Almir Badnjević",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40105162/",
+            "pmid": "40105162",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Random forest for dynamic risk prediction of recurrent events: a pseudo-observation approach.",
+        "abstract": "Recurrent events are common in clinical, healthcare, social, and behavioral studies, yet methods for dynamic risk prediction of these events are limited. To overcome some long-standing challenges in analyzing censored recurrent event data, a recent regression analysis framework constructs a censored longitudinal dataset consisting of times to the first recurrent event in multiple pre-specified follow-up windows of length $ \\tau $(XMT models). Traditional regression models struggle with nonlinear and multiway interactions, with success depending on the skill of the statistical programmer. With a staggering number of potential predictors being generated from genetic, -omic, and electronic health records sources, machine learning approaches such as the random forest regression are growing in popularity, as they can nonparametrically incorporate information from many predictors with nonlinear and multiway interactions involved in prediction. In this article, we (i) develop a random forest approach for dynamically predicting probabilities of remaining event-free during a subsequent $ \\tau $-duration follow-up period from a reconstructed censored longitudinal data set, (ii) modify the XMT regression approach to predict these same probabilities, subject to the limitations that traditional regression models typically have, and (iii) demonstrate how to incorporate patient-specific history of recurrent events for prediction in settings where this information may be partially missing. We show the increased ability of our random forest algorithm for predicting the probability of remaining event-free over a $ \\tau $-duration follow-up window when compared to our modified XMT method for prediction in settings where association between predictors and recurrent event outcomes is complex in nature. We also show the importance of incorporating past recurrent event history in prediction algorithms when event times are correlated within a subject. The proposed random forest algorithm is demonstrated using recurrent exacerbation data from the trial of Azithromycin for the Prevention of Exacerbations of Chronic Obstructive Pulmonary Disease.",
+        "authors": [
+            "Abigail Loe",
+            "Susan Murray",
+            "Zhenke Wu"
+        ],
+        "published": "2024",
+        "pmid": "40083192",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40083192/",
+        "content": "Title: Random forest for dynamic risk prediction of recurrent events: a pseudo-observation approach.\nAuthors: Abigail Loe, Susan Murray, Zhenke Wu\nAbstract: Recurrent events are common in clinical, healthcare, social, and behavioral studies, yet methods for dynamic risk prediction of these events are limited. To overcome some long-standing challenges in analyzing censored recurrent event data, a recent regression analysis framework constructs a censored longitudinal dataset consisting of times to the first recurrent event in multiple pre-specified follow-up windows of length $ \\tau $(XMT models). Traditional regression models struggle with nonlinear and multiway interactions, with success depending on the skill of the statistical programmer. With a staggering number of potential predictors being generated from genetic, -omic, and electronic health records sources, machine learning approaches such as the random forest regression are growing in popularity, as they can nonparametrically incorporate information from many predictors with nonlinear and multiway interactions involved in prediction. In this article, we (i) develop a random forest approach for dynamically predicting probabilities of remaining event-free during a subsequent $ \\tau $-duration follow-up period from a reconstructed censored longitudinal data set, (ii) modify the XMT regression approach to predict these same probabilities, subject to the limitations that traditional regression models typically have, and (iii) demonstrate how to incorporate patient-specific history of recurrent events for prediction in settings where this information may be partially missing. We show the increased ability of our random forest algorithm for predicting the probability of remaining event-free over a $ \\tau $-duration follow-up window when compared to our modified XMT method for prediction in settings where association between predictors and recurrent event outcomes is complex in nature. We also show the importance of incorporating past recurrent event history in prediction algorithms when event times are correlated within a subject. The proposed random forest algorithm is demonstrated using recurrent exacerbation data from the trial of Azithromycin for the Prevention of Exacerbations of Chronic Obstructive Pulmonary Disease.\nURL: https://pubmed.ncbi.nlm.nih.gov/40083192/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Random forest for dynamic risk prediction of recurrent events: a pseudo-observation approach.",
+            "authors": "Abigail Loe, Susan Murray, Zhenke Wu",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40083192/",
+            "pmid": "40083192",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Perspectives on access to imaging digital health records in oncology: A mixed methods systematic review.",
+        "abstract": "BACKGROUND: Digital Health Records (DHR) have become essential for managing patient data, including radiology and nuclear medicine reports. The wider adoption of DHR globally presents an opportunity to improve patient engagement and empowerment through effective access and sharing of imaging investigations. This review aims to synthesize literature on views, experiences, expectations, and preferences of oncology patients and healthcare professionals (HCP) when accessing imaging via DHR. MATERIALS AND METHODS: This review was conducted using recommended Cochrane Handbook databases (registration: CRD42021213808), focusing on English articles published from 2000 onwards. Three experienced reviewers critically appraised selected articles, thematic analysis and narrative synthesis were used to extract data. RESULTS: 493 unique articles were identified, with 451 excluded, resulting in 42 articles assessed for eligibility. Nine studies were included, eight from the USA, one from Canada, published between 2010 and 2020. Findings suggest patient portals can positively impact patient and HCP engagement, and patients desire access to their imaging reports. Factors such as timing of access, adequate consultation time, resources for HCP to discuss findings, and format of information are critical considerations that influence both patient and HCP perceptions and preferences. CONCLUSION: Oncology patients want timely and understandable access to their imaging records. To ensure this, it is crucial to explore the appropriate timing, format, and methods to discuss these findings with patients. By involving all stakeholders in the planning process, we can develop DHR systems that provide personalised support for patients to manage their complex imaging results.",
+        "authors": [
+            "Ana S F Ribeiro",
+            "Olga Husson",
+            "Milou Reuvers",
+            "Wim J G Oyen",
+            "Christina Messiou",
+            "Winette T A van der Graaf"
+        ],
+        "published": "2024",
+        "pmid": "40078503",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40078503/",
+        "content": "Title: Perspectives on access to imaging digital health records in oncology: A mixed methods systematic review.\nAuthors: Ana S F Ribeiro, Olga Husson, Milou Reuvers, Wim J G Oyen, Christina Messiou, Winette T A van der Graaf\nAbstract: BACKGROUND: Digital Health Records (DHR) have become essential for managing patient data, including radiology and nuclear medicine reports. The wider adoption of DHR globally presents an opportunity to improve patient engagement and empowerment through effective access and sharing of imaging investigations. This review aims to synthesize literature on views, experiences, expectations, and preferences of oncology patients and healthcare professionals (HCP) when accessing imaging via DHR. MATERIALS AND METHODS: This review was conducted using recommended Cochrane Handbook databases (registration: CRD42021213808), focusing on English articles published from 2000 onwards. Three experienced reviewers critically appraised selected articles, thematic analysis and narrative synthesis were used to extract data. RESULTS: 493 unique articles were identified, with 451 excluded, resulting in 42 articles assessed for eligibility. Nine studies were included, eight from the USA, one from Canada, published between 2010 and 2020. Findings suggest patient portals can positively impact patient and HCP engagement, and patients desire access to their imaging reports. Factors such as timing of access, adequate consultation time, resources for HCP to discuss findings, and format of information are critical considerations that influence both patient and HCP perceptions and preferences. CONCLUSION: Oncology patients want timely and understandable access to their imaging records. To ensure this, it is crucial to explore the appropriate timing, format, and methods to discuss these findings with patients. By involving all stakeholders in the planning process, we can develop DHR systems that provide personalised support for patients to manage their complex imaging results.\nURL: https://pubmed.ncbi.nlm.nih.gov/40078503/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Perspectives on access to imaging digital health records in oncology: A mixed methods systematic review.",
+            "authors": "Ana S F Ribeiro, Olga Husson, Milou Reuvers, Wim J G Oyen, Christina Messiou, Winette T A van der Graaf",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40078503/",
+            "pmid": "40078503",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Introducing AI-generated cases (AI-cases) & standardized clients (AI-SCs) in communication training for veterinary students: perceptions and adoption challenges.",
+        "abstract": "INTRODUCTION: The integration of Artificial Intelligence (AI) into medical education and healthcare has grown steadily over these past couple of years, though its application in veterinary education and practice remains relatively underexplored. This study is among the first to introduce veterinary students to AI-generated cases (AI-cases) and AI-standardized clients (AI-SCs) for teaching and learning communication skills. The study aimed to evaluate students' beliefs and perceptions surrounding the use of AI in veterinary education, with specific focus on communication skills training. METHODS: Conducted at Texas Tech University School of Veterinary Medicine (TTU SVM) during the Spring 2024 semester, the study included pre-clinical veterinary students ( RESULTS: Results showed that although students recognized the widespread use of AI in everyday life, their familiarity, comfort and application of AI in veterinary education were limited. Notably, upper-year students were more hesitant to adopt AI-based tools, particularly in communication skills training. DISCUSSION: The findings suggest that veterinary institutions should prioritize AI-literacy and further explore how AI can enhance and complement communication training, veterinary education and practice.",
+        "authors": [
+            "Elpida Artemiou",
+            "Sarah Hooper",
+            "Linda Dascanio",
+            "Marcelo Schmidt",
+            "Guy Gilbert"
+        ],
+        "published": "2024",
+        "pmid": "40066104",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40066104/",
+        "content": "Title: Introducing AI-generated cases (AI-cases) & standardized clients (AI-SCs) in communication training for veterinary students: perceptions and adoption challenges.\nAuthors: Elpida Artemiou, Sarah Hooper, Linda Dascanio, Marcelo Schmidt, Guy Gilbert\nAbstract: INTRODUCTION: The integration of Artificial Intelligence (AI) into medical education and healthcare has grown steadily over these past couple of years, though its application in veterinary education and practice remains relatively underexplored. This study is among the first to introduce veterinary students to AI-generated cases (AI-cases) and AI-standardized clients (AI-SCs) for teaching and learning communication skills. The study aimed to evaluate students' beliefs and perceptions surrounding the use of AI in veterinary education, with specific focus on communication skills training. METHODS: Conducted at Texas Tech University School of Veterinary Medicine (TTU SVM) during the Spring 2024 semester, the study included pre-clinical veterinary students ( RESULTS: Results showed that although students recognized the widespread use of AI in everyday life, their familiarity, comfort and application of AI in veterinary education were limited. Notably, upper-year students were more hesitant to adopt AI-based tools, particularly in communication skills training. DISCUSSION: The findings suggest that veterinary institutions should prioritize AI-literacy and further explore how AI can enhance and complement communication training, veterinary education and practice.\nURL: https://pubmed.ncbi.nlm.nih.gov/40066104/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Introducing AI-generated cases (AI-cases) & standardized clients (AI-SCs) in communication training for veterinary students: perceptions and adoption challenges.",
+            "authors": "Elpida Artemiou, Sarah Hooper, Linda Dascanio, Marcelo Schmidt, Guy Gilbert",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40066104/",
+            "pmid": "40066104",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "A review on retinopathy of prematurity.",
+        "abstract": "BACKGROUND: Retinopathy of prematurity (ROP) is a leading cause of childhood blindness. It predominantly affects preterm infants with very low birth weights or extreme prematurity. Aberrant retinal vascular development, driven by hyperoxia and hypoxia-induced neovascularization, is central to ROP pathogenesis. This review explores the relationship between maternal health and ROP, evaluates current prevention strategies, assesses innovations in diagnostic and screening technologies, reviews contemporary treatments, and identifies future research directions. METHODS: A literature review was conducted in the PubMed / MEDLINE, Scopus, Web of Science, and Google Scholar databases using related keywords, i.e., \"retinopathy of prematurity,\" \"retinal development,\" \"pathophysiology,\" \"vascular growth,\" \"complications,\" \"visual outcomes,\" \"maternal health factors,\" \"obstetrics,\" \"preeclampsia,\" \"risk factors,\" \"preterm birth,\" \"corticosteroids,\" \"oxygen management,\" \"treatment strategies,\" \"laser therapy,\" \"anti-VEGF agents,\" \"surgical approaches\", and \"artificial intelligence (AI)\" and targeting English studies published in the last 20 years. Additionally, the references from the selected articles were manually reviewed. Clinical trials, meta-analyses, systematic reviews, case-control studies, case series, narrative reviews, pilot studies, and relevant animal studies were included. RESULTS: Maternal factors, such as diabetes, smoking, and preeclampsia, along with neonatal factors, such as low gestational age and extreme prematurity, are critical contributors to ROP. Key preventative strategies to reduce the risk of ROP and improve neonatal outcomes include: 1. prenatal care involves screening and managing maternal conditions, providing maternal education, and administering antenatal corticosteroids. 2. Neonatal care encompasses nutritional support, supplementation with essential fatty acids, and regulated oxygen administration. By focusing on these strategies, we can enhance the health of newborns at risk for ROP. Advances in screening, including artificial intelligence (AI)-assisted diagnostics and advanced imaging, are improving early detection. Treatment modalities such as laser photocoagulation, cryotherapy, and anti-vascular endothelial growth factor therapies have shown promise but pose challenges, including recurrence risk and systemic side effects. CONCLUSIONS: ROP continues to pose a major threat to the vision of preterm infants, particularly in regions with limited healthcare resources. Addressing ROP requires multidisciplinary team approaches that integrate obstetric and neonatal care. Preventative strategies, including prenatal care optimization, oxygen management, and nutritional support, are essential. Future efforts should focus on integrating emerging technologies and recent findings to ensure global relevance and currency.",
+        "authors": [
+            "Pegah Rashidian",
+            "Shaghayegh Karami",
+            "Seyyed Amirhossein Salehi"
+        ],
+        "published": "2024",
+        "pmid": "40065804",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40065804/",
+        "content": "Title: A review on retinopathy of prematurity.\nAuthors: Pegah Rashidian, Shaghayegh Karami, Seyyed Amirhossein Salehi\nAbstract: BACKGROUND: Retinopathy of prematurity (ROP) is a leading cause of childhood blindness. It predominantly affects preterm infants with very low birth weights or extreme prematurity. Aberrant retinal vascular development, driven by hyperoxia and hypoxia-induced neovascularization, is central to ROP pathogenesis. This review explores the relationship between maternal health and ROP, evaluates current prevention strategies, assesses innovations in diagnostic and screening technologies, reviews contemporary treatments, and identifies future research directions. METHODS: A literature review was conducted in the PubMed / MEDLINE, Scopus, Web of Science, and Google Scholar databases using related keywords, i.e., \"retinopathy of prematurity,\" \"retinal development,\" \"pathophysiology,\" \"vascular growth,\" \"complications,\" \"visual outcomes,\" \"maternal health factors,\" \"obstetrics,\" \"preeclampsia,\" \"risk factors,\" \"preterm birth,\" \"corticosteroids,\" \"oxygen management,\" \"treatment strategies,\" \"laser therapy,\" \"anti-VEGF agents,\" \"surgical approaches\", and \"artificial intelligence (AI)\" and targeting English studies published in the last 20 years. Additionally, the references from the selected articles were manually reviewed. Clinical trials, meta-analyses, systematic reviews, case-control studies, case series, narrative reviews, pilot studies, and relevant animal studies were included. RESULTS: Maternal factors, such as diabetes, smoking, and preeclampsia, along with neonatal factors, such as low gestational age and extreme prematurity, are critical contributors to ROP. Key preventative strategies to reduce the risk of ROP and improve neonatal outcomes include: 1. prenatal care involves screening and managing maternal conditions, providing maternal education, and administering antenatal corticosteroids. 2. Neonatal care encompasses nutritional support, supplementation with essential fatty acids, and regulated oxygen administration. By focusing on these strategies, we can enhance the health of newborns at risk for ROP. Advances in screening, including artificial intelligence (AI)-assisted diagnostics and advanced imaging, are improving early detection. Treatment modalities such as laser photocoagulation, cryotherapy, and anti-vascular endothelial growth factor therapies have shown promise but pose challenges, including recurrence risk and systemic side effects. CONCLUSIONS: ROP continues to pose a major threat to the vision of preterm infants, particularly in regions with limited healthcare resources. Addressing ROP requires multidisciplinary team approaches that integrate obstetric and neonatal care. Preventative strategies, including prenatal care optimization, oxygen management, and nutritional support, are essential. Future efforts should focus on integrating emerging technologies and recent findings to ensure global relevance and currency.\nURL: https://pubmed.ncbi.nlm.nih.gov/40065804/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "A review on retinopathy of prematurity.",
+            "authors": "Pegah Rashidian, Shaghayegh Karami, Seyyed Amirhossein Salehi",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40065804/",
+            "pmid": "40065804",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Artificial Intelligence in Histopathology.",
+        "abstract": "Artificial intelligence will be revolutionizing the healthcare in near future and is already being integrated in several areas. The utilization of artificial intelligence algorithms to extract quantitative information from full-slide histopathology images has been demonstrated in digital pathology. Artificial intelligence (AI) is anticipated to reduce the workload of pathologists, enhance the impartiality and uniformity of pathology reports, and impact treatment choices through the identification of concealed information within easily accessible data. This review sheds light on how deep learning and machine learning can enhance the imaging of the slides in digital pathology and help physicians make the diagnosis faster.",
+        "authors": [
+            "Prathibha Prasad",
+            "Al Moutassem Billah Khair",
+            "Musab Saeed",
+            "Naresh Shetty"
+        ],
+        "published": "2024",
+        "pmid": "40061791",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40061791/",
+        "content": "Title: Artificial Intelligence in Histopathology.\nAuthors: Prathibha Prasad, Al Moutassem Billah Khair, Musab Saeed, Naresh Shetty\nAbstract: Artificial intelligence will be revolutionizing the healthcare in near future and is already being integrated in several areas. The utilization of artificial intelligence algorithms to extract quantitative information from full-slide histopathology images has been demonstrated in digital pathology. Artificial intelligence (AI) is anticipated to reduce the workload of pathologists, enhance the impartiality and uniformity of pathology reports, and impact treatment choices through the identification of concealed information within easily accessible data. This review sheds light on how deep learning and machine learning can enhance the imaging of the slides in digital pathology and help physicians make the diagnosis faster.\nURL: https://pubmed.ncbi.nlm.nih.gov/40061791/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Artificial Intelligence in Histopathology.",
+            "authors": "Prathibha Prasad, Al Moutassem Billah Khair, Musab Saeed, Naresh Shetty",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40061791/",
+            "pmid": "40061791",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Knowledge and Perception of Artificial Intelligence Amidst the Health Professionals-A Web-Based Survey.",
+        "abstract": "INTRODUCTION: Artificial intelligence (AI) has been a revolutionary jump in the field of dentistry and medicine. MATERIALS AND METHODS: The acceptance of the AI among healthcare professionals is growing minutely. RESULTS: This study identifies the knowledge and perception of the health professionals about the implementation of AI in regular practice.",
+        "authors": [
+            "Amrit Jena",
+            "Neel Chaudhary",
+            "Balaji Manohar",
+            "Niva Mahapatra",
+            "Deepa Dubey",
+            "Ankita Sharma",
+            "S Bhuvaneshwari"
+        ],
+        "published": "2024",
+        "pmid": "40061758",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40061758/",
+        "content": "Title: Knowledge and Perception of Artificial Intelligence Amidst the Health Professionals-A Web-Based Survey.\nAuthors: Amrit Jena, Neel Chaudhary, Balaji Manohar, Niva Mahapatra, Deepa Dubey, Ankita Sharma, S Bhuvaneshwari\nAbstract: INTRODUCTION: Artificial intelligence (AI) has been a revolutionary jump in the field of dentistry and medicine. MATERIALS AND METHODS: The acceptance of the AI among healthcare professionals is growing minutely. RESULTS: This study identifies the knowledge and perception of the health professionals about the implementation of AI in regular practice.\nURL: https://pubmed.ncbi.nlm.nih.gov/40061758/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Knowledge and Perception of Artificial Intelligence Amidst the Health Professionals-A Web-Based Survey.",
+            "authors": "Amrit Jena, Neel Chaudhary, Balaji Manohar, Niva Mahapatra, Deepa Dubey, Ankita Sharma, S Bhuvaneshwari",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40061758/",
+            "pmid": "40061758",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Exploring new scientific innovations in combating suicide: a stress detection wristband.",
+        "abstract": "There is a silent pandemic of suicides around the world, with an exponential increase in suicidality and chronic suicidal ideations. The exact global estimates cannot be accurately ascertained, but analysis will put it at more than a million annually. With countries like America having almost 50,000 and India alone reaching 200,000, annually. Countries like Bangladesh are nearly chronically suicidal. However, in Africa, Nigeria has a suicide rate of 17.3 per 100,000, which stands above the global 10.5 and Africa's 12.0. The rate of suicide is experiencing an exponential increase. As the world, regions, and countries work towards ways to combat the pandemic, scientists brainstorm on preventive modalities. Our team, \"The Mending Mind\" (Winners of the 2021 Innovation for Action Global Health Challenge) proposed a suicide-preventing innovation that actively works by pathologic stress level detection. The stress-detecting wristband. This innovation is feasible and the technology needed to invent it is available. Moreso, with the rise in Artificial Intelligence (AI) augmented devices, it can be modified over time to include other healthcare monitoring sequences.",
+        "authors": [
+            "Daniel David Otobo",
+            "Raul Caballero Montes",
+            "Phuc Sheryl Vu",
+            "Vince Bigas"
+        ],
+        "published": "2024",
+        "pmid": "40060284",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40060284/",
+        "content": "Title: Exploring new scientific innovations in combating suicide: a stress detection wristband.\nAuthors: Daniel David Otobo, Raul Caballero Montes, Phuc Sheryl Vu, Vince Bigas\nAbstract: There is a silent pandemic of suicides around the world, with an exponential increase in suicidality and chronic suicidal ideations. The exact global estimates cannot be accurately ascertained, but analysis will put it at more than a million annually. With countries like America having almost 50,000 and India alone reaching 200,000, annually. Countries like Bangladesh are nearly chronically suicidal. However, in Africa, Nigeria has a suicide rate of 17.3 per 100,000, which stands above the global 10.5 and Africa's 12.0. The rate of suicide is experiencing an exponential increase. As the world, regions, and countries work towards ways to combat the pandemic, scientists brainstorm on preventive modalities. Our team, \"The Mending Mind\" (Winners of the 2021 Innovation for Action Global Health Challenge) proposed a suicide-preventing innovation that actively works by pathologic stress level detection. The stress-detecting wristband. This innovation is feasible and the technology needed to invent it is available. Moreso, with the rise in Artificial Intelligence (AI) augmented devices, it can be modified over time to include other healthcare monitoring sequences.\nURL: https://pubmed.ncbi.nlm.nih.gov/40060284/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Exploring new scientific innovations in combating suicide: a stress detection wristband.",
+            "authors": "Daniel David Otobo, Raul Caballero Montes, Phuc Sheryl Vu, Vince Bigas",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40060284/",
+            "pmid": "40060284",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Predictive Analytics in Cardiothoracic Care: Enhancing Outcomes with the Healthcare Enabled by Artificial Intelligence in Real Time (HEART) Project.",
+        "abstract": "PROBLEM: Postoperative complications after cardiac surgery significantly impact both the short-term and long-term survival of patients. Cardiovascular diseases are a major health concern, accounting for 12% of health expenditures in the United States. A substantial number of patients with cardiovascular disease undergo invasive procedures, including cardiac surgery, and the incidence of postoperative complications is notable. This information underscores the need to effectively prevent postoperative adverse events to improve outcomes, reduce morbidity, shorten hospital stays, and lower health care costs. APPROACH: The Healthcare Enabled by Artificial Intelligence in Real Time (HEART) project is a collaborative effort involving clinicians from MaineHealth, industry experts from Nihon Kohden, and data scientists from the Roux Institute. The project aims to develop a real-time predictive analytics model as a decision support tool for clinicians in the cardiothoracic intensive care unit who care for patients after cardiac surgery. The team is using a supervised, closed-loop, machine learning design to train the model. The initiative involves collecting static and dynamic preoperative, intraoperative, and postoperative variables from a cohort of patients undergoing cardiac surgery at Maine Medical Center. These variables, including data on blood product transfusions and inotropic and vasoactive medications administered, are being transmitted from the electronic health record to a data warehouse. The model will predict the following adverse outcomes: acute kidney injury, renal failure, new onset postoperative atrial fibrillation, prolonged ventilation, reoperation, operative mortality, delirium, stroke, deep sternal wound infection, and extended hospital length of stay. OUTCOMES: The HEART team successfully established a data-collecting infrastructure. Data collection and validation are ongoing, with an emphasis on accuracy and completeness. NEXT STEPS: The project will advance by developing a user-friendly, real-time interface, incorporating feedback from clinicians in the operating room and cardiothoracic intensive care unit to ensure practicality and acceptance of the technology. This interface will provide adverse outcome predictions in real time, support clinical decision-making, and become a regular part of patient care.",
+        "authors": [
+            "Felistas Mazhude",
+            "Robert S Kramer",
+            "Anne Hicks",
+            "Qingchu Jin",
+            "Melanie Tory",
+            "Jaime B Rabb",
+            "Mahsan Nourani",
+            "Douglas B Sawyer",
+            "Raimond L Winslow"
+        ],
+        "published": "2024",
+        "pmid": "40051776",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40051776/",
+        "content": "Title: Predictive Analytics in Cardiothoracic Care: Enhancing Outcomes with the Healthcare Enabled by Artificial Intelligence in Real Time (HEART) Project.\nAuthors: Felistas Mazhude, Robert S Kramer, Anne Hicks, Qingchu Jin, Melanie Tory, Jaime B Rabb, Mahsan Nourani, Douglas B Sawyer, Raimond L Winslow\nAbstract: PROBLEM: Postoperative complications after cardiac surgery significantly impact both the short-term and long-term survival of patients. Cardiovascular diseases are a major health concern, accounting for 12% of health expenditures in the United States. A substantial number of patients with cardiovascular disease undergo invasive procedures, including cardiac surgery, and the incidence of postoperative complications is notable. This information underscores the need to effectively prevent postoperative adverse events to improve outcomes, reduce morbidity, shorten hospital stays, and lower health care costs. APPROACH: The Healthcare Enabled by Artificial Intelligence in Real Time (HEART) project is a collaborative effort involving clinicians from MaineHealth, industry experts from Nihon Kohden, and data scientists from the Roux Institute. The project aims to develop a real-time predictive analytics model as a decision support tool for clinicians in the cardiothoracic intensive care unit who care for patients after cardiac surgery. The team is using a supervised, closed-loop, machine learning design to train the model. The initiative involves collecting static and dynamic preoperative, intraoperative, and postoperative variables from a cohort of patients undergoing cardiac surgery at Maine Medical Center. These variables, including data on blood product transfusions and inotropic and vasoactive medications administered, are being transmitted from the electronic health record to a data warehouse. The model will predict the following adverse outcomes: acute kidney injury, renal failure, new onset postoperative atrial fibrillation, prolonged ventilation, reoperation, operative mortality, delirium, stroke, deep sternal wound infection, and extended hospital length of stay. OUTCOMES: The HEART team successfully established a data-collecting infrastructure. Data collection and validation are ongoing, with an emphasis on accuracy and completeness. NEXT STEPS: The project will advance by developing a user-friendly, real-time interface, incorporating feedback from clinicians in the operating room and cardiothoracic intensive care unit to ensure practicality and acceptance of the technology. This interface will provide adverse outcome predictions in real time, support clinical decision-making, and become a regular part of patient care.\nURL: https://pubmed.ncbi.nlm.nih.gov/40051776/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Predictive Analytics in Cardiothoracic Care: Enhancing Outcomes with the Healthcare Enabled by Artificial Intelligence in Real Time (HEART) Project.",
+            "authors": "Felistas Mazhude, Robert S Kramer, Anne Hicks, Qingchu Jin, Melanie Tory, Jaime B Rabb, Mahsan Nourani, Douglas B Sawyer, Raimond L Winslow",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40051776/",
+            "pmid": "40051776",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "The applications and advances of artificial intelligence in drug regulation: A global perspective.",
+        "abstract": "Artificial intelligence (AI) has emerged as a transformative force in healthcare, with applications spanning diagnostics to drug development. However, its integration into drug regulation remains nascent, with varying degrees of adoption and implementation across different regulatory bodies worldwide. This review aims to provide a comprehensive overview of the current state of AI in drug regulation, encapsulating AI-related policies, initiatives, and its practical application in regulatory agencies globally. It further discusses the challenges and future prospects of AI in this field. The findings reveal that numerous agencies have launched action plans and initiatives to incorporate AI, aiming to streamline regulatory processes and enhance data-driven regulatory decision-making. Moreover, AI's deployment in safety surveillance, workflow optimization, and regulatory science research is expanding, highlighting its increasing impact on drug regulation. Nonetheless, key challenges persist, such as data quality and reliability, technical limitations, talent shortage and the absence of standards. The review concludes that interdisciplinary collaboration is crucial to harness AI's full potential in drug regulation and overcoming its current limitations. In the future, AI may become a pivotal catalyst in drug regulation, promising a new era of enhanced scrutiny, efficiency, and innovation that will benefit public health on a global scale.",
+        "authors": [
+            "Lixia Fu",
+            "Guoshu Jia",
+            "Zhenming Liu",
+            "Xiaocong Pang",
+            "Yimin Cui"
+        ],
+        "published": "2025",
+        "pmid": "40041903",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40041903/",
+        "content": "Title: The applications and advances of artificial intelligence in drug regulation: A global perspective.\nAuthors: Lixia Fu, Guoshu Jia, Zhenming Liu, Xiaocong Pang, Yimin Cui\nAbstract: Artificial intelligence (AI) has emerged as a transformative force in healthcare, with applications spanning diagnostics to drug development. However, its integration into drug regulation remains nascent, with varying degrees of adoption and implementation across different regulatory bodies worldwide. This review aims to provide a comprehensive overview of the current state of AI in drug regulation, encapsulating AI-related policies, initiatives, and its practical application in regulatory agencies globally. It further discusses the challenges and future prospects of AI in this field. The findings reveal that numerous agencies have launched action plans and initiatives to incorporate AI, aiming to streamline regulatory processes and enhance data-driven regulatory decision-making. Moreover, AI's deployment in safety surveillance, workflow optimization, and regulatory science research is expanding, highlighting its increasing impact on drug regulation. Nonetheless, key challenges persist, such as data quality and reliability, technical limitations, talent shortage and the absence of standards. The review concludes that interdisciplinary collaboration is crucial to harness AI's full potential in drug regulation and overcoming its current limitations. In the future, AI may become a pivotal catalyst in drug regulation, promising a new era of enhanced scrutiny, efficiency, and innovation that will benefit public health on a global scale.\nURL: https://pubmed.ncbi.nlm.nih.gov/40041903/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "The applications and advances of artificial intelligence in drug regulation: A global perspective.",
+            "authors": "Lixia Fu, Guoshu Jia, Zhenming Liu, Xiaocong Pang, Yimin Cui",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40041903/",
+            "pmid": "40041903",
+            "published": "2025"
+        }
+    },
+    {
+        "title": "Harnessing Vision Transformer Insights for Advanced Electrocardiogram Classification.",
+        "abstract": "In the domain of cardiac health monitoring, the precise analysis of ECG data is paramount, especially in resource-constrained settings. Traditional bedside monitoring systems, while effective, pose challenges in terms of cost and accessibility. As a transformative solution, this study introduces a pioneering approach to ECG data classification through the use of wearable electrocardiogram (ECG) sensors, coupled with advanced Vision Transformer models. The primary challenge in conventional ECG signal analysis lies in its time-consuming nature and the limited capability of convolutional neural networks (CNNs) to capture the global context, owing to their fixed-sized kernel filters. To address these challenges, we propose a Vision Transformer architecture that classifying ECG data by transforming one-dimensional ECG signals into a more comprehensive form. We employ three state-of-the-art time series to imaging techniques: Markov Transition Fields (MTF), Recurrence Plots (RP), and Gramian Angular Fields (GAF). These techniques convert one-dimensional ECG signals into three-channel images, optimizing them for Vision Transformer analysis. Utilizing comprehensive dataset of ECG5000, our model demonstrates unparalleled performance in classifying ECG data and it outstrips current state-of-the-art methods in various metrics, delivering exceptional results.Clinical relevance-This advancement not only marks a significant leap in the field of medical diagnostics, but also promises a more accessible and efficient healthcare solution for resource-constrained environments.",
+        "authors": [
+            "Pubudu L Indrasiri",
+            "Bipasha Kashyap",
+            "Pubudu N Pathirana"
+        ],
+        "published": "2024",
+        "pmid": "40040232",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40040232/",
+        "content": "Title: Harnessing Vision Transformer Insights for Advanced Electrocardiogram Classification.\nAuthors: Pubudu L Indrasiri, Bipasha Kashyap, Pubudu N Pathirana\nAbstract: In the domain of cardiac health monitoring, the precise analysis of ECG data is paramount, especially in resource-constrained settings. Traditional bedside monitoring systems, while effective, pose challenges in terms of cost and accessibility. As a transformative solution, this study introduces a pioneering approach to ECG data classification through the use of wearable electrocardiogram (ECG) sensors, coupled with advanced Vision Transformer models. The primary challenge in conventional ECG signal analysis lies in its time-consuming nature and the limited capability of convolutional neural networks (CNNs) to capture the global context, owing to their fixed-sized kernel filters. To address these challenges, we propose a Vision Transformer architecture that classifying ECG data by transforming one-dimensional ECG signals into a more comprehensive form. We employ three state-of-the-art time series to imaging techniques: Markov Transition Fields (MTF), Recurrence Plots (RP), and Gramian Angular Fields (GAF). These techniques convert one-dimensional ECG signals into three-channel images, optimizing them for Vision Transformer analysis. Utilizing comprehensive dataset of ECG5000, our model demonstrates unparalleled performance in classifying ECG data and it outstrips current state-of-the-art methods in various metrics, delivering exceptional results.Clinical relevance-This advancement not only marks a significant leap in the field of medical diagnostics, but also promises a more accessible and efficient healthcare solution for resource-constrained environments.\nURL: https://pubmed.ncbi.nlm.nih.gov/40040232/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Harnessing Vision Transformer Insights for Advanced Electrocardiogram Classification.",
+            "authors": "Pubudu L Indrasiri, Bipasha Kashyap, Pubudu N Pathirana",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40040232/",
+            "pmid": "40040232",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Innovative Approaches to Gender Classification through Unsupervised Machine Learning and Multi-Activity Fusion.",
+        "abstract": "In the last decade, gender recognition has garnered significant attention for its diverse applications in healthcare, sports, rehabilitation, and wearable electronics. This study offers a wearable sensor device to record various activities using inertial measurement units as part of its gender classification process. During seven activities that entail standing, walking, and climbing, the system uses five sensors on both the upper and lower bodies. The gender recognition model is developed through a thorough investigation, utilizing unsupervised machine learning methods. Specific sensor placements and behavioral patterns are identified to enhance accurate gender classification using unsupervised machine learning. Applying Kmeans Clustering and Gaussian Mixture Models (GMM) for gender classification in a single activity achieves a maximum accuracy of 86.42%. Multi-activity gender classification surpasses this, demonstrating a notable accuracy of 90.14%, particularly in the combination of activities, Romberg test eyes open, Single leg stance eyes closed, Walking, and Staircase up and down.",
+        "authors": [
+            "Himesh Kahanda Koralege",
+            "Thang Ngo",
+            "Pubudu N Pathirana",
+            "Bahareh Nakisa"
+        ],
+        "published": "2024",
+        "pmid": "40040187",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40040187/",
+        "content": "Title: Innovative Approaches to Gender Classification through Unsupervised Machine Learning and Multi-Activity Fusion.\nAuthors: Himesh Kahanda Koralege, Thang Ngo, Pubudu N Pathirana, Bahareh Nakisa\nAbstract: In the last decade, gender recognition has garnered significant attention for its diverse applications in healthcare, sports, rehabilitation, and wearable electronics. This study offers a wearable sensor device to record various activities using inertial measurement units as part of its gender classification process. During seven activities that entail standing, walking, and climbing, the system uses five sensors on both the upper and lower bodies. The gender recognition model is developed through a thorough investigation, utilizing unsupervised machine learning methods. Specific sensor placements and behavioral patterns are identified to enhance accurate gender classification using unsupervised machine learning. Applying Kmeans Clustering and Gaussian Mixture Models (GMM) for gender classification in a single activity achieves a maximum accuracy of 86.42%. Multi-activity gender classification surpasses this, demonstrating a notable accuracy of 90.14%, particularly in the combination of activities, Romberg test eyes open, Single leg stance eyes closed, Walking, and Staircase up and down.\nURL: https://pubmed.ncbi.nlm.nih.gov/40040187/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Innovative Approaches to Gender Classification through Unsupervised Machine Learning and Multi-Activity Fusion.",
+            "authors": "Himesh Kahanda Koralege, Thang Ngo, Pubudu N Pathirana, Bahareh Nakisa",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40040187/",
+            "pmid": "40040187",
+            "published": "2024"
+        }
+    },
+    {
+        "title": "Simulating Accelerometer Signals of Parkinson's Gait Using Generative Adversarial Networks.",
+        "abstract": "Wearable technologies have been demonstrated to have value in the objective assessment of Parkinson's disease. However, certain symptoms such as freezing of gait are challenging to monitor using current approaches. Data augmentation, wherein synthetic or simulated data is added to real world training sets to increase their size and diversity, has emerged as an approach to bolster the accuracy of machine learning models in other healthcare domains such as medical imaging. In this paper, we evaluate the use of generative adversarial networks to create synthetic accelerometry data representing both typical and freezing gait patterns. Our preliminary results suggest that these synthetic datasets can mimic realistic movement patterns of individuals with Parkinson's disease. In the future, we will assess the impact that integrating these synthetic data into training sets has on the accuracy of freezing of gait detection algorithms.",
+        "authors": [
+            "Aaron J Hadley",
+            "Christopher L Pulliam"
+        ],
+        "published": "2024",
+        "pmid": "40040153",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40040153/",
+        "content": "Title: Simulating Accelerometer Signals of Parkinson's Gait Using Generative Adversarial Networks.\nAuthors: Aaron J Hadley, Christopher L Pulliam\nAbstract: Wearable technologies have been demonstrated to have value in the objective assessment of Parkinson's disease. However, certain symptoms such as freezing of gait are challenging to monitor using current approaches. Data augmentation, wherein synthetic or simulated data is added to real world training sets to increase their size and diversity, has emerged as an approach to bolster the accuracy of machine learning models in other healthcare domains such as medical imaging. In this paper, we evaluate the use of generative adversarial networks to create synthetic accelerometry data representing both typical and freezing gait patterns. Our preliminary results suggest that these synthetic datasets can mimic realistic movement patterns of individuals with Parkinson's disease. In the future, we will assess the impact that integrating these synthetic data into training sets has on the accuracy of freezing of gait detection algorithms.\nURL: https://pubmed.ncbi.nlm.nih.gov/40040153/",
+        "metadata": {
+            "source": "PubMed",
+            "title": "Simulating Accelerometer Signals of Parkinson's Gait Using Generative Adversarial Networks.",
+            "authors": "Aaron J Hadley, Christopher L Pulliam",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40040153/",
+            "pmid": "40040153",
+            "published": "2024"
+        }
+    }
+]
