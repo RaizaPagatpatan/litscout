@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Sensor technologies in cancer research for new directions in diagnosis\n  and treatment: and exploratory analysis",
+        "summary": "  The goal of this study is an exploratory analysis concerning main sensor\ntechnologies applied in cancer research to detect new directions in diagnosis\nand treatments. The study focused on types of cancer having a high incidence\nand mortality worldwide: breast, lung, colorectal and prostate. Data of the Web\nof Science (WOS) core collection database are used to retrieve articles related\nto sensor technologies and cancer research over 1991-2021 period. We utilized\nGephi software version 0.9.2 to visualize the co-word networks of the\ninteraction between sensor technologies and cancers under study. Results show\nmain clusters of interaction per typology of cancer. Biosensor is the only type\nof sensor that plays an essential role in all types of cancer: breast cancer,\nlung cancer, prostate cancer, and colorectal cancer. Electrochemical sensor is\napplied in all types of cancer under study except lung cancer. Electrochemical\nbiosensor is used in breast cancer, lung cancer, and prostate cancer research\nbut not colorectal cancer. Optical sensor can also be considered one of the\nsensor technologies that significantly is used in breast cancer, prostate\ncancer, and colorectal cancer. This study shows that this type of sensor is\napplied in more diversified approaches. Moreover, the oxygen sensor is mostly\nstudied in lung cancer and breast cancer due to the usage in breath analysis\nfor the treatment process. Finally, Cmos sensor is a technology used mainly in\nlung cancer and colorectal cancer. Results here suggest new directions for the\nevolution of science and technology of sensors in cancer research to support\ninnovation and research policy directed to new technological trajectories\nhaving a potential of accelerated growth and positive social impact for\ndiagnosis and treatments of cancer.\n",
+        "authors": [
+            "Mario Coccia",
+            "Saeed Roshani",
+            "Melika Mosleh"
+        ],
+        "published": "2022-02-04T11:50:19Z",
+        "url": "http://arxiv.org/abs/2203.00502v1"
+    },
+    {
+        "title": "On a fundamental problem in the analysis of cancer registry data",
+        "summary": "  In epidemiology research with cancer registry data, it is often of primary\ninterest to make inference on cancer death, not overall survival. Since cause\nof death is not easy to collect or is not necessarily reliable in cancer\nregistries, some special methodologies have been introduced and widely used by\nusing the concepts of the relative survival ratio and the net survival. In\nmaking inference of those measures, external life tables of the general\npopulation are utilized to adjust the impact of non-cancer death on overall\nsurvival. The validity of this adjustment relies on the assumption that\nmortality in the external life table approximates non-cancer mortality of\ncancer patients. However, the population used to calculate a life table may\ninclude cancer death and cancer patients. Sensitivity analysis proposed by\nTalb\\\"{a}ck and Dickman to address it requires additional information which is\noften not easily available. We propose a method to make inference on the net\nsurvival accounting for potential presence of cancer patients and cancer death\nin the life table for the general population. The idea of adjustment is to\nconsider correspondence of cancer mortality in the life table and that in the\ncancer registry. We realize a novel method to adjust cancer mortality in the\ncancer registry without any additional information to the standard analyses of\ncancer registries. Our simulation study revealed that the proposed method\nsuccessfully removed the bias. We illustrate the proposed method with the\ncancer registry data in England.\n",
+        "authors": [
+            "Sho Komukai",
+            "Satoshi Hattori",
+            "Bernard Rachet"
+        ],
+        "published": "2023-03-16T08:09:49Z",
+        "url": "http://arxiv.org/abs/2303.09141v1"
+    },
+    {
+        "title": "Computational methods for cancer driver discovery: A survey",
+        "summary": "  Motivation: Uncovering the genomic causes of cancer, known as cancer driver\ngenes, is a fundamental task in biomedical research. Cancer driver genes drive\nthe development and progression of cancer, thus identifying cancer driver genes\nand their regulatory mechanism is crucial to the design of cancer treatment and\nintervention. Many computational methods, which take the advantages of computer\nscience and data science, have been developed to utilise multiple types of\ngenomic data to reveal cancer drivers and their regulatory mechanism behind\ncancer development and progression. Due to the complexity of the mechanistic\ninsight of cancer genes in driving cancer and the fast development of the\nfield, it is necessary to have a comprehensive review about the current\ncomputational methods for discovering different types of cancer drivers.\nResults: We survey computational methods for identifying cancer drivers from\ngenomic data. We categorise the methods into three groups, methods for single\ndriver identification, methods for driver module identification, and methods\nfor identifying personalised cancer drivers. We also conduct a case study to\ncompare the performance of the current methods. We further analyse the\nadvantages and limitations of the current methods, and discuss the challenges\nand future directions of the topic. In addition, we investigate the resources\nfor discovering and validating cancer drivers in order to provide a one-stop\nreference of the tools to facilitate cancer driver discovery. The ultimate goal\nof the paper is to help those interested in the topic to establish a solid\nbackground to carry out further research in the field.\n",
+        "authors": [
+            "Vu Viet Hoang Pham",
+            "Lin Liu",
+            "Cameron Bracken",
+            "Gregory Goodall",
+            "Jiuyong Li",
+            "Thuc Duy Le"
+        ],
+        "published": "2020-07-02T05:18:08Z",
+        "url": "http://arxiv.org/abs/2007.00887v1"
+    },
+    {
+        "title": "Data-integration with pseudoweights and survey-calibration: application\n  to developing US-representative lung cancer risk models for use in screening",
+        "summary": "  Accurate cancer risk estimation is crucial to clinical decision-making, such\nas identifying high-risk people for screening. However, most existing cancer\nrisk models incorporate data from epidemiologic studies, which usually cannot\nrepresent the target population. While population-based health surveys are\nideal for making inference to the target population, they typically do not\ncollect time-to-cancer incidence data. Instead, time-to-cancer specific\nmortality is often readily available on surveys via linkage to vital\nstatistics. We develop calibrated pseudoweighting methods that integrate\nindividual-level data from a cohort and a survey, and summary statistics of\ncancer incidence from national cancer registries. By leveraging\nindividual-level cancer mortality data in the survey, the proposed methods\nimpute time-to-cancer incidence for survey sample individuals and use survey\ncalibration with auxiliary variables of influence functions generated from Cox\nregression to improve robustness and efficiency of the inverse-propensity\npseudoweighting method in estimating pure risks. We develop a lung cancer\nincidence pure risk model from the Prostate, Lung, Colorectal, and Ovarian\n(PLCO) Cancer Screening Trial using our proposed methods by integrating data\nfrom the National Health Interview Survey (NHIS) and cancer registries.\n",
+        "authors": [
+            "Lingxiao Wang",
+            "Yan Li",
+            "Barry Graubard",
+            "Hormuzd Katki"
+        ],
+        "published": "2023-10-25T13:59:36Z",
+        "url": "http://arxiv.org/abs/2310.16650v1"
+    }
+]

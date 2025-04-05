@@ -117,3 +117,104 @@ def create_word_doc_from_json(data, filename='output.docx'):
     except Exception as e:
         print(f"Error creating document: {str(e)}")
         return False
+
+def create_research_summary(data):
+    """
+    Creates a research summary with title and citations from the provided JSON data.
+    
+    Args:
+        data (dict): Dictionary containing research topic, response, and articles
+    
+    Returns:
+        dict: Dictionary containing research title, summary, and formatted citations
+    """
+    try:
+        summary = {
+            'title': 'Generated Research Report',
+            'research_topic': data['research_topic'],
+            'research_summary': data['response'],
+            'citations': []
+        }
+        
+        # Process articles and create citations
+        if data.get('articles', []):
+            for article in data.get('articles', []):
+                # Format authors
+                authors = article.get('authors', [])
+                if not authors:
+                    author_text = "No authors listed"
+                elif len(authors) == 1:
+                    author_text = authors[0]
+                elif len(authors) == 2:
+                    author_text = f"{authors[0]} & {authors[1]}"
+                else:
+                    author_text = f"{authors[0]} et al."
+                
+                # Extract year from publication date
+                pub_date = article.get('published', '')
+                try:
+                    if isinstance(pub_date, str) and pub_date.startswith('{'):
+                        import ast
+                        date_dict = ast.literal_eval(pub_date)
+                        pub_date = date_dict.get('$', '')
+                    pub_year = pub_date.split('-')[0] if pub_date else 'N/A'
+                except:
+                    pub_year = 'N/A'
+                
+                # Format DOI as URL or use alternative URL
+                doi = article.get('doi', '')
+                url = ''
+                if doi:
+                    url = f"https://doi.org/{doi}"
+                    source_text = f"DOI: {url}"
+                else:
+                    if article.get('url'):
+                        url = article['url']
+                        if 'arxiv.org' in url.lower():
+                            source_text = f"Retrieved from arXiv: {url}"
+                        elif 'semanticscholar.org' in url.lower():
+                            source_text = f"Retrieved from Semantic Scholar: {url}"
+                        elif 'core.ac.uk' in url.lower():
+                            source_text = f"Retrieved from CORE: {url}"
+                        else:
+                            source_text = f"Retrieved from: {url}"
+                    else:
+                        source_text = 'No URL available'
+                
+                # Format journal information
+                journal_info = []
+                if article.get('journal'):
+                    journal_info.append(article['journal'])
+                if article.get('volume'):
+                    journal_info.append(f"Vol. {article['volume']}")
+                if article.get('issue'):
+                    journal_info.append(f"No. {article['issue']}")
+                if article.get('pages'):
+                    journal_info.append(f"pp. {article['pages']}")
+                journal_text = ', '.join(filter(None, journal_info))
+                
+                # Create citation based on format
+                citation = {}
+                citation['title'] = article['title']
+                citation['authors'] = author_text
+                citation['year'] = pub_year
+                citation['url'] = url
+                citation['journal_info'] = journal_text if journal_text else None
+                
+                if data['citation_format'] == 'APA':
+                    if journal_text:
+                        citation['formatted'] = f"{author_text} ({pub_year}). {article['title']}. {journal_text}. {source_text}"
+                    else:
+                        citation['formatted'] = f"{author_text} ({pub_year}). {article['title']}. {source_text}"
+                elif data['citation_format'] == 'MLA':
+                    if journal_text:
+                        citation['formatted'] = f"{author_text}. \"{article['title']}\". {journal_text}, {pub_year}. {source_text}"
+                    else:
+                        citation['formatted'] = f"{author_text}. \"{article['title']}\". {source_text}, {pub_year}."
+                
+                summary['citations'].append(citation)
+        
+        return summary
+    except Exception as e:
+        print(f"Error creating summary: {str(e)}")
+        return None
