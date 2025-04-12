@@ -1,7 +1,7 @@
 openai
 streamlit
 python-docx 
-python-dotenv
+python-dotenv==1.0.0
 langchain
 langchain-community
 pinecone-client
@@ -9,3 +9,4 @@ langchain-pinecone
 tiktoken
 sentence-transformers
 Flask==3.0.0
+gunicorn==21.2.0

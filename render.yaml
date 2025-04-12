@@ -24,6 +24,7 @@ services:
     httpPort: 8080
     instances: 1
     cpu: 0.1
+    memoryMb: 512
     healthCheckPath: /health
     healthCheckTimeoutSeconds: 30
     healthCheckIntervalSeconds: 30
