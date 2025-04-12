@@ -1,3 +1,11 @@
+import os
+import sys
+from pathlib import Path
+
+# Add the src directory to Python path
+src_dir = str(Path(__file__).parent)
+sys.path.insert(0, src_dir)
+
 from flask import Flask, request, jsonify
 from datetime import datetime, timedelta
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
@@ -5,7 +13,6 @@ from flask_cors import CORS
 from bson import ObjectId
 from config.database import research_data
 import logging
-import os
 from search_function import search_articles
 from chatgpt_functions import get_chatgpt_response
 from document_functions import create_research_summary
