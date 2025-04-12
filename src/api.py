@@ -27,7 +27,9 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Register blueprints
-from routes import auth_bp, research_bp, user_bp
+from routes.auth import auth_bp
+from routes.research import research_bp
+from routes.user import user_bp
 app.register_blueprint(auth_bp)
 app.register_blueprint(research_bp)
 app.register_blueprint(user_bp)
