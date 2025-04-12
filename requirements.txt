@@ -12,3 +12,6 @@ pinecone-client
 langchain-pinecone
 tiktoken
 sentence-transformers
+pymongo==4.5.0
+pymongo[srv]==4.5.0
+requests==2.31.0
