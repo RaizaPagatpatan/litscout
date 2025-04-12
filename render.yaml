@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: litscout
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.api:app
+    envVars:
+      - key: MONGODB_URI
+        fromServices:
+          - service: mongodb
+            envVar: MONGODB_URI
+      - key: OPENAI_API_KEY
+        fromServices:
+          - service: openai
+            envVar: OPENAI_API_KEY
+      - key: PINECONE_API_KEY
+        fromServices:
+          - service: pinecone
+            envVar: PINECONE_API_KEY
+      - key: PINECONE_ENVIRONMENT
+        fromServices:
+          - service: pinecone
+            envVar: PINECONE_ENVIRONMENT
+    httpPort: 8080
+    instances: 1
+    cpu: 0.1
+    healthCheckPath: /health
+    healthCheckTimeoutSeconds: 30
+    healthCheckIntervalSeconds: 30
+    healthCheckRetries: 3
+    healthCheckStartTimeoutSeconds: 30
+    healthCheckHttpMethod: GET
+    healthCheckHttpHeaders:
+      - key: Content-Type
+        value: application/json
+    healthCheckHttpStatusCodes:
+      - 200
+    healthCheckHttpBodyPattern: ".*healthy.*"
+    diskMb: 1024
+    minReplicas: 1
+    maxReplicas: 3
+    autoDeploy: true
+    environment: production
+    region: us-east-1
+    logRetentionDays: 30
+    logFormat: json
+    logLevel: info
