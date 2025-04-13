@@ -201,3 +201,38 @@ def get_research(id):
             'error': str(e),
             'status': 'error'
         }), 500
+
+@research_bp.route('/<research_id>', methods=['DELETE'])
+@jwt_required()
+def delete_research(research_id):
+    try:
+        current_user_id = get_jwt_identity()
+        if isinstance(current_user_id, str):
+            current_user_id = ObjectId(current_user_id)
+            
+        # Convert research_id to ObjectId
+        research_id = ObjectId(research_id)
+        
+        # Delete the research document
+        result = research_data.delete_one({
+            '_id': research_id,
+            'user_id': current_user_id
+        })
+        
+        if result.deleted_count == 0:
+            return jsonify({
+                'error': 'Research not found or unauthorized to delete',
+                'status': 'error'
+            }), 404
+            
+        return jsonify({
+            'message': 'Research deleted successfully',
+            'status': 'success'
+        }), 200
+        
+    except Exception as e:
+        logger.error(f"Error deleting research: {e}")
+        return jsonify({
+            'error': str(e),
+            'status': 'error'
+        }), 500
